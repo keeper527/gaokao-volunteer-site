@@ -1,0 +1,268 @@
+{
+ "ok": true,
+ "service": "gaokao-webui",
+ "version": "w3",
+ "subject_cn": {
+  "physics": "物理",
+  "history": "历史"
+ },
+ "layer_cn": {
+  "chong": "冲",
+  "wen": "稳",
+  "bao": "保",
+  "absolute_bao": "绝对保底"
+ },
+ "layer_order": [
+  "chong",
+  "wen",
+  "bao",
+  "absolute_bao"
+ ],
+ "pref_keys": [
+  "region_whitelist",
+  "region_blacklist",
+  "major_whitelist",
+  "major_blacklist",
+  "nature_deny",
+  "prefer_public",
+  "exclude_high_tuition_proxy",
+  "exclude_cold_majors",
+  "cold_record_threshold",
+  "tier_whitelist",
+  "tier_only",
+  "target_count",
+  "major_priority",
+  "major_pool_ratio"
+ ],
+ "prefs_schema": {
+  "region_whitelist": {
+   "type": "list",
+   "label_cn": "想去的省份",
+   "note": "写了就把这些省的学校排在前面；不填 = 不限地域",
+   "registered": true,
+   "filter_kind": "soft"
+  },
+  "region_blacklist": {
+   "type": "list",
+   "label_cn": "不要的省份",
+   "note": "这些省一条志愿都不会出现",
+   "registered": true,
+   "filter_kind": "hard"
+  },
+  "major_whitelist": {
+   "type": "list",
+   "label_cn": "优先专业（已被「专业优先」取代）",
+   "note": "旧口径：只在同层内改排序，不切名额 ⇒ 已被「专业优先」取代，界面不展示",
+   "registered": true,
+   "filter_kind": "soft",
+   "hidden": true
+  },
+  "major_blacklist": {
+   "type": "list",
+   "label_cn": "绝对不要的专业",
+   "note": "专业名里带这个词的，一条都不会出现（如 护理）",
+   "registered": true,
+   "filter_kind": "hard"
+  },
+  "nature_deny": {
+   "type": "list",
+   "label_cn": "不接受的办学性质",
+   "note": "如 民办 / 中外合作办学：勾了这类学校一条都不出现",
+   "registered": true,
+   "filter_kind": "hard",
+   "allowed": [
+    "公办",
+    "民办",
+    "独立学院",
+    "中外合作办学",
+    "内地与港澳台地区合作办学",
+    "香港"
+   ]
+  },
+  "prefer_public": {
+   "type": "bool",
+   "label_cn": "公办优先",
+   "note": "公办学校排在前面；民办不会因此被删掉",
+   "registered": true,
+   "filter_kind": "soft",
+   "default": false
+  },
+  "exclude_high_tuition_proxy": {
+   "type": "bool",
+   "label_cn": "排除高收费类型",
+   "note": "排除中外合作等高收费办学类型（按办学类型判断，不是逐个查学费）",
+   "registered": true,
+   "filter_kind": "hard",
+   "default": false
+  },
+  "exclude_cold_majors": {
+   "type": "bool",
+   "label_cn": "排除冷门专业",
+   "note": "近 6 年几乎招不满的专业不要",
+   "registered": true,
+   "filter_kind": "hard",
+   "default": false
+  },
+  "cold_record_threshold": {
+   "type": "int",
+   "label_cn": "冷门判定年数",
+   "note": "六年中缺档年数 ≤ 该值视为冷门；默认值即可，界面不展示",
+   "registered": true,
+   "filter_kind": "param",
+   "hidden": true,
+   "min": 1,
+   "default": 5
+  },
+  "tier_whitelist": {
+   "type": "list",
+   "label_cn": "学校层次（想去的层次）",
+   "note": "如 985 / 211 / 双一流；勾了会排前面，勾上下面那项才是硬性只要",
+   "registered": true,
+   "filter_kind": "soft",
+   "allowed": [
+    "一流大学",
+    "一流学科"
+   ]
+  },
+  "tier_only": {
+   "type": "bool",
+   "label_cn": "只保留上面勾的层次",
+   "note": "勾上 = 其它层次的学校一条都不出现；不勾 = 只是排前面",
+   "registered": true,
+   "filter_kind": "hard",
+   "default": false
+  },
+  "target_count": {
+   "type": "int",
+   "label_cn": "候选池目标条数",
+   "note": "河北本科批固定 96 个志愿，默认值即可，界面不展示",
+   "registered": true,
+   "filter_kind": "param",
+   "hidden": true,
+   "min": 1,
+   "default": 96
+  },
+  "major_priority": {
+   "type": "list",
+   "label_cn": "专业优先（最多 5 个）",
+   "note": "填了它，每层的名额会先切给这些专业（四层候选都够时约占四分之三）；某一层这类专业不够时会用其它专业补足，实际条数以清单里的「专业优先实际命中」那行为准。河北本科批没有专业调剂，不填=专业随机配",
+   "registered": true,
+   "filter_kind": "param",
+   "hidden": true
+  },
+  "major_pool_ratio": {
+   "type": "float",
+   "label_cn": "专业意愿占比",
+   "note": "给专业意愿的名额比例（以 96 条、四层 26/40/24/6 且四层候选都够为例）：90% → 86 条、75% → 72 条、60% → 58 条；某一层这类专业不足时会由其它专业补足，所以条数按层实算、不是固定值",
+   "registered": true,
+   "filter_kind": "param",
+   "hidden": true
+  }
+ },
+ "prefs_presets": [
+  {
+   "id": "public_first",
+   "name": "优先公办",
+   "note": "只把公办院校排在层内靠前，不排除任何学校",
+   "values": {
+    "prefer_public": true
+   },
+   "effect": "reorder_only",
+   "effect_cn": "只改层内顺序：可选范围不变（96 行仍按同一批候选生成）",
+   "keys_cn": [
+    "公办优先"
+   ]
+  },
+  {
+   "id": "public_elite",
+   "name": "公办 + 双一流优先",
+   "note": "公办优先，同时把双一流校排在层内靠前；仍不排除任何学校",
+   "values": {
+    "prefer_public": true,
+    "tier_whitelist": [
+     "一流大学",
+     "一流学科"
+    ]
+   },
+   "effect": "reorder_only",
+   "effect_cn": "只改层内顺序：可选范围不变（96 行仍按同一批候选生成）",
+   "keys_cn": [
+    "公办优先",
+    "学校层次（想去的层次）"
+   ]
+  },
+  {
+   "id": "hebei_first",
+   "name": "河北优先（就近）",
+   "note": "把河北省内院校排在层内靠前；省外院校照旧保留",
+   "values": {
+    "region_whitelist": [
+     "河北"
+    ]
+   },
+   "effect": "reorder_only",
+   "effect_cn": "只改层内顺序：可选范围不变（96 行仍按同一批候选生成）",
+   "keys_cn": [
+    "想去的省份"
+   ]
+  },
+  {
+   "id": "no_high_tuition",
+   "name": "排除高收费项目",
+   "note": "按办学性质代理剔除合作办学 / 香港院校；候选会变少",
+   "values": {
+    "exclude_high_tuition_proxy": true
+   },
+   "effect": "narrows_pool",
+   "effect_cn": "会减少可选范围：命中硬过滤的候选直接剔除（方案行数可能不足 96）",
+   "keys_cn": [
+    "排除高收费类型"
+   ]
+  },
+  {
+   "id": "no_cold",
+   "name": "排除冷门专业",
+   "note": "剔除近六年缺档过多的专业；候选会变少，阈值仍可在面板里调",
+   "values": {
+    "exclude_cold_majors": true
+   },
+   "effect": "narrows_pool",
+   "effect_cn": "会减少可选范围：命中硬过滤的候选直接剔除（方案行数可能不足 96）",
+   "keys_cn": [
+    "排除冷门专业"
+   ]
+  }
+ ],
+ "preset_effect_cn": {
+  "reorder_only": "只改层内顺序：可选范围不变（96 行仍按同一批候选生成）",
+  "narrows_pool": "会减少可选范围：命中硬过滤的候选直接剔除（方案行数可能不足 96）",
+  "changes_target": "改候选池目标条数：不剔除候选，但可选批次随之变化"
+ },
+ "conflict_pairs": [
+  [
+   "region_whitelist",
+   "region_blacklist",
+   "地域"
+  ],
+  [
+   "major_whitelist",
+   "major_blacklist",
+   "专业"
+  ]
+ ],
+ "score_range": [
+  1,
+  750
+ ],
+ "why_absent": {
+  "enabled": true,
+  "label": "查这一条",
+  "path": "/api/why-absent",
+  "schema": "why-absent/v1",
+  "note": "填学校名（可再填专业），按同一份池与配额回答「为什么不在表里」；结论只覆盖本系统服务的普通类本科批，范围外类型会明说是范围外。"
+ },
+ "charter_note": "章程风险 = 招生章程正文抽取表里的硬性限制条款（不予录取 / 只招 / 仅限 / 限报 / 退档 一类）。条文逐字引用、未改写；原文没点名本条专业，不等于与你无关。",
+ "scope_note": "仅河北省普通类本科批（物理 / 历史）；不含专科、艺术体育、提前批、专项。",
+ "data_note": "投档数据 2021–2026；参考位次 = 近三年加权（2024/2025/2026）。",
+ "disclaimer": "结果为依据历年官方投档统计的参考方案，不构成录取承诺；以省教育考试院当年公告为准。"
+}

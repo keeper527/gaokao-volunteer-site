@@ -1,0 +1,221 @@
+/* 河北普通类本科批 · 96 志愿方案（本地版）· 零依赖样式 */
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --ink: #1c2430;
+  --muted: #6b7684;
+  --line: #e3e7ee;
+  --chong: #d9480f;
+  --wen: #1971c2;
+  --bao: #2b8a3e;
+  --abs: #6741d9;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.6 "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", system-ui, sans-serif;
+}
+
+.topbar {
+  padding: 22px 28px 14px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.topbar h1 { margin: 0; font-size: 20px; }
+.topbar .scope { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+
+main { max-width: 1180px; margin: 18px auto 40px; padding: 0 16px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 190px; }
+.field.wide { flex: 1 1 320px; }
+.field > span { font-size: 13px; color: var(--muted); }
+.field input, .field select, .table-tools input, .table-tools select {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--ink);
+}
+.field input:focus, .field select:focus { outline: 2px solid #c9d7ea; }
+
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; }
+
+.prefs { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.prefs summary { cursor: pointer; color: var(--muted); font-size: 14px; }
+.prefs .row { margin-top: 10px; }
+
+/* 偏好面板（由 prefs_schema 动态渲染，见 W11/W12） */
+.prefs-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px 18px; margin-top: 12px; }
+.pref-item { display: flex; flex-direction: column; gap: 3px; }
+.pref-group { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.pref-label { font-size: 13px; color: var(--muted); flex-basis: 100%; }
+.pref-note { font-size: 12px; color: var(--muted); }
+.warn { color: #a8500a; }
+
+.actions { margin-top: 16px; align-items: center; }
+button {
+  padding: 9px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #1971c2;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:disabled { background: #a9bcd0; cursor: progress; }
+button.ghost {
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  font-size: 13px;
+  padding: 7px 12px;
+}
+.status { color: var(--muted); font-size: 13px; }
+
+.summary-grid { display: flex; flex-wrap: wrap; gap: 22px; }
+.summary-grid .item { min-width: 132px; }
+.summary-grid .k { font-size: 12px; color: var(--muted); }
+.summary-grid .v { font-size: 17px; font-weight: 600; }
+
+.warns { margin-top: 10px; }
+.warns p {
+  margin: 4px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #fff4e6;
+  color: #a8500a;
+  font-size: 13px;
+}
+
+.layers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 14px; }
+.layer-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left-width: 5px;
+  border-radius: 10px;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.layer-card.chong { border-left-color: var(--chong); }
+.layer-card.wen { border-left-color: var(--wen); }
+.layer-card.bao { border-left-color: var(--bao); }
+.layer-card.absolute_bao { border-left-color: var(--abs); }
+.layer-card .n { font-size: 24px; font-weight: 700; }
+.layer-card .t { font-size: 13px; color: var(--muted); }
+.layer-card.active { box-shadow: 0 0 0 2px #c9d7ea inset; }
+
+.table-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.table-head h2 { font-size: 16px; margin: 0; }
+.table-tools { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.table-wrap { overflow: auto; margin-top: 10px; max-height: 620px; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { padding: 7px 9px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { position: sticky; top: 0; background: #f9fafc; font-weight: 600; font-size: 13px; z-index: 1; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.tag { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 12px; color: #fff; }
+.tag.chong { background: var(--chong); }
+.tag.wen { background: var(--wen); }
+.tag.bao { background: var(--bao); }
+.tag.absolute_bao { background: var(--abs); }
+
+.risk { font-size: 12.5px; }
+.risk.hard { color: #c92a2a; font-weight: 600; }
+.risk.no_hard { color: var(--bao); }
+.risk.uncovered, .risk.missing_index { color: var(--muted); }
+
+.neg { color: #c92a2a; }
+.pos { color: var(--bao); }
+.note { color: var(--muted); font-size: 12.5px; }
+
+.hint { color: var(--muted); font-size: 12.5px; margin: 8px 0 0; }
+.hint-ok { color: #1a7f4b; font-weight: 600; }
+.hint-warn { color: #a3540b; font-weight: 600; }
+.mp-rows { display: flex; flex-direction: column; gap: 6px; margin: 8px 0; }
+.mp-row { display: flex; gap: 8px; align-items: center; }
+.mp-row .mp-term { flex: 1; padding: 6px 8px; border: 1px solid var(--line, #d8d8d8); border-radius: 6px; }
+.mp-row .mp-weight { width: 96px; padding: 6px 4px; border-radius: 6px; }
+.tag.pref { background: #e8f2ff; color: #14539a; font-weight: 600; }
+.foot { max-width: 1180px; margin: 0 auto 28px; padding: 0 20px; color: var(--muted); font-size: 12.5px; }
+.empty { padding: 26px; text-align: center; color: var(--muted); }
+
+/* 章程：行级明细（可点击整行展开）+ 汇总原文（与 .md §四 同源同字） */
+tr.expandable { cursor: pointer; }
+tr.expandable:hover { background: #f6f9fc; }
+tr.detail-row > td { background: #fbfcfe; }
+.charter-detail ul { margin: 6px 0 0; padding-left: 18px; }
+.charter-detail li { margin: 6px 0; font-size: 13px; }
+.charter-detail .cat { color: #c92a2a; font-weight: 600; }
+.charter-detail .named { color: #c92a2a; font-size: 12.5px; margin-left: 6px; }
+/* 原文定位（W17–W22）：位置与上下文全部来自响应体，前端不拼、不读盘 */
+.charter-detail .loc {
+  margin-top: 3px; font-size: 12px; color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.charter-detail .loc.bad { color: #c92a2a; }
+.charter-detail .ctx { margin-top: 3px; }
+.charter-detail .ctx summary { cursor: pointer; font-size: 12px; color: var(--wen); }
+.charter-detail .ctx pre {
+  margin: 4px 0 0; padding: 8px 10px; background: var(--bg);
+  border-left: 3px solid var(--line); white-space: pre-wrap; word-break: break-word;
+  font-size: 12.5px; line-height: 1.55; color: var(--ink);
+}
+.charter-card .charter-text {
+  margin: 10px 0 0;
+  padding: 12px 14px;
+  background: #fbfcfe;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: 12.5px/1.7 "SFMono-Regular", Menlo, Consolas, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 420px;
+  overflow: auto;
+}
+
+/* 系统自检读数（W24–W30）：代际徽标必须可见（stale 时红字提示，禁淡化处理） */
+.accuracy-card .badge {
+  padding: 2px 8px; border-radius: 10px; font-size: 12px;
+  border: 1px solid var(--line); color: var(--muted);
+}
+.accuracy-card .badge.ok { color: var(--wen); border-color: var(--wen); }
+.accuracy-card .badge.warn { color: #c92a2a; border-color: #c92a2a; }
+.accuracy-card td.num { font-variant-numeric: tabular-nums; }
+
+/* 常用组合（W31–W36）：按钮只填值；影响面一句话跟在按钮组下方（文案来自 /api/meta） */
+.prefs .preset-block {
+  margin: 2px 0 10px;
+  padding: 10px 12px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+.prefs .preset-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; margin-bottom: 8px;
+}
+.prefs .preset-title { font-size: 13px; color: var(--ink); }
+.prefs .preset-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.prefs button.preset {
+  padding: 5px 11px; font-size: 13px; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink);
+}
+.prefs button.preset:hover { border-color: var(--wen); color: var(--wen); }
+.prefs button.ghost.small { padding: 3px 9px; font-size: 12px; }
+.prefs #preset-note { margin: 8px 0 0; }

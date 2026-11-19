@@ -1,0 +1,2159 @@
+{
+ "ok": true,
+ "site": "gaokao-hebei-static-site",
+ "generated_at": "2026-11-19T22:23:35+08:00",
+ "note": "静态正式版：只读站点，页面不在浏览器侧算方案；每个案例的方案件与 outputs/plans 逐行同源。自定义分数按 10 分一档预生成（取最近档），精确到 1 分请用本机/在线服务版。",
+ "default": "C1",
+ "cases": [
+  {
+   "id": "C1",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": 600,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "物理 600 分",
+   "bench_input": "physics 600 分",
+   "short_cn": "600 分",
+   "plan_file": "plan-C1-physics-score600.json",
+   "plan": "data/plan-C1.json",
+   "list": "data/list-C1.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C2",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": 650,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "物理 650 分",
+   "bench_input": "physics 650 分",
+   "short_cn": "650 分",
+   "plan_file": "plan-C2-physics-score650.json",
+   "plan": "data/plan-C2.json",
+   "list": "data/list-C2.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C3",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": 443,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "物理 443 分",
+   "bench_input": "physics 443 分（压本科线）",
+   "short_cn": "443 分",
+   "plan_file": "plan-C3-physics-score443.json",
+   "plan": "data/plan-C3.json",
+   "list": "data/list-C3.md",
+   "slot_count": 26
+  },
+  {
+   "id": "C4",
+   "subject": "history",
+   "subject_cn": "历史",
+   "score": 550,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "历史 550 分",
+   "bench_input": "history 550 分",
+   "short_cn": "550 分",
+   "plan_file": "plan-C4-history-score550.json",
+   "plan": "data/plan-C4.json",
+   "list": "data/list-C4.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C5",
+   "subject": "history",
+   "subject_cn": "历史",
+   "score": 485,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "历史 485 分",
+   "bench_input": "history 485 分（压本科线）",
+   "short_cn": "485 分",
+   "plan_file": "plan-C5-history-score485.json",
+   "plan": "data/plan-C5.json",
+   "list": "data/list-C5.md",
+   "slot_count": 60
+  },
+  {
+   "id": "C6",
+   "subject": "history",
+   "subject_cn": "历史",
+   "score": 520,
+   "rank": null,
+   "prefs": null,
+   "input_cn": "历史 520 分",
+   "bench_input": "history 520 分（历史科类中段）",
+   "short_cn": "520 分",
+   "plan_file": "plan-C6-history-score520.json",
+   "plan": "data/plan-C6.json",
+   "list": "data/list-C6.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C7",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": null,
+   "rank": 150000,
+   "prefs": null,
+   "input_cn": "物理 位次 150000",
+   "bench_input": "physics rank 150000 直给",
+   "short_cn": "位次 150000",
+   "plan_file": "plan-C7-physics-rank150000.json",
+   "plan": "data/plan-C7.json",
+   "list": "data/list-C7.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C8",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": 600,
+   "rank": null,
+   "prefs": {
+    "region_blacklist": [
+     "北京"
+    ],
+    "nature_deny": [
+     "民办",
+     "独立学院"
+    ],
+    "exclude_high_tuition_proxy": true,
+    "prefer_public": true,
+    "target_count": 96
+   },
+   "input_cn": "物理 600 分",
+   "bench_input": "physics 600 分 + V2 偏好（region_blacklist 北京 / nature_deny 民办+独立学院 / exclude_high_tuition_proxy / prefer_public / target_count 96）",
+   "short_cn": "600 分",
+   "plan_file": "plan-C8-physics-score600-v2.json",
+   "plan": "data/plan-C8.json",
+   "list": "data/list-C8.md",
+   "slot_count": 96
+  },
+  {
+   "id": "C9",
+   "subject": "physics",
+   "subject_cn": "物理",
+   "score": 600,
+   "rank": null,
+   "prefs": {
+    "major_priority": [
+     {
+      "term": "计算机",
+      "weight": 5
+     },
+     {
+      "term": "软件工程",
+      "weight": 4
+     }
+    ],
+    "major_pool_ratio": 0.75
+   },
+   "input_cn": "物理 600 分",
+   "bench_input": "physics 600 分 + 专业优先（计算机 / 软件工程，专业名额比例 75%）",
+   "short_cn": "600 分",
+   "plan_file": "plan-C9-physics-score600-major-pref.json",
+   "plan": "data/plan-C9.json",
+   "list": "data/list-C9.md",
+   "slot_count": 96
+  }
+ ],
+ "inline_encoding": "utf8",
+ "guide": "guide.html",
+ "bands": {
+  "covered": {
+   "physics": [
+    443,
+    682
+   ],
+   "history": [
+    483,
+    652
+   ]
+  },
+  "by_subject": {
+   "physics": {
+    "subject_cn": "物理",
+    "step": 5,
+    "half": 2,
+    "lo": 443,
+    "hi": 682,
+    "control": 443,
+    "tail": {
+     "at": 683,
+     "count": 402,
+     "pct_cn": "0.11%"
+    },
+    "tail_admission": {
+     "at": 683,
+     "rows": 66,
+     "schools": 16,
+     "units": 66,
+     "year": 2026,
+     "denom": 20664,
+     "denom_kind": "scored_rows"
+    },
+    "below_admission": {
+     "line": 443,
+     "rows": 25,
+     "schools": 12,
+     "units": 25,
+     "special_rows": 25,
+     "general_rows": 0,
+     "general_schools": 0,
+     "kinds": [
+      "八协计划",
+      "边防军人子女预科班"
+     ],
+     "kinds_cn": "「八协计划」「边防军人子女预科班」",
+     "year": 2026,
+     "denom": 20664,
+     "denom_kind": "scored_rows"
+    },
+    "step_note": "每 5 分一档，取最近档（与档顶分差 ≤2 分）",
+    "ranges": [
+     [
+      443,
+      447,
+      "P445"
+     ],
+     [
+      448,
+      452,
+      "P450"
+     ],
+     [
+      453,
+      457,
+      "P455"
+     ],
+     [
+      458,
+      462,
+      "P460"
+     ],
+     [
+      463,
+      467,
+      "P465"
+     ],
+     [
+      468,
+      472,
+      "P470"
+     ],
+     [
+      473,
+      477,
+      "P475"
+     ],
+     [
+      478,
+      482,
+      "P480"
+     ],
+     [
+      483,
+      487,
+      "P485"
+     ],
+     [
+      488,
+      492,
+      "P490"
+     ],
+     [
+      493,
+      497,
+      "P495"
+     ],
+     [
+      498,
+      502,
+      "P500"
+     ],
+     [
+      503,
+      507,
+      "P505"
+     ],
+     [
+      508,
+      512,
+      "P510"
+     ],
+     [
+      513,
+      517,
+      "P515"
+     ],
+     [
+      518,
+      522,
+      "P520"
+     ],
+     [
+      523,
+      527,
+      "P525"
+     ],
+     [
+      528,
+      532,
+      "P530"
+     ],
+     [
+      533,
+      537,
+      "P535"
+     ],
+     [
+      538,
+      542,
+      "P540"
+     ],
+     [
+      543,
+      547,
+      "P545"
+     ],
+     [
+      548,
+      552,
+      "P550"
+     ],
+     [
+      553,
+      557,
+      "P555"
+     ],
+     [
+      558,
+      562,
+      "P560"
+     ],
+     [
+      563,
+      567,
+      "P565"
+     ],
+     [
+      568,
+      572,
+      "P570"
+     ],
+     [
+      573,
+      577,
+      "P575"
+     ],
+     [
+      578,
+      582,
+      "P580"
+     ],
+     [
+      583,
+      587,
+      "P585"
+     ],
+     [
+      588,
+      592,
+      "P590"
+     ],
+     [
+      593,
+      597,
+      "P595"
+     ],
+     [
+      598,
+      602,
+      "P600"
+     ],
+     [
+      603,
+      607,
+      "P605"
+     ],
+     [
+      608,
+      612,
+      "P610"
+     ],
+     [
+      613,
+      617,
+      "P615"
+     ],
+     [
+      618,
+      622,
+      "P620"
+     ],
+     [
+      623,
+      627,
+      "P625"
+     ],
+     [
+      628,
+      632,
+      "P630"
+     ],
+     [
+      633,
+      637,
+      "P635"
+     ],
+     [
+      638,
+      642,
+      "P640"
+     ],
+     [
+      643,
+      647,
+      "P645"
+     ],
+     [
+      648,
+      652,
+      "P650"
+     ],
+     [
+      653,
+      657,
+      "P655"
+     ],
+     [
+      658,
+      662,
+      "P660"
+     ],
+     [
+      663,
+      667,
+      "P665"
+     ],
+     [
+      668,
+      672,
+      "P670"
+     ],
+     [
+      673,
+      677,
+      "P675"
+     ],
+     [
+      678,
+      682,
+      "P680"
+     ]
+    ]
+   },
+   "history": {
+    "subject_cn": "历史",
+    "step": 5,
+    "half": 2,
+    "lo": 483,
+    "hi": 652,
+    "control": 485,
+    "tail": {
+     "at": 653,
+     "count": 211,
+     "pct_cn": "0.09%"
+    },
+    "tail_admission": {
+     "at": 653,
+     "rows": 34,
+     "schools": 11,
+     "units": 34,
+     "year": 2026,
+     "denom": 6619,
+     "denom_kind": "scored_rows"
+    },
+    "below_admission": {
+     "line": 485,
+     "rows": 30,
+     "schools": 16,
+     "units": 30,
+     "special_rows": 30,
+     "general_rows": 0,
+     "general_schools": 0,
+     "kinds": [
+      "八协计划",
+      "边防军人子女预科班"
+     ],
+     "kinds_cn": "「八协计划」「边防军人子女预科班」",
+     "year": 2026,
+     "denom": 6619,
+     "denom_kind": "scored_rows"
+    },
+    "step_note": "每 5 分一档，取最近档（与档顶分差 ≤2 分）",
+    "ranges": [
+     [
+      483,
+      487,
+      "H485"
+     ],
+     [
+      488,
+      492,
+      "H490"
+     ],
+     [
+      493,
+      497,
+      "H495"
+     ],
+     [
+      498,
+      502,
+      "H500"
+     ],
+     [
+      503,
+      507,
+      "H505"
+     ],
+     [
+      508,
+      512,
+      "H510"
+     ],
+     [
+      513,
+      517,
+      "H515"
+     ],
+     [
+      518,
+      522,
+      "H520"
+     ],
+     [
+      523,
+      527,
+      "H525"
+     ],
+     [
+      528,
+      532,
+      "H530"
+     ],
+     [
+      533,
+      537,
+      "H535"
+     ],
+     [
+      538,
+      542,
+      "H540"
+     ],
+     [
+      543,
+      547,
+      "H545"
+     ],
+     [
+      548,
+      552,
+      "H550"
+     ],
+     [
+      553,
+      557,
+      "H555"
+     ],
+     [
+      558,
+      562,
+      "H560"
+     ],
+     [
+      563,
+      567,
+      "H565"
+     ],
+     [
+      568,
+      572,
+      "H570"
+     ],
+     [
+      573,
+      577,
+      "H575"
+     ],
+     [
+      578,
+      582,
+      "H580"
+     ],
+     [
+      583,
+      587,
+      "H585"
+     ],
+     [
+      588,
+      592,
+      "H590"
+     ],
+     [
+      593,
+      597,
+      "H595"
+     ],
+     [
+      598,
+      602,
+      "H600"
+     ],
+     [
+      603,
+      607,
+      "H605"
+     ],
+     [
+      608,
+      612,
+      "H610"
+     ],
+     [
+      613,
+      617,
+      "H615"
+     ],
+     [
+      618,
+      622,
+      "H620"
+     ],
+     [
+      623,
+      627,
+      "H625"
+     ],
+     [
+      628,
+      632,
+      "H630"
+     ],
+     [
+      633,
+      637,
+      "H635"
+     ],
+     [
+      638,
+      642,
+      "H640"
+     ],
+     [
+      643,
+      647,
+      "H645"
+     ],
+     [
+      648,
+      652,
+      "H650"
+     ]
+    ]
+   }
+  },
+  "bands": {
+   "P445": {
+    "score": 445,
+    "lo": 443,
+    "hi": 447,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P450": {
+    "score": 450,
+    "lo": 448,
+    "hi": 452,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P455": {
+    "score": 455,
+    "lo": 453,
+    "hi": 457,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P460": {
+    "score": 460,
+    "lo": 458,
+    "hi": 462,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P465": {
+    "score": 465,
+    "lo": 463,
+    "hi": 467,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P470": {
+    "score": 470,
+    "lo": 468,
+    "hi": 472,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P475": {
+    "score": 475,
+    "lo": 473,
+    "hi": 477,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P480": {
+    "score": 480,
+    "lo": 478,
+    "hi": 482,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P485": {
+    "score": 485,
+    "lo": 483,
+    "hi": 487,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P490": {
+    "score": 490,
+    "lo": 488,
+    "hi": 492,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P495": {
+    "score": 495,
+    "lo": 493,
+    "hi": 497,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P500": {
+    "score": 500,
+    "lo": 498,
+    "hi": 502,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P505": {
+    "score": 505,
+    "lo": 503,
+    "hi": 507,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P510": {
+    "score": 510,
+    "lo": 508,
+    "hi": 512,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P515": {
+    "score": 515,
+    "lo": 513,
+    "hi": 517,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P520": {
+    "score": 520,
+    "lo": 518,
+    "hi": 522,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P525": {
+    "score": 525,
+    "lo": 523,
+    "hi": 527,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P530": {
+    "score": 530,
+    "lo": 528,
+    "hi": 532,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P535": {
+    "score": 535,
+    "lo": 533,
+    "hi": 537,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P540": {
+    "score": 540,
+    "lo": 538,
+    "hi": 542,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P545": {
+    "score": 545,
+    "lo": 543,
+    "hi": 547,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P550": {
+    "score": 550,
+    "lo": 548,
+    "hi": 552,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P555": {
+    "score": 555,
+    "lo": 553,
+    "hi": 557,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P560": {
+    "score": 560,
+    "lo": 558,
+    "hi": 562,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P565": {
+    "score": 565,
+    "lo": 563,
+    "hi": 567,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P570": {
+    "score": 570,
+    "lo": 568,
+    "hi": 572,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P575": {
+    "score": 575,
+    "lo": 573,
+    "hi": 577,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P580": {
+    "score": 580,
+    "lo": 578,
+    "hi": 582,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P585": {
+    "score": 585,
+    "lo": 583,
+    "hi": 587,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P590": {
+    "score": 590,
+    "lo": 588,
+    "hi": 592,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P595": {
+    "score": 595,
+    "lo": 593,
+    "hi": 597,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P600": {
+    "score": 600,
+    "lo": 598,
+    "hi": 602,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P605": {
+    "score": 605,
+    "lo": 603,
+    "hi": 607,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P610": {
+    "score": 610,
+    "lo": 608,
+    "hi": 612,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P615": {
+    "score": 615,
+    "lo": 613,
+    "hi": 617,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P620": {
+    "score": 620,
+    "lo": 618,
+    "hi": 622,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P625": {
+    "score": 625,
+    "lo": 623,
+    "hi": 627,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P630": {
+    "score": 630,
+    "lo": 628,
+    "hi": 632,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P635": {
+    "score": 635,
+    "lo": 633,
+    "hi": 637,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P640": {
+    "score": 640,
+    "lo": 638,
+    "hi": 642,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P645": {
+    "score": 645,
+    "lo": 643,
+    "hi": 647,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P650": {
+    "score": 650,
+    "lo": 648,
+    "hi": 652,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P655": {
+    "score": 655,
+    "lo": 653,
+    "hi": 657,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P660": {
+    "score": 660,
+    "lo": 658,
+    "hi": 662,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P665": {
+    "score": 665,
+    "lo": 663,
+    "hi": 667,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P670": {
+    "score": 670,
+    "lo": 668,
+    "hi": 672,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P675": {
+    "score": 675,
+    "lo": 673,
+    "hi": 677,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "P680": {
+    "score": 680,
+    "lo": 678,
+    "hi": 682,
+    "subject": "physics",
+    "subject_cn": "物理"
+   },
+   "H485": {
+    "score": 485,
+    "lo": 483,
+    "hi": 487,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H490": {
+    "score": 490,
+    "lo": 488,
+    "hi": 492,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H495": {
+    "score": 495,
+    "lo": 493,
+    "hi": 497,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H500": {
+    "score": 500,
+    "lo": 498,
+    "hi": 502,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H505": {
+    "score": 505,
+    "lo": 503,
+    "hi": 507,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H510": {
+    "score": 510,
+    "lo": 508,
+    "hi": 512,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H515": {
+    "score": 515,
+    "lo": 513,
+    "hi": 517,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H520": {
+    "score": 520,
+    "lo": 518,
+    "hi": 522,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H525": {
+    "score": 525,
+    "lo": 523,
+    "hi": 527,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H530": {
+    "score": 530,
+    "lo": 528,
+    "hi": 532,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H535": {
+    "score": 535,
+    "lo": 533,
+    "hi": 537,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H540": {
+    "score": 540,
+    "lo": 538,
+    "hi": 542,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H545": {
+    "score": 545,
+    "lo": 543,
+    "hi": 547,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H550": {
+    "score": 550,
+    "lo": 548,
+    "hi": 552,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H555": {
+    "score": 555,
+    "lo": 553,
+    "hi": 557,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H560": {
+    "score": 560,
+    "lo": 558,
+    "hi": 562,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H565": {
+    "score": 565,
+    "lo": 563,
+    "hi": 567,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H570": {
+    "score": 570,
+    "lo": 568,
+    "hi": 572,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H575": {
+    "score": 575,
+    "lo": 573,
+    "hi": 577,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H580": {
+    "score": 580,
+    "lo": 578,
+    "hi": 582,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H585": {
+    "score": 585,
+    "lo": 583,
+    "hi": 587,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H590": {
+    "score": 590,
+    "lo": 588,
+    "hi": 592,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H595": {
+    "score": 595,
+    "lo": 593,
+    "hi": 597,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H600": {
+    "score": 600,
+    "lo": 598,
+    "hi": 602,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H605": {
+    "score": 605,
+    "lo": 603,
+    "hi": 607,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H610": {
+    "score": 610,
+    "lo": 608,
+    "hi": 612,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H615": {
+    "score": 615,
+    "lo": 613,
+    "hi": 617,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H620": {
+    "score": 620,
+    "lo": 618,
+    "hi": 622,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H625": {
+    "score": 625,
+    "lo": 623,
+    "hi": 627,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H630": {
+    "score": 630,
+    "lo": 628,
+    "hi": 632,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H635": {
+    "score": 635,
+    "lo": 633,
+    "hi": 637,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H640": {
+    "score": 640,
+    "lo": 638,
+    "hi": 642,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H645": {
+    "score": 645,
+    "lo": 643,
+    "hi": 647,
+    "subject": "history",
+    "subject_cn": "历史"
+   },
+   "H650": {
+    "score": 650,
+    "lo": 648,
+    "hi": 652,
+    "subject": "history",
+    "subject_cn": "历史"
+   }
+  },
+  "items": [
+   {
+    "id": "P445",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 445,
+    "lo": 443,
+    "hi": 447,
+    "plan": "data/plan-P445.json",
+    "list": "data/list-P445.md",
+    "slot_count": 66
+   },
+   {
+    "id": "P450",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 450,
+    "lo": 448,
+    "hi": 452,
+    "plan": "data/plan-P450.json",
+    "list": "data/list-P450.md",
+    "slot_count": 66
+   },
+   {
+    "id": "P455",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 455,
+    "lo": 453,
+    "hi": 457,
+    "plan": "data/plan-P455.json",
+    "list": "data/list-P455.md",
+    "slot_count": 66
+   },
+   {
+    "id": "P460",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 460,
+    "lo": 458,
+    "hi": 462,
+    "plan": "data/plan-P460.json",
+    "list": "data/list-P460.md",
+    "slot_count": 66
+   },
+   {
+    "id": "P465",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 465,
+    "lo": 463,
+    "hi": 467,
+    "plan": "data/plan-P465.json",
+    "list": "data/list-P465.md",
+    "slot_count": 90
+   },
+   {
+    "id": "P470",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 470,
+    "lo": 468,
+    "hi": 472,
+    "plan": "data/plan-P470.json",
+    "list": "data/list-P470.md",
+    "slot_count": 90
+   },
+   {
+    "id": "P475",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 475,
+    "lo": 473,
+    "hi": 477,
+    "plan": "data/plan-P475.json",
+    "list": "data/list-P475.md",
+    "slot_count": 90
+   },
+   {
+    "id": "P480",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 480,
+    "lo": 478,
+    "hi": 482,
+    "plan": "data/plan-P480.json",
+    "list": "data/list-P480.md",
+    "slot_count": 90
+   },
+   {
+    "id": "P485",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 485,
+    "lo": 483,
+    "hi": 487,
+    "plan": "data/plan-P485.json",
+    "list": "data/list-P485.md",
+    "slot_count": 90
+   },
+   {
+    "id": "P490",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 490,
+    "lo": 488,
+    "hi": 492,
+    "plan": "data/plan-P490.json",
+    "list": "data/list-P490.md",
+    "slot_count": 92
+   },
+   {
+    "id": "P495",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 495,
+    "lo": 493,
+    "hi": 497,
+    "plan": "data/plan-P495.json",
+    "list": "data/list-P495.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P500",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 500,
+    "lo": 498,
+    "hi": 502,
+    "plan": "data/plan-P500.json",
+    "list": "data/list-P500.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P505",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 505,
+    "lo": 503,
+    "hi": 507,
+    "plan": "data/plan-P505.json",
+    "list": "data/list-P505.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P510",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 510,
+    "lo": 508,
+    "hi": 512,
+    "plan": "data/plan-P510.json",
+    "list": "data/list-P510.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P515",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 515,
+    "lo": 513,
+    "hi": 517,
+    "plan": "data/plan-P515.json",
+    "list": "data/list-P515.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P520",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 520,
+    "lo": 518,
+    "hi": 522,
+    "plan": "data/plan-P520.json",
+    "list": "data/list-P520.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P525",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 525,
+    "lo": 523,
+    "hi": 527,
+    "plan": "data/plan-P525.json",
+    "list": "data/list-P525.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P530",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 530,
+    "lo": 528,
+    "hi": 532,
+    "plan": "data/plan-P530.json",
+    "list": "data/list-P530.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P535",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 535,
+    "lo": 533,
+    "hi": 537,
+    "plan": "data/plan-P535.json",
+    "list": "data/list-P535.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P540",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 540,
+    "lo": 538,
+    "hi": 542,
+    "plan": "data/plan-P540.json",
+    "list": "data/list-P540.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P545",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 545,
+    "lo": 543,
+    "hi": 547,
+    "plan": "data/plan-P545.json",
+    "list": "data/list-P545.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P550",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 550,
+    "lo": 548,
+    "hi": 552,
+    "plan": "data/plan-P550.json",
+    "list": "data/list-P550.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P555",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 555,
+    "lo": 553,
+    "hi": 557,
+    "plan": "data/plan-P555.json",
+    "list": "data/list-P555.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P560",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 560,
+    "lo": 558,
+    "hi": 562,
+    "plan": "data/plan-P560.json",
+    "list": "data/list-P560.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P565",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 565,
+    "lo": 563,
+    "hi": 567,
+    "plan": "data/plan-P565.json",
+    "list": "data/list-P565.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P570",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 570,
+    "lo": 568,
+    "hi": 572,
+    "plan": "data/plan-P570.json",
+    "list": "data/list-P570.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P575",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 575,
+    "lo": 573,
+    "hi": 577,
+    "plan": "data/plan-P575.json",
+    "list": "data/list-P575.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P580",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 580,
+    "lo": 578,
+    "hi": 582,
+    "plan": "data/plan-P580.json",
+    "list": "data/list-P580.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P585",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 585,
+    "lo": 583,
+    "hi": 587,
+    "plan": "data/plan-P585.json",
+    "list": "data/list-P585.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P590",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 590,
+    "lo": 588,
+    "hi": 592,
+    "plan": "data/plan-P590.json",
+    "list": "data/list-P590.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P595",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 595,
+    "lo": 593,
+    "hi": 597,
+    "plan": "data/plan-P595.json",
+    "list": "data/list-P595.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P600",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 600,
+    "lo": 598,
+    "hi": 602,
+    "plan": "data/plan-P600.json",
+    "list": "data/list-P600.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P605",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 605,
+    "lo": 603,
+    "hi": 607,
+    "plan": "data/plan-P605.json",
+    "list": "data/list-P605.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P610",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 610,
+    "lo": 608,
+    "hi": 612,
+    "plan": "data/plan-P610.json",
+    "list": "data/list-P610.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P615",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 615,
+    "lo": 613,
+    "hi": 617,
+    "plan": "data/plan-P615.json",
+    "list": "data/list-P615.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P620",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 620,
+    "lo": 618,
+    "hi": 622,
+    "plan": "data/plan-P620.json",
+    "list": "data/list-P620.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P625",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 625,
+    "lo": 623,
+    "hi": 627,
+    "plan": "data/plan-P625.json",
+    "list": "data/list-P625.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P630",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 630,
+    "lo": 628,
+    "hi": 632,
+    "plan": "data/plan-P630.json",
+    "list": "data/list-P630.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P635",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 635,
+    "lo": 633,
+    "hi": 637,
+    "plan": "data/plan-P635.json",
+    "list": "data/list-P635.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P640",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 640,
+    "lo": 638,
+    "hi": 642,
+    "plan": "data/plan-P640.json",
+    "list": "data/list-P640.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P645",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 645,
+    "lo": 643,
+    "hi": 647,
+    "plan": "data/plan-P645.json",
+    "list": "data/list-P645.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P650",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 650,
+    "lo": 648,
+    "hi": 652,
+    "plan": "data/plan-P650.json",
+    "list": "data/list-P650.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P655",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 655,
+    "lo": 653,
+    "hi": 657,
+    "plan": "data/plan-P655.json",
+    "list": "data/list-P655.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P660",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 660,
+    "lo": 658,
+    "hi": 662,
+    "plan": "data/plan-P660.json",
+    "list": "data/list-P660.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P665",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 665,
+    "lo": 663,
+    "hi": 667,
+    "plan": "data/plan-P665.json",
+    "list": "data/list-P665.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P670",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 670,
+    "lo": 668,
+    "hi": 672,
+    "plan": "data/plan-P670.json",
+    "list": "data/list-P670.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P675",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 675,
+    "lo": 673,
+    "hi": 677,
+    "plan": "data/plan-P675.json",
+    "list": "data/list-P675.md",
+    "slot_count": 96
+   },
+   {
+    "id": "P680",
+    "subject": "physics",
+    "subject_cn": "物理",
+    "score": 680,
+    "lo": 678,
+    "hi": 682,
+    "plan": "data/plan-P680.json",
+    "list": "data/list-P680.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H485",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 485,
+    "lo": 483,
+    "hi": 487,
+    "plan": "data/plan-H485.json",
+    "list": "data/list-H485.md",
+    "slot_count": 60
+   },
+   {
+    "id": "H490",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 490,
+    "lo": 488,
+    "hi": 492,
+    "plan": "data/plan-H490.json",
+    "list": "data/list-H490.md",
+    "slot_count": 66
+   },
+   {
+    "id": "H495",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 495,
+    "lo": 493,
+    "hi": 497,
+    "plan": "data/plan-H495.json",
+    "list": "data/list-H495.md",
+    "slot_count": 90
+   },
+   {
+    "id": "H500",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 500,
+    "lo": 498,
+    "hi": 502,
+    "plan": "data/plan-H500.json",
+    "list": "data/list-H500.md",
+    "slot_count": 90
+   },
+   {
+    "id": "H505",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 505,
+    "lo": 503,
+    "hi": 507,
+    "plan": "data/plan-H505.json",
+    "list": "data/list-H505.md",
+    "slot_count": 90
+   },
+   {
+    "id": "H510",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 510,
+    "lo": 508,
+    "hi": 512,
+    "plan": "data/plan-H510.json",
+    "list": "data/list-H510.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H515",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 515,
+    "lo": 513,
+    "hi": 517,
+    "plan": "data/plan-H515.json",
+    "list": "data/list-H515.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H520",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 520,
+    "lo": 518,
+    "hi": 522,
+    "plan": "data/plan-H520.json",
+    "list": "data/list-H520.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H525",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 525,
+    "lo": 523,
+    "hi": 527,
+    "plan": "data/plan-H525.json",
+    "list": "data/list-H525.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H530",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 530,
+    "lo": 528,
+    "hi": 532,
+    "plan": "data/plan-H530.json",
+    "list": "data/list-H530.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H535",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 535,
+    "lo": 533,
+    "hi": 537,
+    "plan": "data/plan-H535.json",
+    "list": "data/list-H535.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H540",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 540,
+    "lo": 538,
+    "hi": 542,
+    "plan": "data/plan-H540.json",
+    "list": "data/list-H540.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H545",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 545,
+    "lo": 543,
+    "hi": 547,
+    "plan": "data/plan-H545.json",
+    "list": "data/list-H545.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H550",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 550,
+    "lo": 548,
+    "hi": 552,
+    "plan": "data/plan-H550.json",
+    "list": "data/list-H550.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H555",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 555,
+    "lo": 553,
+    "hi": 557,
+    "plan": "data/plan-H555.json",
+    "list": "data/list-H555.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H560",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 560,
+    "lo": 558,
+    "hi": 562,
+    "plan": "data/plan-H560.json",
+    "list": "data/list-H560.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H565",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 565,
+    "lo": 563,
+    "hi": 567,
+    "plan": "data/plan-H565.json",
+    "list": "data/list-H565.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H570",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 570,
+    "lo": 568,
+    "hi": 572,
+    "plan": "data/plan-H570.json",
+    "list": "data/list-H570.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H575",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 575,
+    "lo": 573,
+    "hi": 577,
+    "plan": "data/plan-H575.json",
+    "list": "data/list-H575.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H580",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 580,
+    "lo": 578,
+    "hi": 582,
+    "plan": "data/plan-H580.json",
+    "list": "data/list-H580.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H585",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 585,
+    "lo": 583,
+    "hi": 587,
+    "plan": "data/plan-H585.json",
+    "list": "data/list-H585.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H590",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 590,
+    "lo": 588,
+    "hi": 592,
+    "plan": "data/plan-H590.json",
+    "list": "data/list-H590.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H595",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 595,
+    "lo": 593,
+    "hi": 597,
+    "plan": "data/plan-H595.json",
+    "list": "data/list-H595.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H600",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 600,
+    "lo": 598,
+    "hi": 602,
+    "plan": "data/plan-H600.json",
+    "list": "data/list-H600.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H605",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 605,
+    "lo": 603,
+    "hi": 607,
+    "plan": "data/plan-H605.json",
+    "list": "data/list-H605.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H610",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 610,
+    "lo": 608,
+    "hi": 612,
+    "plan": "data/plan-H610.json",
+    "list": "data/list-H610.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H615",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 615,
+    "lo": 613,
+    "hi": 617,
+    "plan": "data/plan-H615.json",
+    "list": "data/list-H615.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H620",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 620,
+    "lo": 618,
+    "hi": 622,
+    "plan": "data/plan-H620.json",
+    "list": "data/list-H620.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H625",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 625,
+    "lo": 623,
+    "hi": 627,
+    "plan": "data/plan-H625.json",
+    "list": "data/list-H625.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H630",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 630,
+    "lo": 628,
+    "hi": 632,
+    "plan": "data/plan-H630.json",
+    "list": "data/list-H630.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H635",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 635,
+    "lo": 633,
+    "hi": 637,
+    "plan": "data/plan-H635.json",
+    "list": "data/list-H635.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H640",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 640,
+    "lo": 638,
+    "hi": 642,
+    "plan": "data/plan-H640.json",
+    "list": "data/list-H640.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H645",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 645,
+    "lo": 643,
+    "hi": 647,
+    "plan": "data/plan-H645.json",
+    "list": "data/list-H645.md",
+    "slot_count": 96
+   },
+   {
+    "id": "H650",
+    "subject": "history",
+    "subject_cn": "历史",
+    "score": 650,
+    "lo": 648,
+    "hi": 652,
+    "plan": "data/plan-H650.json",
+    "list": "data/list-H650.md",
+    "slot_count": 96
+   }
+  ],
+  "source": "data/cache/score-bands",
+  "generated_at": "2026-11-17T22:25:46+08:00"
+ }
+}

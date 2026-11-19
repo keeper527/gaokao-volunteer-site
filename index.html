@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>河北普通类本科批 · 96 志愿方案（静态正式版）</title>
+<link rel="stylesheet" href="static/style.css?v=20261101c">
+<style>#static-bar{padding:10px 16px;background:#fff8e1;border-bottom:1px solid #f0d9a0;font-size:13px;line-height:1.7;color:#5b4a1a}#static-bar a{margin-right:8px;color:#8a5a00}#static-bar a.on{font-weight:700;text-decoration:none;color:#3d2a00}</style>
+<style id="plan-fit">
+/* 方案页窄屏适配（由 scripts/webui/plan_page_fit.py 生成；禁手改） */
+.table-wrap th:first-child,.table-wrap td:first-child{position:sticky;left:0;z-index:3;background:#fff}
+@media (max-width: 700px) {
+  .table-wrap{max-height:none}
+  .table-wrap table{width:100%}
+  .table-wrap thead{display:none}
+  .table-wrap tbody tr{display:grid;grid-template-columns:1fr 1fr;column-gap:10px;grid-auto-flow:row dense;
+                       padding:6px 2px;border-bottom:1px solid #dfe3e8}
+  .table-wrap tbody tr[hidden]{display:none}
+  .table-wrap tbody td{display:block;width:auto;border:0;padding:1px 0;min-width:0;line-height:1.32;
+                       white-space:normal;overflow-wrap:anywhere}
+  .table-wrap tbody td[data-span="2"]{grid-column:1/-1}
+  .table-wrap tbody td::before{content:attr(data-label) "：";font-weight:600;color:#5b6572}
+  .table-wrap tbody tr.detail-row td::before{content:none}
+  .table-wrap tbody tr.expandable:focus{outline:2px solid #1a73e8;outline-offset:-2px}
+}
+</style>
+</head>
+<body>
+<div id="static-bar" class="static-bar"></div>
+<header class="topbar">
+  <h1>河北普通类本科批 · 96 志愿方案</h1>
+  <p class="scope" id="scope-note">仅河北省普通类本科批（物理 / 历史）</p>
+</header>
+
+<main>
+  <section class="card form-card">
+    <form id="plan-form" autocomplete="off">
+      <div class="row">
+        <label class="field">
+          <span>科目组合</span>
+          <select name="subject" id="subject">
+            <option value="physics">物理</option>
+            <option value="history">历史</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>高考总分（2026）</span>
+          <input type="number" name="score" id="score" min="1" max="750" placeholder="例如 600">
+          <em class="hint" id="rank-auto">填入分数后，自动按一分一档换算位次</em>
+        </label>
+        <label class="field">
+          <span>精确位次（可选 · 不填则用上面自动换算值）</span>
+          <input type="number" name="rank" id="rank" min="1" placeholder="仅在你已知准确位次时填">
+          <em class="hint">志愿分析本质是位次分析；此项**只用于覆盖**自动换算值</em>
+        </label>
+      </div>
+
+      <details class="prefs">
+        <summary id="prefs-summary">偏好设置（可选 · 全部留空 = 不加任何约束）</summary>
+        <div class="preset-block">
+          <div class="preset-head">
+            <span class="preset-title">常用组合（点了只是替你填下面的选项，之后仍可逐项改）</span>
+            <button type="button" id="prefs-clear" class="ghost small">恢复空白</button>
+          </div>
+          <div class="preset-row" id="prefs-presets">
+            <span class="hint">组合由服务端下发，正在读取…</span>
+          </div>
+          <p class="hint" id="preset-note"></p>
+        </div>
+        <div class="prefs-fields" id="prefs-fields">
+          <p class="hint">偏好选项由服务端下发，正在读取…</p>
+        </div>
+
+        <div class="preset-block major-priority-block">
+          <div class="preset-head">
+            <span class="preset-title">专业优先（最多 5 个 · 权重 1–5，5 = 最想读）</span>
+          </div>
+          <p class="hint">河北本科批是「专业(类)+学校」96 个平行志愿、<b>没有专业调剂</b>：
+            填了这一块，系统才会按权重把你想要的专业的<b>名额</b>切出来；
+            留空 = 不设专业意愿（专业随机匹配）。</p>
+          <div id="mp-rows" class="mp-rows">
+            <div class="mp-row"><input type="text" class="mp-term" placeholder="专业关键词，如 计算机"><select class="mp-weight"><option value="5">权重 5</option><option value="4">权重 4</option><option value="3">权重 3</option><option value="2">权重 2</option><option value="1">权重 1</option></select></div>
+            <div class="mp-row"><input type="text" class="mp-term" placeholder="专业关键词，如 电子信息"><select class="mp-weight"><option value="5">权重 5</option><option value="4">权重 4</option><option value="3">权重 3</option><option value="2">权重 2</option><option value="1">权重 1</option></select></div>
+            <div class="mp-row"><input type="text" class="mp-term" placeholder="专业关键词"><select class="mp-weight"><option value="5">权重 5</option><option value="4">权重 4</option><option value="3">权重 3</option><option value="2">权重 2</option><option value="1">权重 1</option></select></div>
+            <div class="mp-row"><input type="text" class="mp-term" placeholder="专业关键词"><select class="mp-weight"><option value="5">权重 5</option><option value="4">权重 4</option><option value="3">权重 3</option><option value="2">权重 2</option><option value="1">权重 1</option></select></div>
+            <div class="mp-row"><input type="text" class="mp-term" placeholder="专业关键词"><select class="mp-weight"><option value="5">权重 5</option><option value="4">权重 4</option><option value="3">权重 3</option><option value="2">权重 2</option><option value="1">权重 1</option></select></div>
+          </div>
+          <label class="field"><span>专业意愿占比</span>
+            <select id="mp-ratio">
+              <option value="0.9">90%（更追专业 · 滑档风险↑）</option>
+              <option value="0.75" selected>75%（推荐）</option>
+              <option value="0.6">60%（更稳 · 专业让位录取）</option>
+            </select>
+            <em class="hint">占比 = 96 条里给专业意愿的名额；剩下按冲稳保兜底</em>
+          </label>
+        </div>
+        <p class="hint" id="prefs-conflict"></p>
+        <p class="hint">「专业优先」是<b>真正切名额</b>的（直接决定你能读到什么专业）；
+          其它选项里写着「不要 / 排除 / 只保留」的会真的把志愿删掉（方案可能不足 96 条），
+          其余只是排前面。「冲 / 稳 / 保」的判断标准不会因此改变。</p>
+      </details>
+
+      <div class="row actions">
+        <button type="submit" id="submit-btn">生成方案</button>
+        <span class="status" id="status-line"></span>
+      </div>
+    </form>
+  </section>
+
+  <!-- C657 / W171「查这一条」：默认隐藏 —— 静态站没有服务端，页面上就不该有个点不动的框。
+       只有 `/api/health` 明确回答本机服务时才显形（前端脚本 `enableWhyAbsent`）。 -->
+  <section class="card why-absent-card" id="why-absent-card" hidden>
+    <div class="table-head">
+      <h2>查这一条</h2>
+    </div>
+    <p class="hint">想报的学校（或学校 + 专业）为什么没有出现在表里：按同一份候选池与该层配额回答，
+      不是另算一套。</p>
+    <div class="row">
+      <label class="field">
+        <span>学校名</span>
+        <input type="text" id="why-absent-school" maxlength="60" placeholder="例如 河北大学">
+      </label>
+      <label class="field">
+        <span>专业（可选 · 不填 = 整所学校）</span>
+        <input type="text" id="why-absent-major" maxlength="60" placeholder="例如 计算机科学与技术">
+      </label>
+      <button type="button" id="why-absent-go" class="ghost">查这一条</button>
+    </div>
+    <div class="why-absent-out" id="why-absent-out"></div>
+  </section>
+
+  <section id="result" hidden>
+    <section class="card summary-card">
+      <div class="summary-grid" id="summary-grid"></div>
+      <div class="warns" id="warns"></div>
+      <!-- W74：保底可配给界披露（措辞唯一来源 = 响应体 bao.statement，前端不拼句） -->
+      <p class="hint" id="bao-note"></p>
+    </section>
+
+    <section class="layers" id="layer-cards"></section>
+
+    <section class="card table-card">
+      <div class="table-head">
+        <h2 id="table-title">全部志愿</h2>
+        <div class="table-tools">
+          <select id="layer-filter">
+            <option value="">全部层</option>
+          </select>
+          <input type="search" id="filter-text" placeholder="搜学校 / 专业">
+          <button type="button" id="export-md" class="ghost">导出 .md 清单</button>
+          <button type="button" id="export-json" class="ghost">导出 .json</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="plan-table">
+          <thead>
+            <tr>
+              <th>序</th><th>层</th><th>学校</th><th>专业</th>
+              <th>参考位次</th><th>余量</th><th>把握</th><th>章程退档风险</th><th>说明</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="hint">章程列显示「N 条」的行可点击整行，展开该行命中的<strong>条款原文</strong>（逐字引用，未改写）。</p>
+    </section>
+
+    <section class="card charter-card">
+      <div class="table-head">
+        <h2 id="charter-title">章程原文限制（退档风险）</h2>
+        <span class="hint" id="charter-count"></span>
+      </div>
+      <p class="hint" id="charter-note"></p>
+      <pre class="charter-text" id="charter-section"></pre>
+      <p class="hint" id="foot-note"></p>
+    </section>
+
+    <section class="card accuracy-card">
+      <div class="table-head">
+        <h2>系统自检读数（这套分层历史上准不准）</h2>
+        <span class="hint badge" id="accuracy-metrics-badge"></span>
+      </div>
+      <p class="hint" id="accuracy-metrics-note"></p>
+      <div class="table-wrap">
+        <table id="accuracy-metrics-table">
+          <thead>
+            <tr>
+              <th>科类</th><th>验证年</th><th>模拟考生</th><th>滑档率</th>
+              <th>冲层录取比例</th><th>保底可靠性</th><th>保底行覆盖率</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="hint" id="accuracy-metrics-boundary"></p>
+      <p class="hint" id="accuracy-metrics-source"></p>
+
+      <h3 class="hint">录取落在哪一层（历史回测的层分布）</h3>
+      <span class="hint badge" id="accuracy-badge"></span>
+      <p class="hint" id="accuracy-semantics"></p>
+      <div class="table-wrap">
+        <table id="accuracy-table">
+          <thead>
+            <tr>
+              <th>科类</th><th>验证年</th><th>用哪年计划</th><th>录取落在哪层</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="hint" id="accuracy-caliber"></p>
+      <p class="hint" id="accuracy-source"></p>
+    </section>
+  </section>
+</main>
+
+<footer class="foot">
+  <p id="disclaimer">结果为依据历年官方投档统计的参考方案，不构成录取承诺。</p>
+</footer>
+
+<script>window.__CASE__="C1";window.__CASES__=[{"id": "C1", "subject": "physics", "subject_cn": "物理", "score": 600, "rank": null, "prefs": null, "input_cn": "物理 600 分", "bench_input": "physics 600 分", "short_cn": "600 分", "plan_file": "plan-C1-physics-score600.json", "plan": "data/plan-C1.json", "list": "data/list-C1.md", "slot_count": 96}, {"id": "C2", "subject": "physics", "subject_cn": "物理", "score": 650, "rank": null, "prefs": null, "input_cn": "物理 650 分", "bench_input": "physics 650 分", "short_cn": "650 分", "plan_file": "plan-C2-physics-score650.json", "plan": "data/plan-C2.json", "list": "data/list-C2.md", "slot_count": 96}, {"id": "C3", "subject": "physics", "subject_cn": "物理", "score": 443, "rank": null, "prefs": null, "input_cn": "物理 443 分", "bench_input": "physics 443 分（压本科线）", "short_cn": "443 分", "plan_file": "plan-C3-physics-score443.json", "plan": "data/plan-C3.json", "list": "data/list-C3.md", "slot_count": 26}, {"id": "C4", "subject": "history", "subject_cn": "历史", "score": 550, "rank": null, "prefs": null, "input_cn": "历史 550 分", "bench_input": "history 550 分", "short_cn": "550 分", "plan_file": "plan-C4-history-score550.json", "plan": "data/plan-C4.json", "list": "data/list-C4.md", "slot_count": 96}, {"id": "C5", "subject": "history", "subject_cn": "历史", "score": 485, "rank": null, "prefs": null, "input_cn": "历史 485 分", "bench_input": "history 485 分（压本科线）", "short_cn": "485 分", "plan_file": "plan-C5-history-score485.json", "plan": "data/plan-C5.json", "list": "data/list-C5.md", "slot_count": 60}, {"id": "C6", "subject": "history", "subject_cn": "历史", "score": 520, "rank": null, "prefs": null, "input_cn": "历史 520 分", "bench_input": "history 520 分（历史科类中段）", "short_cn": "520 分", "plan_file": "plan-C6-history-score520.json", "plan": "data/plan-C6.json", "list": "data/list-C6.md", "slot_count": 96}, {"id": "C7", "subject": "physics", "subject_cn": "物理", "score": null, "rank": 150000, "prefs": null, "input_cn": "物理 位次 150000", "bench_input": "physics rank 150000 直给", "short_cn": "位次 150000", "plan_file": "plan-C7-physics-rank150000.json", "plan": "data/plan-C7.json", "list": "data/list-C7.md", "slot_count": 96}, {"id": "C8", "subject": "physics", "subject_cn": "物理", "score": 600, "rank": null, "prefs": {"region_blacklist": ["北京"], "nature_deny": ["民办", "独立学院"], "exclude_high_tuition_proxy": true, "prefer_public": true, "target_count": 96}, "input_cn": "物理 600 分", "bench_input": "physics 600 分 + V2 偏好（region_blacklist 北京 / nature_deny 民办+独立学院 / exclude_high_tuition_proxy / prefer_public / target_count 96）", "short_cn": "600 分", "plan_file": "plan-C8-physics-score600-v2.json", "plan": "data/plan-C8.json", "list": "data/list-C8.md", "slot_count": 96}, {"id": "C9", "subject": "physics", "subject_cn": "物理", "score": 600, "rank": null, "prefs": {"major_priority": [{"term": "计算机", "weight": 5}, {"term": "软件工程", "weight": 4}], "major_pool_ratio": 0.75}, "input_cn": "物理 600 分", "bench_input": "physics 600 分 + 专业优先（计算机 / 软件工程，专业名额比例 75%）", "short_cn": "600 分", "plan_file": "plan-C9-physics-score600-major-pref.json", "plan": "data/plan-C9.json", "list": "data/list-C9.md", "slot_count": 96}];window.__BANDS__={"covered": {"physics": [443, 682], "history": [483, 652]}, "by_subject": {"physics": {"subject_cn": "物理", "step": 5, "half": 2, "lo": 443, "hi": 682, "control": 443, "tail": {"at": 683, "count": 402, "pct_cn": "0.11%"}, "tail_admission": {"at": 683, "rows": 66, "schools": 16, "units": 66, "year": 2026, "denom": 20664, "denom_kind": "scored_rows"}, "below_admission": {"line": 443, "rows": 25, "schools": 12, "units": 25, "special_rows": 25, "general_rows": 0, "general_schools": 0, "kinds": ["八协计划", "边防军人子女预科班"], "kinds_cn": "「八协计划」「边防军人子女预科班」", "year": 2026, "denom": 20664, "denom_kind": "scored_rows"}, "step_note": "每 5 分一档，取最近档（与档顶分差 ≤2 分）", "ranges": [[443, 447, "P445"], [448, 452, "P450"], [453, 457, "P455"], [458, 462, "P460"], [463, 467, "P465"], [468, 472, "P470"], [473, 477, "P475"], [478, 482, "P480"], [483, 487, "P485"], [488, 492, "P490"], [493, 497, "P495"], [498, 502, "P500"], [503, 507, "P505"], [508, 512, "P510"], [513, 517, "P515"], [518, 522, "P520"], [523, 527, "P525"], [528, 532, "P530"], [533, 537, "P535"], [538, 542, "P540"], [543, 547, "P545"], [548, 552, "P550"], [553, 557, "P555"], [558, 562, "P560"], [563, 567, "P565"], [568, 572, "P570"], [573, 577, "P575"], [578, 582, "P580"], [583, 587, "P585"], [588, 592, "P590"], [593, 597, "P595"], [598, 602, "P600"], [603, 607, "P605"], [608, 612, "P610"], [613, 617, "P615"], [618, 622, "P620"], [623, 627, "P625"], [628, 632, "P630"], [633, 637, "P635"], [638, 642, "P640"], [643, 647, "P645"], [648, 652, "P650"], [653, 657, "P655"], [658, 662, "P660"], [663, 667, "P665"], [668, 672, "P670"], [673, 677, "P675"], [678, 682, "P680"]]}, "history": {"subject_cn": "历史", "step": 5, "half": 2, "lo": 483, "hi": 652, "control": 485, "tail": {"at": 653, "count": 211, "pct_cn": "0.09%"}, "tail_admission": {"at": 653, "rows": 34, "schools": 11, "units": 34, "year": 2026, "denom": 6619, "denom_kind": "scored_rows"}, "below_admission": {"line": 485, "rows": 30, "schools": 16, "units": 30, "special_rows": 30, "general_rows": 0, "general_schools": 0, "kinds": ["八协计划", "边防军人子女预科班"], "kinds_cn": "「八协计划」「边防军人子女预科班」", "year": 2026, "denom": 6619, "denom_kind": "scored_rows"}, "step_note": "每 5 分一档，取最近档（与档顶分差 ≤2 分）", "ranges": [[483, 487, "H485"], [488, 492, "H490"], [493, 497, "H495"], [498, 502, "H500"], [503, 507, "H505"], [508, 512, "H510"], [513, 517, "H515"], [518, 522, "H520"], [523, 527, "H525"], [528, 532, "H530"], [533, 537, "H535"], [538, 542, "H540"], [543, 547, "H545"], [548, 552, "H550"], [553, 557, "H555"], [558, 562, "H560"], [563, 567, "H565"], [568, 572, "H570"], [573, 577, "H575"], [578, 582, "H580"], [583, 587, "H585"], [588, 592, "H590"], [593, 597, "H595"], [598, 602, "H600"], [603, 607, "H605"], [608, 612, "H610"], [613, 617, "H615"], [618, 622, "H620"], [623, 627, "H625"], [628, 632, "H630"], [633, 637, "H635"], [638, 642, "H640"], [643, 647, "H645"], [648, 652, "H650"]]}}, "bands": {"P445": {"score": 445, "lo": 443, "hi": 447, "subject": "physics", "subject_cn": "物理"}, "P450": {"score": 450, "lo": 448, "hi": 452, "subject": "physics", "subject_cn": "物理"}, "P455": {"score": 455, "lo": 453, "hi": 457, "subject": "physics", "subject_cn": "物理"}, "P460": {"score": 460, "lo": 458, "hi": 462, "subject": "physics", "subject_cn": "物理"}, "P465": {"score": 465, "lo": 463, "hi": 467, "subject": "physics", "subject_cn": "物理"}, "P470": {"score": 470, "lo": 468, "hi": 472, "subject": "physics", "subject_cn": "物理"}, "P475": {"score": 475, "lo": 473, "hi": 477, "subject": "physics", "subject_cn": "物理"}, "P480": {"score": 480, "lo": 478, "hi": 482, "subject": "physics", "subject_cn": "物理"}, "P485": {"score": 485, "lo": 483, "hi": 487, "subject": "physics", "subject_cn": "物理"}, "P490": {"score": 490, "lo": 488, "hi": 492, "subject": "physics", "subject_cn": "物理"}, "P495": {"score": 495, "lo": 493, "hi": 497, "subject": "physics", "subject_cn": "物理"}, "P500": {"score": 500, "lo": 498, "hi": 502, "subject": "physics", "subject_cn": "物理"}, "P505": {"score": 505, "lo": 503, "hi": 507, "subject": "physics", "subject_cn": "物理"}, "P510": {"score": 510, "lo": 508, "hi": 512, "subject": "physics", "subject_cn": "物理"}, "P515": {"score": 515, "lo": 513, "hi": 517, "subject": "physics", "subject_cn": "物理"}, "P520": {"score": 520, "lo": 518, "hi": 522, "subject": "physics", "subject_cn": "物理"}, "P525": {"score": 525, "lo": 523, "hi": 527, "subject": "physics", "subject_cn": "物理"}, "P530": {"score": 530, "lo": 528, "hi": 532, "subject": "physics", "subject_cn": "物理"}, "P535": {"score": 535, "lo": 533, "hi": 537, "subject": "physics", "subject_cn": "物理"}, "P540": {"score": 540, "lo": 538, "hi": 542, "subject": "physics", "subject_cn": "物理"}, "P545": {"score": 545, "lo": 543, "hi": 547, "subject": "physics", "subject_cn": "物理"}, "P550": {"score": 550, "lo": 548, "hi": 552, "subject": "physics", "subject_cn": "物理"}, "P555": {"score": 555, "lo": 553, "hi": 557, "subject": "physics", "subject_cn": "物理"}, "P560": {"score": 560, "lo": 558, "hi": 562, "subject": "physics", "subject_cn": "物理"}, "P565": {"score": 565, "lo": 563, "hi": 567, "subject": "physics", "subject_cn": "物理"}, "P570": {"score": 570, "lo": 568, "hi": 572, "subject": "physics", "subject_cn": "物理"}, "P575": {"score": 575, "lo": 573, "hi": 577, "subject": "physics", "subject_cn": "物理"}, "P580": {"score": 580, "lo": 578, "hi": 582, "subject": "physics", "subject_cn": "物理"}, "P585": {"score": 585, "lo": 583, "hi": 587, "subject": "physics", "subject_cn": "物理"}, "P590": {"score": 590, "lo": 588, "hi": 592, "subject": "physics", "subject_cn": "物理"}, "P595": {"score": 595, "lo": 593, "hi": 597, "subject": "physics", "subject_cn": "物理"}, "P600": {"score": 600, "lo": 598, "hi": 602, "subject": "physics", "subject_cn": "物理"}, "P605": {"score": 605, "lo": 603, "hi": 607, "subject": "physics", "subject_cn": "物理"}, "P610": {"score": 610, "lo": 608, "hi": 612, "subject": "physics", "subject_cn": "物理"}, "P615": {"score": 615, "lo": 613, "hi": 617, "subject": "physics", "subject_cn": "物理"}, "P620": {"score": 620, "lo": 618, "hi": 622, "subject": "physics", "subject_cn": "物理"}, "P625": {"score": 625, "lo": 623, "hi": 627, "subject": "physics", "subject_cn": "物理"}, "P630": {"score": 630, "lo": 628, "hi": 632, "subject": "physics", "subject_cn": "物理"}, "P635": {"score": 635, "lo": 633, "hi": 637, "subject": "physics", "subject_cn": "物理"}, "P640": {"score": 640, "lo": 638, "hi": 642, "subject": "physics", "subject_cn": "物理"}, "P645": {"score": 645, "lo": 643, "hi": 647, "subject": "physics", "subject_cn": "物理"}, "P650": {"score": 650, "lo": 648, "hi": 652, "subject": "physics", "subject_cn": "物理"}, "P655": {"score": 655, "lo": 653, "hi": 657, "subject": "physics", "subject_cn": "物理"}, "P660": {"score": 660, "lo": 658, "hi": 662, "subject": "physics", "subject_cn": "物理"}, "P665": {"score": 665, "lo": 663, "hi": 667, "subject": "physics", "subject_cn": "物理"}, "P670": {"score": 670, "lo": 668, "hi": 672, "subject": "physics", "subject_cn": "物理"}, "P675": {"score": 675, "lo": 673, "hi": 677, "subject": "physics", "subject_cn": "物理"}, "P680": {"score": 680, "lo": 678, "hi": 682, "subject": "physics", "subject_cn": "物理"}, "H485": {"score": 485, "lo": 483, "hi": 487, "subject": "history", "subject_cn": "历史"}, "H490": {"score": 490, "lo": 488, "hi": 492, "subject": "history", "subject_cn": "历史"}, "H495": {"score": 495, "lo": 493, "hi": 497, "subject": "history", "subject_cn": "历史"}, "H500": {"score": 500, "lo": 498, "hi": 502, "subject": "history", "subject_cn": "历史"}, "H505": {"score": 505, "lo": 503, "hi": 507, "subject": "history", "subject_cn": "历史"}, "H510": {"score": 510, "lo": 508, "hi": 512, "subject": "history", "subject_cn": "历史"}, "H515": {"score": 515, "lo": 513, "hi": 517, "subject": "history", "subject_cn": "历史"}, "H520": {"score": 520, "lo": 518, "hi": 522, "subject": "history", "subject_cn": "历史"}, "H525": {"score": 525, "lo": 523, "hi": 527, "subject": "history", "subject_cn": "历史"}, "H530": {"score": 530, "lo": 528, "hi": 532, "subject": "history", "subject_cn": "历史"}, "H535": {"score": 535, "lo": 533, "hi": 537, "subject": "history", "subject_cn": "历史"}, "H540": {"score": 540, "lo": 538, "hi": 542, "subject": "history", "subject_cn": "历史"}, "H545": {"score": 545, "lo": 543, "hi": 547, "subject": "history", "subject_cn": "历史"}, "H550": {"score": 550, "lo": 548, "hi": 552, "subject": "history", "subject_cn": "历史"}, "H555": {"score": 555, "lo": 553, "hi": 557, "subject": "history", "subject_cn": "历史"}, "H560": {"score": 560, "lo": 558, "hi": 562, "subject": "history", "subject_cn": "历史"}, "H565": {"score": 565, "lo": 563, "hi": 567, "subject": "history", "subject_cn": "历史"}, "H570": {"score": 570, "lo": 568, "hi": 572, "subject": "history", "subject_cn": "历史"}, "H575": {"score": 575, "lo": 573, "hi": 577, "subject": "history", "subject_cn": "历史"}, "H580": {"score": 580, "lo": 578, "hi": 582, "subject": "history", "subject_cn": "历史"}, "H585": {"score": 585, "lo": 583, "hi": 587, "subject": "history", "subject_cn": "历史"}, "H590": {"score": 590, "lo": 588, "hi": 592, "subject": "history", "subject_cn": "历史"}, "H595": {"score": 595, "lo": 593, "hi": 597, "subject": "history", "subject_cn": "历史"}, "H600": {"score": 600, "lo": 598, "hi": 602, "subject": "history", "subject_cn": "历史"}, "H605": {"score": 605, "lo": 603, "hi": 607, "subject": "history", "subject_cn": "历史"}, "H610": {"score": 610, "lo": 608, "hi": 612, "subject": "history", "subject_cn": "历史"}, "H615": {"score": 615, "lo": 613, "hi": 617, "subject": "history", "subject_cn": "历史"}, "H620": {"score": 620, "lo": 618, "hi": 622, "subject": "history", "subject_cn": "历史"}, "H625": {"score": 625, "lo": 623, "hi": 627, "subject": "history", "subject_cn": "历史"}, "H630": {"score": 630, "lo": 628, "hi": 632, "subject": "history", "subject_cn": "历史"}, "H635": {"score": 635, "lo": 633, "hi": 637, "subject": "history", "subject_cn": "历史"}, "H640": {"score": 640, "lo": 638, "hi": 642, "subject": "history", "subject_cn": "历史"}, "H645": {"score": 645, "lo": 643, "hi": 647, "subject": "history", "subject_cn": "历史"}, "H650": {"score": 650, "lo": 648, "hi": 652, "subject": "history", "subject_cn": "历史"}}};</script>
+<script src="static/inline-index.js?v=202611192223"></script>
+<script src="static/static-boot.js?v=202611192223"></script>
+<script src="static/app.js?v=20261108a"></script>
+<script src="static/plan-fit.js"></script>
+</body>
+</html>

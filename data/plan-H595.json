@@ -1,0 +1,5565 @@
+{
+ "ok": true,
+ "summary": {
+  "subject_group": "history",
+  "algo_version": "v1-algo-0.1.0",
+  "slot_count": 96,
+  "slot_total": 96,
+  "slot_gap_note": "",
+  "layer_census": [],
+  "n_rows": 96,
+  "layers": {
+   "chong": 26,
+   "wen": 40,
+   "bao": 24,
+   "absolute_bao": 6
+  },
+  "layer_cn": {
+   "chong": "冲",
+   "wen": "稳",
+   "bao": "保",
+   "absolute_bao": "绝对保底"
+  },
+  "rank": 7036,
+  "rank_method": "score_to_cumulative_count",
+  "rank_warnings": [],
+  "warnings": [
+   "选科要求未核验：本版不校验选科 / 体检 / 单科成绩 / 语种要求，填表前必须对照当年招生章程逐校核对"
+  ],
+  "validation_errors": [],
+  "rules": true,
+  "n_b1_notes": 85,
+  "filter_enabled": false
+ },
+ "rows": [
+  {
+   "slot": 1,
+   "school": "大连大学",
+   "school_key": "大连大学[公办]",
+   "major": "会计学",
+   "direction": "",
+   "display_name": "会计学(大连大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.046634,
+   "ref_center_used": 6722.5,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 6,722.5，考生位次 7,036，margin≈-4.7%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "轻度色觉异常（俗称色弱）及色觉异常Ⅱ度（俗称色盲）不能录取到临床医学、医学检验技术、口腔医学、化学、化学工程与工艺、生物工程、制药工程、园艺、中药学、护理学、助产学专业。",
+      "truncated": false,
+      "n_chars": 85,
+      "major_named": false,
+      "sentence_index": 37,
+      "span": [
+       4207,
+       4293
+      ],
+      "locator": {
+       "file": "大连大学.txt",
+       "sha12": "f11ffde93f6e",
+       "start": 4207,
+       "end": 4293,
+       "chars": 86,
+       "sentence_index": 37,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 轻度色觉异常（俗称色弱）及色觉异常Ⅱ度（俗称色盲）不能录取到临床医学、医学检验技术、口腔医学、化学、化学工程与工艺、生物工程、制药工程、园艺、中药学、护理学、助产学专业。",
+       "start": 4207,
+       "end": 4293,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "语种限制：日语专业只招英语、日语语种的考生，英语专业只招英语语种考生。",
+      "truncated": false,
+      "n_chars": 35,
+      "major_named": false,
+      "sentence_index": 11,
+      "span": [
+       436,
+       472
+      ],
+      "locator": {
+       "file": "大连大学.txt",
+       "sha12": "f11ffde93f6e",
+       "start": 436,
+       "end": 472,
+       "chars": 36,
+       "sentence_index": 11,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 语种限制：日语专业只招英语、日语语种的考生，英语专业只招英语语种考生。",
+       "start": 436,
+       "end": 472,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 2,
+   "school": "上海政法学院",
+   "school_key": "上海政法学院[公办]",
+   "major": "新闻学",
+   "direction": "卓越新闻传播人才培养试点班",
+   "display_name": "新闻学(卓越新闻传播人才培养试点班)(上海政法学院[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.046393,
+   "ref_center_used": 6724.05,
+   "reason": "2024 投档最低分 592，对应位次区间 [5,430, 5,605]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,724.1，考生位次 7,036，margin≈-4.6%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 3,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 3,
+   "school": "湖南工业大学",
+   "school_key": "湖南工业大学(株洲市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(湖南工业大学(株洲市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.042324,
+   "ref_center_used": 6750.299999999999,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 599，对应位次区间 [6,005, 6,241]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,750.3，考生位次 7,036，margin≈-4.2%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "2. 色弱 、 色盲 不予录取的专业 ： 印刷工程 。",
+      "truncated": false,
+      "n_chars": 27,
+      "major_named": false,
+      "sentence_index": 68,
+      "span": [
+       7495,
+       7523
+      ],
+      "locator": {
+       "file": "湖南工业大学.txt",
+       "sha12": "f01611d5e4c7",
+       "start": 7495,
+       "end": 7523,
+       "chars": 28,
+       "sentence_index": 68,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 色弱 、 色盲 不予录取的专业 ： 印刷工程 。",
+       "start": 7495,
+       "end": 7523,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 4,
+   "school": "天津师范大学",
+   "school_key": "天津师范大学[公办]",
+   "major": "工商管理",
+   "direction": "",
+   "display_name": "工商管理(天津师范大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.040605,
+   "ref_center_used": 6761.450000000001,
+   "reason": "2024 投档最低分 591，对应位次区间 [5,606, 5,803]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,761.5，考生位次 7,036，margin≈-4.1%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 5,
+   "school": "燕山大学",
+   "school_key": "燕山大学(秦皇岛市)[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(燕山大学(秦皇岛市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.039345,
+   "ref_center_used": 6769.650000000001,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,769.7，考生位次 7,036，margin≈-3.9%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+      "truncated": false,
+      "n_chars": 126,
+      "major_named": false,
+      "sentence_index": 57,
+      "span": [
+       2469,
+       2596
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 2469,
+       "end": 2596,
+       "chars": 127,
+       "sentence_index": 57,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+       "start": 2469,
+       "end": 2596,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+      "truncated": false,
+      "n_chars": 46,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       1743,
+       1790
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 1743,
+       "end": 1790,
+       "chars": 47,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+       "start": 1743,
+       "end": 1790,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 6,
+   "school": "中国石油大学(北京)克拉玛依校区",
+   "school_key": "中国石油大学(北京)克拉玛依校区[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(中国石油大学(北京)克拉玛依校区[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.036161,
+   "ref_center_used": 6790.45,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 597，对应位次区间 [6,343, 6,562]（本单元）；加权参考位次约 6,790.4，考生位次 7,036，margin≈-3.6%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "uncovered",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 7,
+   "school": "华东交通大学",
+   "school_key": "华东交通大学(南昌市)[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(华东交通大学(南昌市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.034972,
+   "ref_center_used": 6798.25,
+   "reason": "2024 投档最低分 590，对应位次区间 [5,804, 5,973]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,798.2，考生位次 7,036，margin≈-3.5%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行 ， 具体要求如下： 1.环境工程、高分子材料与工程专业…（原文共 190 字）",
+      "truncated": true,
+      "n_chars": 190,
+      "major_named": false,
+      "sentence_index": 38,
+      "span": [
+       1835,
+       2025
+      ],
+      "locator": {
+       "file": "华东交通大学.txt",
+       "sha12": "d75734bc05e5",
+       "start": 1835,
+       "end": 2025,
+       "chars": 190,
+       "sentence_index": 38,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行 ， 具体要求如下： 1.环境工程、高分子材料与工程专业不招色盲色弱及不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者；",
+       "start": 1835,
+       "end": 2025,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 8,
+   "school": "济南大学",
+   "school_key": "济南大学[公办]",
+   "major": "历史学",
+   "direction": "师范类",
+   "display_name": "历史学(师范类)(济南大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.030093,
+   "ref_center_used": 6830.450000000001,
+   "reason": "2024 投档最低分 591，对应位次区间 [5,606, 5,803]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,830.5，考生位次 7,036，margin≈-3.0%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 9,
+   "school": "中南林业科技大学",
+   "school_key": "中南林业科技大学[公办]",
+   "major": "知识产权",
+   "direction": "",
+   "display_name": "知识产权(中南林业科技大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.027566,
+   "ref_center_used": 6847.25,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,847.2，考生位次 7,036，margin≈-2.8%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 4,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 10,
+   "school": "浙江传媒学院",
+   "school_key": "浙江传媒学院[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(浙江传媒学院[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.024573,
+   "ref_center_used": 6867.25,
+   "reason": "2024 投档最低分 590，对应位次区间 [5,804, 5,973]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,867.2，考生位次 7,036，margin≈-2.5%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 5,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 11,
+   "school": "延边大学",
+   "school_key": "延边大学[公办]",
+   "major": "经济学",
+   "direction": "中外合作办学",
+   "display_name": "经济学(中外合作办学)(延边大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.021457,
+   "ref_center_used": 6888.199999999999,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,888.2，考生位次 7,036，margin≈-2.1%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+      "truncated": false,
+      "n_chars": 104,
+      "major_named": true,
+      "sentence_index": 107,
+      "span": [
+       2941,
+       3046
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2941,
+       "end": 3046,
+       "chars": 105,
+       "sentence_index": 107,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+       "start": 2941,
+       "end": 3046,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+      "truncated": false,
+      "n_chars": 112,
+      "major_named": true,
+      "sentence_index": 88,
+      "span": [
+       2052,
+       2165
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2052,
+       "end": 2165,
+       "chars": 113,
+       "sentence_index": 88,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+       "start": 2052,
+       "end": 2165,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 12,
+   "school": "杭州电子科技大学",
+   "school_key": "杭州电子科技大学[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(杭州电子科技大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.021457,
+   "ref_center_used": 6888.199999999999,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,888.2，考生位次 7,036，margin≈-2.1%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "英语专业只招收外语语种为英语的考生。",
+      "truncated": false,
+      "n_chars": 18,
+      "major_named": true,
+      "sentence_index": 48,
+      "span": [
+       2866,
+       2884
+      ],
+      "locator": {
+       "file": "杭州电子科技大学.txt",
+       "sha12": "4c1c071aba6c",
+       "start": 2866,
+       "end": 2884,
+       "chars": 18,
+       "sentence_index": 48,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "英语专业只招收外语语种为英语的考生。",
+       "start": 2866,
+       "end": 2884,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 13,
+   "school": "北京印刷学院",
+   "school_key": "北京印刷学院[公办]",
+   "major": "网络与新媒体",
+   "direction": "",
+   "display_name": "网络与新媒体(北京印刷学院[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.019274,
+   "ref_center_used": 6902.95,
+   "reason": "2024 投档最低分 571，对应位次区间 [9,787, 10,021]（本单元）；2025 投档最低分 601，对应位次区间 [5,547, 5,759]（本单元）；2026 投档最低分 597，对应位次区间 [6,343, 6,562]（本单元）；加权参考位次约 6,902.9，考生位次 7,036，margin≈-1.9%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 14,
+   "school": "曲阜师范大学",
+   "school_key": "曲阜师范大学[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(曲阜师范大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.019171,
+   "ref_center_used": 6903.650000000001,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,903.7，考生位次 7,036，margin≈-1.9%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 15,
+   "school": "哈尔滨商业大学",
+   "school_key": "哈尔滨商业大学[公办]",
+   "major": "审计学",
+   "direction": "",
+   "display_name": "审计学(哈尔滨商业大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.015662,
+   "ref_center_used": 6927.499999999999,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 6,927.5，考生位次 7,036，margin≈-1.6%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 16,
+   "school": "北京联合大学",
+   "school_key": "北京联合大学[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(北京联合大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.013701,
+   "ref_center_used": 6940.900000000001,
+   "reason": "2024 投档最低分 577，对应位次区间 [8,381, 8,595]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 596，对应位次区间 [6,563, 6,798]（本单元）；加权参考位次约 6,940.9，考生位次 7,036，margin≈-1.4%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 17,
+   "school": "西安外国语大学",
+   "school_key": "西安外国语大学[公办]",
+   "major": "翻译",
+   "direction": "",
+   "display_name": "翻译(西安外国语大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.013052,
+   "ref_center_used": 6945.35,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 6,945.4，考生位次 7,036，margin≈-1.3%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "外语要求： “德语+法学”“俄语+法学” “ 日语 +法学 ” 和 “阿拉伯语+石油工程” （联合学士学位培养项目）专业只招收英语语种考生，其他专业均不限语种。",
+      "truncated": false,
+      "n_chars": 80,
+      "major_named": false,
+      "sentence_index": 47,
+      "span": [
+       2450,
+       2531
+      ],
+      "locator": {
+       "file": "西安外国语大学.txt",
+       "sha12": "7e3d15b1216f",
+       "start": 2450,
+       "end": 2531,
+       "chars": 81,
+       "sentence_index": 47,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 外语要求： “德语+法学”“俄语+法学” “ 日语 +法学 ” 和 “阿拉伯语+石油工程” （联合学士学位培养项目）专业只招收英语语种考生，其他专业均不限语种。",
+       "start": 2450,
+       "end": 2531,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 18,
+   "school": "河北大学",
+   "school_key": "河北大学(保定市)[公办]",
+   "major": "经济学",
+   "direction": "",
+   "display_name": "经济学(河北大学(保定市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.011123,
+   "ref_center_used": 6958.6,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 6,958.6，考生位次 7,036，margin≈-1.1%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 4,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+      "truncated": false,
+      "n_chars": 135,
+      "major_named": false,
+      "sentence_index": 26,
+      "span": [
+       1535,
+       1671
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1535,
+       "end": 1671,
+       "chars": 136,
+       "sentence_index": 26,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+       "start": 1535,
+       "end": 1671,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+      "truncated": false,
+      "n_chars": 64,
+      "major_named": false,
+      "sentence_index": 27,
+      "span": [
+       1671,
+       1736
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1671,
+       "end": 1736,
+       "chars": 65,
+       "sentence_index": 27,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+       "start": 1671,
+       "end": 1736,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、…（原文共 176 字）",
+      "truncated": true,
+      "n_chars": 176,
+      "major_named": true,
+      "sentence_index": 28,
+      "span": [
+       1736,
+       1913
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1736,
+       "end": 1913,
+       "chars": 177,
+       "sentence_index": 28,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、会计学、人力资源管理、财务管理、劳动与社会保障、图书馆学、档案学等专业。",
+       "start": 1736,
+       "end": 1913,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+      "truncated": false,
+      "n_chars": 32,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       2499,
+       2532
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 2499,
+       "end": 2532,
+       "chars": 33,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+       "start": 2499,
+       "end": 2532,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 19,
+   "school": "天津财经大学",
+   "school_key": "天津财经大学[公办]",
+   "major": "广播电视学",
+   "direction": "",
+   "display_name": "广播电视学(天津财经大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.00746,
+   "ref_center_used": 6983.9,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,983.9，考生位次 7,036，margin≈-0.7%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 20,
+   "school": "宁夏大学",
+   "school_key": "宁夏大学(银川市)[公办]",
+   "major": "广告学",
+   "direction": "",
+   "display_name": "广告学(宁夏大学(银川市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.00746,
+   "ref_center_used": 6983.9,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 6,983.9，考生位次 7,036，margin≈-0.7%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 21,
+   "school": "四川师范大学",
+   "school_key": "四川师范大学(成都市)[公办]",
+   "major": "教育学",
+   "direction": "",
+   "display_name": "教育学(四川师范大学(成都市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.005466,
+   "ref_center_used": 6997.75,
+   "reason": "2024 投档最低分 590，对应位次区间 [5,804, 5,973]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 6,997.8，考生位次 7,036，margin≈-0.5%，属“冲”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 22,
+   "school": "中南林业科技大学",
+   "school_key": "中南林业科技大学[公办]",
+   "major": "会计学",
+   "direction": "",
+   "display_name": "会计学(中南林业科技大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.001965,
+   "ref_center_used": 7022.199999999999,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 7,022.2，考生位次 7,036，margin≈-0.2%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 4,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 23,
+   "school": "浙江传媒学院",
+   "school_key": "浙江传媒学院[公办]",
+   "major": "编辑出版学",
+   "direction": "",
+   "display_name": "编辑出版学(浙江传媒学院[公办])",
+   "risk_layer": "chong",
+   "confidence": "high",
+   "margin_used": -0.000918,
+   "ref_center_used": 7029.549999999999,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 7,029.5，考生位次 7,036，margin≈-0.1%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 5,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 24,
+   "school": "杭州电子科技大学",
+   "school_key": "杭州电子科技大学[公办]",
+   "major": "工商管理",
+   "direction": "",
+   "display_name": "工商管理(杭州电子科技大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "medium",
+   "margin_used": -0.049797,
+   "ref_center_used": 6702.25,
+   "reason": "2024 无有效证据；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 6,702.2，考生位次 7,036，margin≈-5.0%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "英语专业只招收外语语种为英语的考生。",
+      "truncated": false,
+      "n_chars": 18,
+      "major_named": false,
+      "sentence_index": 48,
+      "span": [
+       2866,
+       2884
+      ],
+      "locator": {
+       "file": "杭州电子科技大学.txt",
+       "sha12": "4c1c071aba6c",
+       "start": 2866,
+       "end": 2884,
+       "chars": 18,
+       "sentence_index": 48,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "英语专业只招收外语语种为英语的考生。",
+       "start": 2866,
+       "end": 2884,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 25,
+   "school": "河北中医药大学",
+   "school_key": "河北中医药大学[公办]",
+   "major": "中医学",
+   "direction": "",
+   "display_name": "中医学(河北中医药大学[公办])",
+   "risk_layer": "chong",
+   "confidence": "medium",
+   "margin_used": -0.04381,
+   "ref_center_used": 6740.6875,
+   "reason": "2024 无有效证据；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 596，对应位次区间 [6,563, 6,798]（本单元）；加权参考位次约 6,740.7，考生位次 7,036，margin≈-4.4%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "2. 考生患有《指导意见》第二条列出的色盲、色弱者， 学校 中医学类、中西医结合类、医学技术类、中药学类、药学类、护理学类、生物工程类专业 、 应用心理学、健康服务与管理 、智能医学工程 等专业不予录取。",
+      "truncated": false,
+      "n_chars": 102,
+      "major_named": true,
+      "sentence_index": 27,
+      "span": [
+       1855,
+       1958
+      ],
+      "locator": {
+       "file": "河北中医药大学.txt",
+       "sha12": "62d283de2d4b",
+       "start": 1855,
+       "end": 1958,
+       "chars": 103,
+       "sentence_index": 27,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 考生患有《指导意见》第二条列出的色盲、色弱者， 学校 中医学类、中西医结合类、医学技术类、中药学类、药学类、护理学类、生物工程类专业 、 应用心理学、健康服务与管理 、智能医学工程 等专业不予录取。",
+       "start": 1855,
+       "end": 1958,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 26,
+   "school": "青海大学",
+   "school_key": "青海大学(西宁市)[公办]",
+   "major": "工商管理",
+   "direction": "",
+   "display_name": "工商管理(青海大学(西宁市)[公办])",
+   "risk_layer": "chong",
+   "confidence": "medium",
+   "margin_used": -0.04353,
+   "ref_center_used": 6742.5,
+   "reason": "2024 无有效证据；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 598，对应位次区间 [6,144, 6,342]（本单元）；加权参考位次约 6,742.5，考生位次 7,036，margin≈-4.4%，属“冲”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 3,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "患有下列疾病者，学校有关专业可不予录取： 1.轻度色觉异常（俗称色弱）可不予录取的专业：化学工程与工艺、临床医学、口腔医学、护理学、预防医学、中医学、针灸推拿学、康复治疗学、药学、中药学、生物技术、地质工程、资源勘查工程、动物医学、动物科学、生态学、食品科学与工程、农学、园艺、植…（原文共 170 字）",
+      "truncated": true,
+      "n_chars": 170,
+      "major_named": false,
+      "sentence_index": 42,
+      "span": [
+       2101,
+       2271
+      ],
+      "locator": {
+       "file": "青海大学.txt",
+       "sha12": "3136cda5edf5",
+       "start": 2101,
+       "end": 2271,
+       "chars": 170,
+       "sentence_index": 42,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "患有下列疾病者，学校有关专业可不予录取： 1.轻度色觉异常（俗称色弱）可不予录取的专业：化学工程与工艺、临床医学、口腔医学、护理学、预防医学、中医学、针灸推拿学、康复治疗学、药学、中药学、生物技术、地质工程、资源勘查工程、动物医学、动物科学、生态学、食品科学与工程、农学、园艺、植物保护、林学、农业资源与环境、环境工程、过程装备与控制工程。",
+       "start": 2101,
+       "end": 2271,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "2.色觉异常Ⅱ度（俗称色盲）可不予录取的专业：除同轻度色觉异常外，还包括冶金工程专业。",
+      "truncated": false,
+      "n_chars": 43,
+      "major_named": false,
+      "sentence_index": 43,
+      "span": [
+       2271,
+       2315
+      ],
+      "locator": {
+       "file": "青海大学.txt",
+       "sha12": "3136cda5edf5",
+       "start": 2271,
+       "end": 2315,
+       "chars": 44,
+       "sentence_index": 43,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2.色觉异常Ⅱ度（俗称色盲）可不予录取的专业：除同轻度色觉异常外，还包括冶金工程专业。",
+       "start": 2271,
+       "end": 2315,
+       "truncated": false
+      }
+     },
+     {
+      "category": "subject",
+      "category_cn": "单科",
+      "text": "2.藏医学、藏药学专业只招收民族语言（藏语）考生， 藏语文单科成绩满分 150分的情况下需达到80分及以上，满分100分的情况下需达到55分及以上；",
+      "truncated": false,
+      "n_chars": 74,
+      "major_named": false,
+      "sentence_index": 33,
+      "span": [
+       1577,
+       1652
+      ],
+      "locator": {
+       "file": "青海大学.txt",
+       "sha12": "3136cda5edf5",
+       "start": 1577,
+       "end": 1652,
+       "chars": 75,
+       "sentence_index": 33,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2.藏医学、藏药学专业只招收民族语言（藏语）考生， 藏语文单科成绩满分 150分的情况下需达到80分及以上，满分100分的情况下需达到55分及以上；",
+       "start": 1577,
+       "end": 1652,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 27,
+   "school": "宁夏大学",
+   "school_key": "宁夏大学(银川市)[公办]",
+   "major": "会计学",
+   "direction": "英国高等教育文凭项目",
+   "display_name": "会计学(英国高等教育文凭项目)(宁夏大学(银川市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.009642,
+   "ref_center_used": 7104.5,
+   "reason": "2024 投档最低分 592，对应位次区间 [5,430, 5,605]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,104.5（R5 相对加权参考位次上调 +4.2%），考生位次 7,036，margin≈1.0%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+4.20%），层 chong→wen",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 28,
+   "school": "汕头大学",
+   "school_key": "汕头大学[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(汕头大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.009642,
+   "ref_center_used": 7104.5,
+   "reason": "2024 投档最低分 594，对应位次区间 [5,115, 5,269]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,104.5（R5 相对加权参考位次上调 +3.2%），考生位次 7,036，margin≈1.0%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.15%），层 chong→wen",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "其中，患有色弱、色盲疾病者不予录取；",
+      "truncated": false,
+      "n_chars": 18,
+      "major_named": false,
+      "sentence_index": 114,
+      "span": [
+       7079,
+       7097
+      ],
+      "locator": {
+       "file": "汕头大学.txt",
+       "sha12": "980e1a80776c",
+       "start": 7079,
+       "end": 7097,
+       "chars": 18,
+       "sentence_index": 114,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "其中，患有色弱、色盲疾病者不予录取；",
+       "start": 7079,
+       "end": 7097,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 29,
+   "school": "东北师范大学",
+   "school_key": "东北师范大学[公办]",
+   "major": "金融学",
+   "direction": "中外合作办学",
+   "display_name": "金融学(中外合作办学)(东北师范大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 592，对应位次区间 [5,430, 5,605]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +4.0%），考生位次 7,036，margin≈1.8%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+4.03%），层 chong→wen",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 30,
+   "school": "山西财经大学",
+   "school_key": "山西财经大学[公办]",
+   "major": "行政管理",
+   "direction": "",
+   "display_name": "行政管理(山西财经大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 580，对应位次区间 [7,709, 7,940]（本单元）；2025 投档最低分 600，对应位次区间 [5,760, 6,004]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +3.7%），考生位次 7,036，margin≈1.8%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.67%），层 chong→wen"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 31,
+   "school": "新疆大学",
+   "school_key": "新疆大学(乌鲁木齐市)[公办]",
+   "major": "新闻传播学类",
+   "direction": "",
+   "display_name": "新闻传播学类(新疆大学(乌鲁木齐市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 592，对应位次区间 [5,430, 5,605]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +3.0%），考生位次 7,036，margin≈1.8%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+2.98%），层 chong→wen",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 6,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（三）对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的智慧农业、制药工程专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》 第二 部分 第 1 条 和第 2 条 执行，即轻度色觉异常（俗称色弱）、色觉异常 Ⅱ 度 ( 俗称色盲 ) 者以上专业不…（原文共 145 字）",
+      "truncated": true,
+      "n_chars": 145,
+      "major_named": false,
+      "sentence_index": 55,
+      "span": [
+       3477,
+       3623
+      ],
+      "locator": {
+       "file": "新疆大学.txt",
+       "sha12": "7011f97b7441",
+       "start": 3477,
+       "end": 3623,
+       "chars": 146,
+       "sentence_index": 55,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的智慧农业、制药工程专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》 第二 部分 第 1 条 和第 2 条 执行，即轻度色觉异常（俗称色弱）、色觉异常 Ⅱ 度 ( 俗称色盲 ) 者以上专业不能录取 ；",
+       "start": 3477,
+       "end": 3623,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "智慧交通、交通工程专业，参照《普通高等学校招生体检工作指导意见》 第二 部分第 2 条执行，即色觉异常Ⅱ度 ( 俗称色盲 ) 者以上专业不能录取。",
+      "truncated": false,
+      "n_chars": 73,
+      "major_named": false,
+      "sentence_index": 56,
+      "span": [
+       3623,
+       3696
+      ],
+      "locator": {
+       "file": "新疆大学.txt",
+       "sha12": "7011f97b7441",
+       "start": 3623,
+       "end": 3696,
+       "chars": 73,
+       "sentence_index": 56,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "智慧交通、交通工程专业，参照《普通高等学校招生体检工作指导意见》 第二 部分第 2 条执行，即色觉异常Ⅱ度 ( 俗称色盲 ) 者以上专业不能录取。",
+       "start": 3623,
+       "end": 3696,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 32,
+   "school": "扬州大学",
+   "school_key": "扬州大学[公办]",
+   "major": "小学教育",
+   "direction": "",
+   "display_name": "小学教育(扬州大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.009642,
+   "ref_center_used": 7104.5,
+   "reason": "2024 投档最低分 599，对应位次区间 [4,301, 4,451]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；保守参考位次约 7,104.5（R5 相对加权参考位次上调 +1.7%），考生位次 7,036，margin≈1.0%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+1.71%），层 chong→wen",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 33,
+   "school": "河北经贸大学",
+   "school_key": "河北经贸大学(地方专项计划)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(河北经贸大学(地方专项计划)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.027841,
+   "ref_center_used": 7237.5,
+   "reason": "2024 投档最低分 583，对应位次区间 [7,139, 7,336]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 596，对应位次区间 [6,563, 6,798]（本单元）；保守参考位次约 7,237.5（R5 相对加权参考位次上调 +3.5%），考生位次 7,036，margin≈2.8%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.54%），层 chong→wen"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 34,
+   "school": "中南民族大学",
+   "school_key": "中南民族大学(武汉市)[公办]",
+   "major": "社会学",
+   "direction": "",
+   "display_name": "社会学(中南民族大学(武汉市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 583，对应位次区间 [7,139, 7,336]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +2.3%），考生位次 7,036，margin≈1.8%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+2.34%），层 chong→wen"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 3,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "对《意见》中第二条所列情况，在 202 6 年招生专业（类）中，轻度色觉异常（色弱）不予录取化学类、材料类、药学类 （ 含药学 + 民族学双学士学位） 、应用心理学、智能医学工程；",
+      "truncated": false,
+      "n_chars": 90,
+      "major_named": false,
+      "sentence_index": 50,
+      "span": [
+       2804,
+       2894
+      ],
+      "locator": {
+       "file": "中南民族大学.txt",
+       "sha12": "f054e55a8849",
+       "start": 2804,
+       "end": 2894,
+       "chars": 90,
+       "sentence_index": 50,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "对《意见》中第二条所列情况，在 202 6 年招生专业（类）中，轻度色觉异常（色弱）不予录取化学类、材料类、药学类 （ 含药学 + 民族学双学士学位） 、应用心理学、智能医学工程；",
+       "start": 2804,
+       "end": 2894,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "不能准确识别红、黄、绿、 兰 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取除同轻度色觉异常、色觉异常 Ⅱ 度两类列出的不能录取专业（类）外，还包括行政管理、土地资源管理、工商管理类、信息管理与信息系统和数字经济。",
+      "truncated": false,
+      "n_chars": 117,
+      "major_named": false,
+      "sentence_index": 52,
+      "span": [
+       2950,
+       3067
+      ],
+      "locator": {
+       "file": "中南民族大学.txt",
+       "sha12": "f054e55a8849",
+       "start": 2950,
+       "end": 3067,
+       "chars": 117,
+       "sentence_index": 52,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "不能准确识别红、黄、绿、 兰 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取除同轻度色觉异常、色觉异常 Ⅱ 度两类列出的不能录取专业（类）外，还包括行政管理、土地资源管理、工商管理类、信息管理与信息系统和数字经济。",
+       "start": 2950,
+       "end": 3067,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十条 外国语言文学类各专业只招收本语种和英语语种考生，其他专业不限考生应试外语语种，但新生进校后均须以英语为第一外语安排教学（非英语语种的考生慎重填报）。",
+      "truncated": false,
+      "n_chars": 79,
+      "major_named": false,
+      "sentence_index": 46,
+      "span": [
+       2607,
+       2687
+      ],
+      "locator": {
+       "file": "中南民族大学.txt",
+       "sha12": "f054e55a8849",
+       "start": 2607,
+       "end": 2687,
+       "chars": 80,
+       "sentence_index": 46,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十条 外国语言文学类各专业只招收本语种和英语语种考生，其他专业不限考生应试外语语种，但新生进校后均须以英语为第一外语安排教学（非英语语种的考生慎重填报）。",
+       "start": 2607,
+       "end": 2687,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 35,
+   "school": "河南财经政法大学",
+   "school_key": "河南财经政法大学(郑州市)[公办]",
+   "major": "经济学",
+   "direction": "",
+   "display_name": "经济学(河南财经政法大学(郑州市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +1.8%），考生位次 7,036，margin≈1.8%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十六条 外语类各专业只招收英语语种考生，其他专业外语语种不限，考生进校后原则上均以英语为第一外语安排教学。",
+      "truncated": false,
+      "n_chars": 55,
+      "major_named": false,
+      "sentence_index": 74,
+      "span": [
+       4020,
+       4076
+      ],
+      "locator": {
+       "file": "河南财经政法大学.txt",
+       "sha12": "aef6f8d51345",
+       "start": 4020,
+       "end": 4076,
+       "chars": 56,
+       "sentence_index": 74,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十六条 外语类各专业只招收英语语种考生，其他专业外语语种不限，考生进校后原则上均以英语为第一外语安排教学。",
+       "start": 4020,
+       "end": 4076,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 36,
+   "school": "燕山大学",
+   "school_key": "燕山大学(秦皇岛市)[公办]",
+   "major": "经济与金融",
+   "direction": "",
+   "display_name": "经济与金融(燕山大学(秦皇岛市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.009642,
+   "ref_center_used": 7104.5,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,104.5（R5 相对加权参考位次上调 +0.8%），考生位次 7,036，margin≈1.0%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+      "truncated": false,
+      "n_chars": 126,
+      "major_named": false,
+      "sentence_index": 57,
+      "span": [
+       2469,
+       2596
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 2469,
+       "end": 2596,
+       "chars": 127,
+       "sentence_index": 57,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+       "start": 2469,
+       "end": 2596,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+      "truncated": false,
+      "n_chars": 46,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       1743,
+       1790
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 1743,
+       "end": 1790,
+       "chars": 47,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+       "start": 1743,
+       "end": 1790,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 37,
+   "school": "山东师范大学",
+   "school_key": "山东师范大学(济南市)[公办]",
+   "major": "地理科学类",
+   "direction": "",
+   "display_name": "地理科学类(山东师范大学(济南市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.003258,
+   "ref_center_used": 7059.0,
+   "reason": "2024 投档最低分 590，对应位次区间 [5,804, 5,973]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,059.0，考生位次 7,036，margin≈0.3%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 38,
+   "school": "中国劳动关系学院",
+   "school_key": "中国劳动关系学院[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(中国劳动关系学院[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.041547,
+   "ref_center_used": 7341.0,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 596，对应位次区间 [6,563, 6,798]（本单元）；保守参考位次约 7,341.0（R5 相对加权参考位次上调 +3.9%），考生位次 7,036，margin≈4.2%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 39,
+   "school": "湖南工商大学",
+   "school_key": "湖南工商大学(长沙市)[公办]",
+   "major": "经济学",
+   "direction": "",
+   "display_name": "经济学(湖南工商大学(长沙市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.009189,
+   "ref_center_used": 7101.25,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 7,101.2，考生位次 7,036，margin≈0.9%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 40,
+   "school": "天津外国语大学",
+   "school_key": "天津外国语大学[公办]",
+   "major": "外交学",
+   "direction": "",
+   "display_name": "外交学(天津外国语大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.010651,
+   "ref_center_used": 7111.75,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,111.8，考生位次 7,036，margin≈1.1%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 41,
+   "school": "天津工业大学",
+   "school_key": "天津工业大学[公办]",
+   "major": "日语",
+   "direction": "",
+   "display_name": "日语(天津工业大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.01102,
+   "ref_center_used": 7114.4,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,114.4，考生位次 7,036，margin≈1.1%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（二）符合意见中第二部分的考生，学校有关专业可不予录取 1. 轻度色觉异常（俗称色弱）不能录取的专业：轻化工程、高分子材料与工程、化学工程与工艺、应用化学、制药工程、药学、环境工程、化学生物学、生物医学工程、智能医学工程。",
+      "truncated": false,
+      "n_chars": 111,
+      "major_named": false,
+      "sentence_index": 33,
+      "span": [
+       2056,
+       2168
+      ],
+      "locator": {
+       "file": "天津工业大学.txt",
+       "sha12": "b2f881d30fa0",
+       "start": 2056,
+       "end": 2168,
+       "chars": 112,
+       "sentence_index": 33,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （二）符合意见中第二部分的考生，学校有关专业可不予录取 1. 轻度色觉异常（俗称色弱）不能录取的专业：轻化工程、高分子材料与工程、化学工程与工艺、应用化学、制药工程、药学、环境工程、化学生物学、生物医学工程、智能医学工程。",
+       "start": 2056,
+       "end": 2168,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 42,
+   "school": "云南财经大学",
+   "school_key": "云南财经大学(昆明市)[公办]",
+   "major": "会计学",
+   "direction": "",
+   "display_name": "会计学(云南财经大学(昆明市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.018278,
+   "ref_center_used": 7167.0,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 7,167.0（R5 相对加权参考位次上调 +0.2%），考生位次 7,036，margin≈1.8%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "6. 外语语种要求：商务英语、泰语专业只招收英语语种考生，报考以上专业的考生，需参加当地招考办组织的英语口语测试，且成绩合格；",
+      "truncated": false,
+      "n_chars": 63,
+      "major_named": false,
+      "sentence_index": 38,
+      "span": [
+       1542,
+       1606
+      ],
+      "locator": {
+       "file": "云南财经大学.txt",
+       "sha12": "8091f0376b51",
+       "start": 1542,
+       "end": 1606,
+       "chars": 64,
+       "sentence_index": 38,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 6. 外语语种要求：商务英语、泰语专业只招收英语语种考生，报考以上专业的考生，需参加当地招考办组织的英语口语测试，且成绩合格；",
+       "start": 1542,
+       "end": 1606,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 43,
+   "school": "河南师范大学",
+   "school_key": "河南师范大学(新乡市)[公办]",
+   "major": "法学类",
+   "direction": "",
+   "display_name": "法学类(河南师范大学(新乡市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.019885,
+   "ref_center_used": 7178.75,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 7,178.8，考生位次 7,036，margin≈2.0%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "2. 轻度色觉异常（俗称色弱）考生不能录取的专业：化学、生物科学、考古学。",
+      "truncated": false,
+      "n_chars": 37,
+      "major_named": false,
+      "sentence_index": 30,
+      "span": [
+       1810,
+       1848
+      ],
+      "locator": {
+       "file": "河南师范大学.txt",
+       "sha12": "96ca9efaeab1",
+       "start": 1810,
+       "end": 1848,
+       "chars": 38,
+       "sentence_index": 30,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 轻度色觉异常（俗称色弱）考生不能录取的专业：化学、生物科学、考古学。",
+       "start": 1810,
+       "end": 1848,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 44,
+   "school": "西南民族大学",
+   "school_key": "西南民族大学[公办]",
+   "major": "财务管理",
+   "direction": "",
+   "display_name": "财务管理(西南民族大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.019885,
+   "ref_center_used": 7178.75,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；加权参考位次约 7,178.8，考生位次 7,036，margin≈2.0%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、 数字经济 、 会计学、财务管理、人力资源管理、物流管理、行政管理。",
+      "truncated": false,
+      "n_chars": 116,
+      "major_named": true,
+      "sentence_index": 62,
+      "span": [
+       3006,
+       3123
+      ],
+      "locator": {
+       "file": "西南民族大学.txt",
+       "sha12": "161ca6456be8",
+       "start": 3006,
+       "end": 3123,
+       "chars": 117,
+       "sentence_index": 62,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、 数字经济 、 会计学、财务管理、人力资源管理、物流管理、行政管理。",
+       "start": 3006,
+       "end": 3123,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "英语专业只招收英语 语种 考生，其它专业不限考生 外语 语种 。",
+      "truncated": false,
+      "n_chars": 32,
+      "major_named": false,
+      "sentence_index": 55,
+      "span": [
+       2608,
+       2641
+      ],
+      "locator": {
+       "file": "西南民族大学.txt",
+       "sha12": "161ca6456be8",
+       "start": 2608,
+       "end": 2641,
+       "chars": 33,
+       "sentence_index": 55,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 英语专业只招收英语 语种 考生，其它专业不限考生 外语 语种 。",
+       "start": 2608,
+       "end": 2641,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 45,
+   "school": "延边大学",
+   "school_key": "延边大学[公办]",
+   "major": "朝鲜语",
+   "direction": "",
+   "display_name": "朝鲜语(延边大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.021221,
+   "ref_center_used": 7188.55,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,188.6，考生位次 7,036，margin≈2.1%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+      "truncated": false,
+      "n_chars": 104,
+      "major_named": false,
+      "sentence_index": 107,
+      "span": [
+       2941,
+       3046
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2941,
+       "end": 3046,
+       "chars": 105,
+       "sentence_index": 107,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+       "start": 2941,
+       "end": 3046,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+      "truncated": false,
+      "n_chars": 112,
+      "major_named": false,
+      "sentence_index": 88,
+      "span": [
+       2052,
+       2165
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2052,
+       "end": 2165,
+       "chars": 113,
+       "sentence_index": 88,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+       "start": 2052,
+       "end": 2165,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 46,
+   "school": "武汉工程大学",
+   "school_key": "武汉工程大学[公办]",
+   "major": "经济学",
+   "direction": "CFA国际特许金融分析师方向",
+   "display_name": "经济学(CFA国际特许金融分析师方向)(武汉工程大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.021691,
+   "ref_center_used": 7191.999999999999,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,192.0，考生位次 7,036，margin≈2.2%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 47,
+   "school": "辽宁师范大学",
+   "school_key": "辽宁师范大学[公办]",
+   "major": "历史学",
+   "direction": "师范",
+   "display_name": "历史学(师范)(辽宁师范大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.023144,
+   "ref_center_used": 7202.700000000001,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,202.7，考生位次 7,036，margin≈2.3%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（二）语种要求 1. 外国语学院英语（师范）、英语（中外合作办学）、翻译、法语专业只招收英语考生。",
+      "truncated": false,
+      "n_chars": 49,
+      "major_named": false,
+      "sentence_index": 14,
+      "span": [
+       1030,
+       1080
+      ],
+      "locator": {
+       "file": "辽宁师范大学.txt",
+       "sha12": "38e561bc56ef",
+       "start": 1030,
+       "end": 1080,
+       "chars": 50,
+       "sentence_index": 14,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （二）语种要求 1. 外国语学院英语（师范）、英语（中外合作办学）、翻译、法语专业只招收英语考生。",
+       "start": 1030,
+       "end": 1080,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 48,
+   "school": "四川外国语大学",
+   "school_key": "四川外国语大学(重庆市)[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(四川外国语大学(重庆市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.041547,
+   "ref_center_used": 7341.0,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,341.0（R5 相对加权参考位次上调 +1.8%），考生位次 7,036，margin≈4.2%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 49,
+   "school": "山东师范大学",
+   "school_key": "山东师范大学(济南市)[公办]",
+   "major": "金融学类",
+   "direction": "",
+   "display_name": "金融学类(山东师范大学(济南市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.027068,
+   "ref_center_used": 7231.75,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,231.8，考生位次 7,036，margin≈2.7%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 50,
+   "school": "安徽工业大学",
+   "school_key": "安徽工业大学(马鞍山市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(安徽工业大学(马鞍山市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.027277,
+   "ref_center_used": 7233.299999999999,
+   "reason": "2024 投档最低分 583，对应位次区间 [7,139, 7,336]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 7,233.3，考生位次 7,036，margin≈2.7%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "具体要求如下： （1）轻度色觉异常（俗称色弱）不能录取的专业：以颜色波长作为严格技术标准的化学工程与工艺、应用化学、化学生物学、光电信息科学与工程、环境工程专业。",
+      "truncated": false,
+      "n_chars": 81,
+      "major_named": false,
+      "sentence_index": 29,
+      "span": [
+       1588,
+       1669
+      ],
+      "locator": {
+       "file": "安徽工业大学.txt",
+       "sha12": "2910599c7d99",
+       "start": 1588,
+       "end": 1669,
+       "chars": 81,
+       "sentence_index": 29,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "具体要求如下： （1）轻度色觉异常（俗称色弱）不能录取的专业：以颜色波长作为严格技术标准的化学工程与工艺、应用化学、化学生物学、光电信息科学与工程、环境工程专业。",
+       "start": 1588,
+       "end": 1669,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（3）不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、大数据管理与应用、市场营销、会计学专业。",
+      "truncated": false,
+      "n_chars": 103,
+      "major_named": false,
+      "sentence_index": 31,
+      "span": [
+       1756,
+       1860
+      ],
+      "locator": {
+       "file": "安徽工业大学.txt",
+       "sha12": "2910599c7d99",
+       "start": 1756,
+       "end": 1860,
+       "chars": 104,
+       "sentence_index": 31,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （3）不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、大数据管理与应用、市场营销、会计学专业。",
+       "start": 1756,
+       "end": 1860,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 51,
+   "school": "四川师范大学",
+   "school_key": "四川师范大学(成都市)[公办]",
+   "major": "地理科学",
+   "direction": "",
+   "display_name": "地理科学(四川师范大学(成都市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.028801,
+   "ref_center_used": 7244.65,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,244.6，考生位次 7,036，margin≈2.9%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 52,
+   "school": "长沙理工大学",
+   "school_key": "长沙理工大学[公办]",
+   "major": "国际经济与贸易",
+   "direction": "",
+   "display_name": "国际经济与贸易(长沙理工大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.028801,
+   "ref_center_used": 7244.65,
+   "reason": "2024 投档最低分 589，对应位次区间 [5,974, 6,167]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,244.6，考生位次 7,036，margin≈2.9%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "特别提示： 1.轻度色觉异常（俗称色弱）可不予录取的专业：应用化学、化学生物学、化学工程与工艺、生物工程、食品科学与工程、食品营养与健康、制药工程等专业；",
+      "truncated": false,
+      "n_chars": 77,
+      "major_named": false,
+      "sentence_index": 54,
+      "span": [
+       6844,
+       6921
+      ],
+      "locator": {
+       "file": "长沙理工大学.txt",
+       "sha12": "80553f31dbf5",
+       "start": 6844,
+       "end": 6921,
+       "chars": 77,
+       "sentence_index": 54,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "特别提示： 1.轻度色觉异常（俗称色弱）可不予录取的专业：应用化学、化学生物学、化学工程与工艺、生物工程、食品科学与工程、食品营养与健康、制药工程等专业；",
+       "start": 6844,
+       "end": 6921,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者可不予录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括国际经济与贸易、金融学、会计学、财务管理、数字经济、工商管理、工程管理。",
+      "truncated": false,
+      "n_chars": 115,
+      "major_named": true,
+      "sentence_index": 56,
+      "span": [
+       6991,
+       7107
+      ],
+      "locator": {
+       "file": "长沙理工大学.txt",
+       "sha12": "80553f31dbf5",
+       "start": 6991,
+       "end": 7107,
+       "chars": 116,
+       "sentence_index": 56,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者可不予录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括国际经济与贸易、金融学、会计学、财务管理、数字经济、工商管理、工程管理。",
+       "start": 6991,
+       "end": 7107,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 53,
+   "school": "石河子大学",
+   "school_key": "石河子大学[公办]",
+   "major": "教育学",
+   "direction": "",
+   "display_name": "教育学(石河子大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.030914,
+   "ref_center_used": 7260.449999999999,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 7,260.4，考生位次 7,036，margin≈3.1%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲…（原文共 161 字）",
+      "truncated": true,
+      "n_chars": 161,
+      "major_named": false,
+      "sentence_index": 46,
+      "span": [
+       2481,
+       2642
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2481,
+       "end": 2642,
+       "chars": 161,
+       "sentence_index": 46,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲)者以上专业不能录取，请有关考生谨慎报考。",
+       "start": 2481,
+       "end": 2642,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十一条 英语专业只招收英语语种的考生。",
+      "truncated": false,
+      "n_chars": 21,
+      "major_named": false,
+      "sentence_index": 37,
+      "span": [
+       2017,
+       2039
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2017,
+       "end": 2039,
+       "chars": 22,
+       "sentence_index": 37,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十一条 英语专业只招收英语语种的考生。",
+       "start": 2017,
+       "end": 2039,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 54,
+   "school": "昆明理工大学",
+   "school_key": "昆明理工大学[公办]",
+   "major": "会计学",
+   "direction": "",
+   "display_name": "会计学(昆明理工大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.032027,
+   "ref_center_used": 7268.799999999999,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,268.8，考生位次 7,036，margin≈3.2%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 2,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "gender",
+      "category_cn": "性别",
+      "text": "第二十 五 条 按照航空公司的要求，飞行技术专业只招男生，学校其他专业招生男女生比例不限。",
+      "truncated": false,
+      "n_chars": 45,
+      "major_named": false,
+      "sentence_index": 68,
+      "span": [
+       3207,
+       3253
+      ],
+      "locator": {
+       "file": "昆明理工大学.txt",
+       "sha12": "affcbe7c4dd1",
+       "start": 3207,
+       "end": 3253,
+       "chars": 46,
+       "sentence_index": 68,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十 五 条 按照航空公司的要求，飞行技术专业只招男生，学校其他专业招生男女生比例不限。",
+       "start": 3207,
+       "end": 3253,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 55,
+   "school": "新疆大学",
+   "school_key": "新疆大学(乌鲁木齐市)[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(新疆大学(乌鲁木齐市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.075852,
+   "ref_center_used": 7613.5,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 596，对应位次区间 [6,563, 6,798]（本单元）；保守参考位次约 7,613.5（R5 相对加权参考位次上调 +4.5%），考生位次 7,036，margin≈7.6%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 6,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（三）对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的智慧农业、制药工程专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》 第二 部分 第 1 条 和第 2 条 执行，即轻度色觉异常（俗称色弱）、色觉异常 Ⅱ 度 ( 俗称色盲 ) 者以上专业不…（原文共 145 字）",
+      "truncated": true,
+      "n_chars": 145,
+      "major_named": false,
+      "sentence_index": 55,
+      "span": [
+       3477,
+       3623
+      ],
+      "locator": {
+       "file": "新疆大学.txt",
+       "sha12": "7011f97b7441",
+       "start": 3477,
+       "end": 3623,
+       "chars": 146,
+       "sentence_index": 55,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的智慧农业、制药工程专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》 第二 部分 第 1 条 和第 2 条 执行，即轻度色觉异常（俗称色弱）、色觉异常 Ⅱ 度 ( 俗称色盲 ) 者以上专业不能录取 ；",
+       "start": 3477,
+       "end": 3623,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "智慧交通、交通工程专业，参照《普通高等学校招生体检工作指导意见》 第二 部分第 2 条执行，即色觉异常Ⅱ度 ( 俗称色盲 ) 者以上专业不能录取。",
+      "truncated": false,
+      "n_chars": 73,
+      "major_named": false,
+      "sentence_index": 56,
+      "span": [
+       3623,
+       3696
+      ],
+      "locator": {
+       "file": "新疆大学.txt",
+       "sha12": "7011f97b7441",
+       "start": 3623,
+       "end": 3696,
+       "chars": 73,
+       "sentence_index": 56,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "智慧交通、交通工程专业，参照《普通高等学校招生体检工作指导意见》 第二 部分第 2 条执行，即色觉异常Ⅱ度 ( 俗称色盲 ) 者以上专业不能录取。",
+       "start": 3623,
+       "end": 3696,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 56,
+   "school": "天津外国语大学",
+   "school_key": "天津外国语大学[公办]",
+   "major": "意大利语",
+   "direction": "",
+   "display_name": "意大利语(天津外国语大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.034173,
+   "ref_center_used": 7284.949999999999,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；加权参考位次约 7,284.9，考生位次 7,036，margin≈3.4%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 57,
+   "school": "延边大学",
+   "school_key": "延边大学[公办]",
+   "major": "日语",
+   "direction": "",
+   "display_name": "日语(延边大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.041547,
+   "ref_center_used": 7341.0,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 594，对应位次区间 [7,229, 7,453]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；保守参考位次约 7,341.0（R5 相对加权参考位次上调 +0.5%），考生位次 7,036，margin≈4.2%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+      "truncated": false,
+      "n_chars": 104,
+      "major_named": false,
+      "sentence_index": 107,
+      "span": [
+       2941,
+       3046
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2941,
+       "end": 3046,
+       "chars": 105,
+       "sentence_index": 107,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。",
+       "start": 2941,
+       "end": 3046,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+      "truncated": false,
+      "n_chars": 112,
+      "major_named": true,
+      "sentence_index": 88,
+      "span": [
+       2052,
+       2165
+      ],
+      "locator": {
+       "file": "延边大学.txt",
+       "sha12": "76b2e0a6216c",
+       "start": 2052,
+       "end": 2165,
+       "chars": 113,
+       "sentence_index": 88,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。",
+       "start": 2052,
+       "end": 2165,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 58,
+   "school": "湖北师范大学",
+   "school_key": "湖北师范大学(黄石市)[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(湖北师范大学(黄石市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.05271,
+   "ref_center_used": 7427.5,
+   "reason": "2024 投档最低分 582，对应位次区间 [7,337, 7,518]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,427.5（R5 相对加权参考位次上调 +1.3%），考生位次 7,036，margin≈5.3%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第十二条 外语类各专业（英语、 日 语、商 务英语）只招收 本专业语种和英语语种考生。",
+      "truncated": false,
+      "n_chars": 43,
+      "major_named": false,
+      "sentence_index": 19,
+      "span": [
+       1051,
+       1095
+      ],
+      "locator": {
+       "file": "湖北师范大学.txt",
+       "sha12": "4854a0db023b",
+       "start": 1051,
+       "end": 1095,
+       "chars": 44,
+       "sentence_index": 19,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第十二条 外语类各专业（英语、 日 语、商 务英语）只招收 本专业语种和英语语种考生。",
+       "start": 1051,
+       "end": 1095,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 59,
+   "school": "哈尔滨商业大学",
+   "school_key": "哈尔滨商业大学[公办]",
+   "major": "财务管理",
+   "direction": "",
+   "display_name": "财务管理(哈尔滨商业大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.053665,
+   "ref_center_used": 7435.0,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,435.0（R5 相对加权参考位次上调 +1.0%），考生位次 7,036，margin≈5.4%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 60,
+   "school": "浙江工商大学",
+   "school_key": "浙江工商大学(杭州市)[公办]",
+   "major": "公共管理类",
+   "direction": "",
+   "display_name": "公共管理类(浙江工商大学(杭州市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.053665,
+   "ref_center_used": 7435.0,
+   "reason": "2024 投档最低分 585，对应位次区间 [6,739, 6,946]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,435.0（R5 相对加权参考位次上调 +1.0%），考生位次 7,036，margin≈5.4%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 61,
+   "school": "西安外国语大学",
+   "school_key": "西安外国语大学[公办]",
+   "major": "德语",
+   "direction": "",
+   "display_name": "德语(西安外国语大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.04408,
+   "ref_center_used": 7360.449999999999,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 596，对应位次区间 [6,702, 6,980]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,360.4，考生位次 7,036，margin≈4.4%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "外语要求： “德语+法学”“俄语+法学” “ 日语 +法学 ” 和 “阿拉伯语+石油工程” （联合学士学位培养项目）专业只招收英语语种考生，其他专业均不限语种。",
+      "truncated": false,
+      "n_chars": 80,
+      "major_named": true,
+      "sentence_index": 47,
+      "span": [
+       2450,
+       2531
+      ],
+      "locator": {
+       "file": "西安外国语大学.txt",
+       "sha12": "7e3d15b1216f",
+       "start": 2450,
+       "end": 2531,
+       "chars": 81,
+       "sentence_index": 47,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 外语要求： “德语+法学”“俄语+法学” “ 日语 +法学 ” 和 “阿拉伯语+石油工程” （联合学士学位培养项目）专业只招收英语语种考生，其他专业均不限语种。",
+       "start": 2450,
+       "end": 2531,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 62,
+   "school": "山东财经大学",
+   "school_key": "山东财经大学(济南市)[公办]",
+   "major": "国际经济发展合作",
+   "direction": "",
+   "display_name": "国际经济发展合作(山东财经大学(济南市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.053665,
+   "ref_center_used": 7435.0,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 595，对应位次区间 [6,981, 7,228]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,435.0（R5 相对加权参考位次上调 +0.9%），考生位次 7,036，margin≈5.4%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 63,
+   "school": "北京联合大学",
+   "school_key": "北京联合大学[公办]",
+   "major": "工商管理",
+   "direction": "",
+   "display_name": "工商管理(北京联合大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.053665,
+   "ref_center_used": 7435.0,
+   "reason": "2024 投档最低分 577，对应位次区间 [8,381, 8,595]（本单元）；2025 投档最低分 597，对应位次区间 [6,446, 6,701]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 7,435.0（R5 相对加权参考位次上调 +0.6%），考生位次 7,036，margin≈5.4%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 64,
+   "school": "吉林财经大学",
+   "school_key": "吉林财经大学(长春市)[公办]",
+   "major": "财政学",
+   "direction": "",
+   "display_name": "财政学(吉林财经大学(长春市)[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.075852,
+   "ref_center_used": 7613.5,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 595，对应位次区间 [6,799, 7,036]（本单元）；保守参考位次约 7,613.5（R5 相对加权参考位次上调 +2.8%），考生位次 7,036，margin≈7.6%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 2,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第 六 章 录取说明 第 十一 条 专业培养对外语语种的要求 学校英语、日语专业只招收外语语种为英语的考生，日语专业学生入学后按零起点培养。",
+      "truncated": false,
+      "n_chars": 70,
+      "major_named": false,
+      "sentence_index": 14,
+      "span": [
+       1441,
+       1512
+      ],
+      "locator": {
+       "file": "吉林财经大学.txt",
+       "sha12": "d5c4390928bf",
+       "start": 1441,
+       "end": 1512,
+       "chars": 71,
+       "sentence_index": 14,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第 六 章 录取说明 第 十一 条 专业培养对外语语种的要求 学校英语、日语专业只招收外语语种为英语的考生，日语专业学生入学后按零起点培养。",
+       "start": 1441,
+       "end": 1512,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 65,
+   "school": "上海对外经贸大学",
+   "school_key": "上海对外经贸大学[公办]",
+   "major": "日语",
+   "direction": "商务方向",
+   "display_name": "日语(商务方向)(上海对外经贸大学[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.050722,
+   "ref_center_used": 7411.950000000001,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 598，对应位次区间 [6,242, 6,445]（本单元）；2026 投档最低分 589，对应位次区间 [8,373, 8,653]（本单元）；加权参考位次约 7,412.0，考生位次 7,036，margin≈5.1%，属“稳”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 3,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（ 三 ） 在普通本科平行志愿批次中，对完全服从专业调剂（含中外合作专业）且 语种、 体检不受限的进档考生，学校承诺不退档。",
+      "truncated": false,
+      "n_chars": 62,
+      "major_named": false,
+      "sentence_index": 28,
+      "span": [
+       1694,
+       1757
+      ],
+      "locator": {
+       "file": "上海对外经贸大学.txt",
+       "sha12": "717844133016",
+       "start": 1694,
+       "end": 1757,
+       "chars": 63,
+       "sentence_index": 28,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 三 ） 在普通本科平行志愿批次中，对完全服从专业调剂（含中外合作专业）且 语种、 体检不受限的进档考生，学校承诺不退档。",
+       "start": 1694,
+       "end": 1757,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 66,
+   "school": "浙江传媒学院",
+   "school_key": "浙江传媒学院[公办]",
+   "major": "广告学",
+   "direction": "",
+   "display_name": "广告学(浙江传媒学院[公办])",
+   "risk_layer": "wen",
+   "confidence": "high",
+   "margin_used": 0.050876,
+   "ref_center_used": 7413.15,
+   "reason": "2024 投档最低分 584，对应位次区间 [6,947, 7,138]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；加权参考位次约 7,413.1，考生位次 7,036，margin≈5.1%，属“稳”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 5,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 67,
+   "school": "吉林财经大学",
+   "school_key": "吉林财经大学(长春市)[公办]",
+   "major": "金融学",
+   "direction": "",
+   "display_name": "金融学(吉林财经大学(长春市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.234219,
+   "ref_center_used": 9188.0,
+   "reason": "2024 投档最低分 574，对应位次区间 [9,067, 9,309]（本单元）；2025 投档最低分 586，对应位次区间 [9,300, 9,573]（本单元）；2026 投档最低分 604，对应位次区间 [4,860, 5,064]（本单元）；保守参考位次约 9,188.0（R5 相对加权参考位次上调 +28.5%），考生位次 7,036，margin≈23.4%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+28.51%），层 wen→bao"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 2,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第 六 章 录取说明 第 十一 条 专业培养对外语语种的要求 学校英语、日语专业只招收外语语种为英语的考生，日语专业学生入学后按零起点培养。",
+      "truncated": false,
+      "n_chars": 70,
+      "major_named": false,
+      "sentence_index": 14,
+      "span": [
+       1441,
+       1512
+      ],
+      "locator": {
+       "file": "吉林财经大学.txt",
+       "sha12": "d5c4390928bf",
+       "start": 1441,
+       "end": 1512,
+       "chars": 71,
+       "sentence_index": 14,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第 六 章 录取说明 第 十一 条 专业培养对外语语种的要求 学校英语、日语专业只招收外语语种为英语的考生，日语专业学生入学后按零起点培养。",
+       "start": 1441,
+       "end": 1512,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 68,
+   "school": "浙江财经大学",
+   "school_key": "浙江财经大学[公办]",
+   "major": "城乡规划",
+   "direction": "",
+   "display_name": "城乡规划(浙江财经大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.100658,
+   "ref_center_used": 7823.5,
+   "reason": "2024 投档最低分 588，对应位次区间 [6,168, 6,356]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；保守参考位次约 7,823.5（R5 相对加权参考位次上调 +3.2%），考生位次 7,036，margin≈10.1%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.24%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "八、预留计划数及使用原则 无预留计划 九、专业教学培养使用的外语语种 外国语言文学类专业只招收英语语种考生，其他专业不限制考生应试外语语种。",
+      "truncated": false,
+      "n_chars": 70,
+      "major_named": false,
+      "sentence_index": 6,
+      "span": [
+       496,
+       567
+      ],
+      "locator": {
+       "file": "浙江财经大学.txt",
+       "sha12": "8af7b677fbe6",
+       "start": 496,
+       "end": 567,
+       "chars": 71,
+       "sentence_index": 6,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 八、预留计划数及使用原则 无预留计划 九、专业教学培养使用的外语语种 外国语言文学类专业只招收英语语种考生，其他专业不限制考生应试外语语种。",
+       "start": 496,
+       "end": 567,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 69,
+   "school": "四川农业大学",
+   "school_key": "四川农业大学[公办]",
+   "major": "经济学",
+   "direction": "中外高水平大学学生交流计划",
+   "display_name": "经济学(中外高水平大学学生交流计划)(四川农业大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.100658,
+   "ref_center_used": 7823.5,
+   "reason": "2024 投档最低分 591，对应位次区间 [5,606, 5,803]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 7,823.5（R5 相对加权参考位次上调 +2.9%），考生位次 7,036，margin≈10.1%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+2.88%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取的专业，除同色觉异常Ⅱ度（俗称色盲）列出专业外，还包括：农村区域发展，土地资源管理，经济学，农林经济管理，财务管理，会计学，工商管理。",
+      "truncated": false,
+      "n_chars": 113,
+      "major_named": true,
+      "sentence_index": 32,
+      "span": [
+       1953,
+       2067
+      ],
+      "locator": {
+       "file": "四川农业大学.txt",
+       "sha12": "adde3b8ee9e5",
+       "start": 1953,
+       "end": 2067,
+       "chars": 114,
+       "sentence_index": 32,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取的专业，除同色觉异常Ⅱ度（俗称色盲）列出专业外，还包括：农村区域发展，土地资源管理，经济学，农林经济管理，财务管理，会计学，工商管理。",
+       "start": 1953,
+       "end": 2067,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "英语、翻译专业仅限英语语种考生报考，中外合作办学、“中外高水平大学学生交流计划—学分互认联合培养项目”非英语语种考生谨慎报考，其余专业不限制外语语种。",
+      "truncated": false,
+      "n_chars": 75,
+      "major_named": false,
+      "sentence_index": 44,
+      "span": [
+       2759,
+       2834
+      ],
+      "locator": {
+       "file": "四川农业大学.txt",
+       "sha12": "adde3b8ee9e5",
+       "start": 2759,
+       "end": 2834,
+       "chars": 75,
+       "sentence_index": 44,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "英语、翻译专业仅限英语语种考生报考，中外合作办学、“中外高水平大学学生交流计划—学分互认联合培养项目”非英语语种考生谨慎报考，其余专业不限制外语语种。",
+       "start": 2759,
+       "end": 2834,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 70,
+   "school": "南京工程学院",
+   "school_key": "南京工程学院[公办]",
+   "major": "会计学",
+   "direction": "",
+   "display_name": "会计学(南京工程学院[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.100658,
+   "ref_center_used": 7823.5,
+   "reason": "2024 投档最低分 584，对应位次区间 [6,947, 7,138]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；保守参考位次约 7,823.5（R5 相对加权参考位次上调 +1.2%），考生位次 7,036，margin≈10.1%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+1.16%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（三）英语专业只招收英语语种考生，中外合作办学专业适宜英语语种考生报考。",
+      "truncated": false,
+      "n_chars": 36,
+      "major_named": false,
+      "sentence_index": 18,
+      "span": [
+       923,
+       960
+      ],
+      "locator": {
+       "file": "南京工程学院.txt",
+       "sha12": "fa1399f3ae7a",
+       "start": 923,
+       "end": 960,
+       "chars": 37,
+       "sentence_index": 18,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）英语专业只招收英语语种考生，中外合作办学专业适宜英语语种考生报考。",
+       "start": 923,
+       "end": 960,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 71,
+   "school": "河南农业大学",
+   "school_key": "河南农业大学(郑州市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(河南农业大学(郑州市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.100658,
+   "ref_center_used": 7823.5,
+   "reason": "2024 投档最低分 583，对应位次区间 [7,139, 7,336]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；保守参考位次约 7,823.5（R5 相对加权参考位次上调 +0.7%），考生位次 7,036，margin≈10.1%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+0.65%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 3,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "有以下情况者，学校有关专业不予录取： 1.轻度色觉异常（俗称色弱）不能录取的专业：动物医学（神农创新班）、植物保护（神农创新班）、生物技术（神农创新班）、 应用化学、应用化学（绿色碳储）、化学生物学、制药工程、药物制剂、生物科学、生物技术、生物工程、动物医学、动物科学、水产养殖学…（原文共 207 字）",
+      "truncated": true,
+      "n_chars": 207,
+      "major_named": false,
+      "sentence_index": 28,
+      "span": [
+       1340,
+       1547
+      ],
+      "locator": {
+       "file": "河南农业大学.txt",
+       "sha12": "68a9af39e559",
+       "start": 1340,
+       "end": 1547,
+       "chars": 207,
+       "sentence_index": 28,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "有以下情况者，学校有关专业不予录取： 1.轻度色觉异常（俗称色弱）不能录取的专业：动物医学（神农创新班）、植物保护（神农创新班）、生物技术（神农创新班）、 应用化学、应用化学（绿色碳储）、化学生物学、制药工程、药物制剂、生物科学、生物技术、生物工程、动物医学、动物科学、水产养殖学、 生态学、食品科学与工程（烟草工程）、 食品科学与工程、农学、植物保护、园艺、茶学、林学、林学（森林康养）、园林、农业资源与环境 。",
+       "start": 1340,
+       "end": 1547,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常II度两类列出专业外，还包括 经济学 、数字经济、农林经济管理、财务管理、管理科学、土地资源管理专业。",
+      "truncated": false,
+      "n_chars": 116,
+      "major_named": false,
+      "sentence_index": 30,
+      "span": [
+       1607,
+       1724
+      ],
+      "locator": {
+       "file": "河南农业大学.txt",
+       "sha12": "68a9af39e559",
+       "start": 1607,
+       "end": 1724,
+       "chars": 117,
+       "sentence_index": 30,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常II度两类列出专业外，还包括 经济学 、数字经济、农林经济管理、财务管理、管理科学、土地资源管理专业。",
+       "start": 1607,
+       "end": 1724,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十条 学校外语类专业除日语专业外其他专业只招收外语语种为英语的考生。",
+      "truncated": false,
+      "n_chars": 36,
+      "major_named": false,
+      "sentence_index": 60,
+      "span": [
+       3116,
+       3153
+      ],
+      "locator": {
+       "file": "河南农业大学.txt",
+       "sha12": "68a9af39e559",
+       "start": 3116,
+       "end": 3153,
+       "chars": 37,
+       "sentence_index": 60,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十条 学校外语类专业除日语专业外其他专业只招收外语语种为英语的考生。",
+       "start": 3116,
+       "end": 3153,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 72,
+   "school": "四川师范大学",
+   "school_key": "四川师范大学(成都市)[公办]",
+   "major": "汉语国际教育",
+   "direction": "",
+   "display_name": "汉语国际教育(四川师范大学(成都市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.145391,
+   "ref_center_used": 8233.0,
+   "reason": "2024 投档最低分 590，对应位次区间 [5,804, 5,973]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 8,233.0（R5 相对加权参考位次上调 +5.7%），考生位次 7,036，margin≈14.5%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+5.68%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 73,
+   "school": "江西师范大学",
+   "school_key": "江西师范大学[公办]",
+   "major": "思想政治教育",
+   "direction": "",
+   "display_name": "思想政治教育(江西师范大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.100658,
+   "ref_center_used": 7823.5,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 7,823.5（R5 相对加权参考位次上调 +0.4%），考生位次 7,036，margin≈10.1%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+0.39%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行，其中不能录取的专业具体要求如下： 1．轻度色觉异常(俗…（原文共 266 字）",
+      "truncated": true,
+      "n_chars": 266,
+      "major_named": false,
+      "sentence_index": 38,
+      "span": [
+       2835,
+       3101
+      ],
+      "locator": {
+       "file": "江西师范大学.txt",
+       "sha12": "606ec02c8098",
+       "start": 2835,
+       "end": 3101,
+       "chars": 266,
+       "sentence_index": 38,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行，其中不能录取的专业具体要求如下： 1．轻度色觉异常(俗称色弱)不能录取的专业：以颜色波长作为严格技术标准的化学类（化学、应用化学）、化工与制药类（化学工程与工艺）、药学类（药学）、生物科学类（生物科学）、生物工程、心理学、应用心理学、食品科学与工程、材料化学、过程装备与控制工程、学前教育、特殊教育各专业。",
+       "start": 2835,
+       "end": 3101,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3．不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常II度两类列出专业外，还包括经济学类（经济学）、管理科学与工程类（工程管理、大数据管理与应用）、工商管理类（文化产业管理、工商管理、会计学）、公共管理…（原文共 158 字）",
+      "truncated": true,
+      "n_chars": 158,
+      "major_named": false,
+      "sentence_index": 40,
+      "span": [
+       3191,
+       3350
+      ],
+      "locator": {
+       "file": "江西师范大学.txt",
+       "sha12": "606ec02c8098",
+       "start": 3191,
+       "end": 3350,
+       "chars": 159,
+       "sentence_index": 40,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3．不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常II度两类列出专业外，还包括经济学类（经济学）、管理科学与工程类（工程管理、大数据管理与应用）、工商管理类（文化产业管理、工商管理、会计学）、公共管理类（公共事业管理、行政管理）各专业。",
+       "start": 3191,
+       "end": 3350,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 74,
+   "school": "山西大学",
+   "school_key": "山西大学[公办]",
+   "major": "翻译",
+   "direction": "",
+   "display_name": "翻译(山西大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.115692,
+   "ref_center_used": 7956.5,
+   "reason": "2024 投档最低分 584，对应位次区间 [6,947, 7,138]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；保守参考位次约 7,956.5（R5 相对加权参考位次上调 +1.9%），考生位次 7,036，margin≈11.6%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+1.90%），层 wen→bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "结合我校专业培养要求，招生专业（类）对考生体检条件提出如下要求： 1.轻度色觉异常（俗称色弱）不能录取的专业：应用心理学、考古学、考古学（文物全科）；",
+      "truncated": false,
+      "n_chars": 75,
+      "major_named": false,
+      "sentence_index": 35,
+      "span": [
+       1943,
+       2018
+      ],
+      "locator": {
+       "file": "山西大学.txt",
+       "sha12": "c504b67f92c9",
+       "start": 1943,
+       "end": 2018,
+       "chars": 75,
+       "sentence_index": 35,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "结合我校专业培养要求，招生专业（类）对考生体检条件提出如下要求： 1.轻度色觉异常（俗称色弱）不能录取的专业：应用心理学、考古学、考古学（文物全科）；",
+       "start": 1943,
+       "end": 2018,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的考生不能录取的专业：除上述第1、2条（色弱、色盲）不能录取专业外，还包括计算机科学与技术、计算机科学与技术（先进计算）。",
+      "truncated": false,
+      "n_chars": 89,
+      "major_named": false,
+      "sentence_index": 37,
+      "span": [
+       2135,
+       2225
+      ],
+      "locator": {
+       "file": "山西大学.txt",
+       "sha12": "c504b67f92c9",
+       "start": 2135,
+       "end": 2225,
+       "chars": 90,
+       "sentence_index": 37,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的考生不能录取的专业：除上述第1、2条（色弱、色盲）不能录取专业外，还包括计算机科学与技术、计算机科学与技术（先进计算）。",
+       "start": 2135,
+       "end": 2225,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 75,
+   "school": "石河子大学",
+   "school_key": "石河子大学[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(石河子大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.125148,
+   "ref_center_used": 8042.5,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 593，对应位次区间 [7,298, 7,572]（本单元）；保守参考位次约 8,042.5（R5 相对加权参考位次上调 +2.8%），考生位次 7,036，margin≈12.5%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲…（原文共 161 字）",
+      "truncated": true,
+      "n_chars": 161,
+      "major_named": false,
+      "sentence_index": 46,
+      "span": [
+       2481,
+       2642
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2481,
+       "end": 2642,
+       "chars": 161,
+       "sentence_index": 46,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲)者以上专业不能录取，请有关考生谨慎报考。",
+       "start": 2481,
+       "end": 2642,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十一条 英语专业只招收英语语种的考生。",
+      "truncated": false,
+      "n_chars": 21,
+      "major_named": true,
+      "sentence_index": 37,
+      "span": [
+       2017,
+       2039
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2017,
+       "end": 2039,
+       "chars": 22,
+       "sentence_index": 37,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十一条 英语专业只招收英语语种的考生。",
+       "start": 2017,
+       "end": 2039,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 76,
+   "school": "河北大学",
+   "school_key": "河北大学(保定市)[公办]",
+   "major": "人力资源管理",
+   "direction": "",
+   "display_name": "人力资源管理(河北大学(保定市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.154429,
+   "ref_center_used": 8321.0,
+   "reason": "2024 投档最低分 576，对应位次区间 [8,596, 8,851]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 594，对应位次区间 [7,037, 7,297]（本单元）；保守参考位次约 8,321.0（R5 相对加权参考位次上调 +6.3%），考生位次 7,036，margin≈15.4%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 4,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+      "truncated": false,
+      "n_chars": 135,
+      "major_named": false,
+      "sentence_index": 26,
+      "span": [
+       1535,
+       1671
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1535,
+       "end": 1671,
+       "chars": 136,
+       "sentence_index": 26,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+       "start": 1535,
+       "end": 1671,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+      "truncated": false,
+      "n_chars": 64,
+      "major_named": false,
+      "sentence_index": 27,
+      "span": [
+       1671,
+       1736
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1671,
+       "end": 1736,
+       "chars": 65,
+       "sentence_index": 27,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+       "start": 1671,
+       "end": 1736,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、…（原文共 176 字）",
+      "truncated": true,
+      "n_chars": 176,
+      "major_named": true,
+      "sentence_index": 28,
+      "span": [
+       1736,
+       1913
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1736,
+       "end": 1913,
+       "chars": 177,
+       "sentence_index": 28,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、会计学、人力资源管理、财务管理、劳动与社会保障、图书馆学、档案学等专业。",
+       "start": 1736,
+       "end": 1913,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+      "truncated": false,
+      "n_chars": 32,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       2499,
+       2532
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 2499,
+       "end": 2532,
+       "chars": 33,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+       "start": 2499,
+       "end": 2532,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 77,
+   "school": "西南民族大学",
+   "school_key": "西南民族大学[公办]",
+   "major": "金融学",
+   "direction": "",
+   "display_name": "金融学(西南民族大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.104709,
+   "ref_center_used": 7858.9,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 589，对应位次区间 [8,373, 8,653]（本单元）；加权参考位次约 7,858.9，考生位次 7,036，margin≈10.5%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、 数字经济 、 会计学、财务管理、人力资源管理、物流管理、行政管理。",
+      "truncated": false,
+      "n_chars": 116,
+      "major_named": false,
+      "sentence_index": 62,
+      "span": [
+       3006,
+       3123
+      ],
+      "locator": {
+       "file": "西南民族大学.txt",
+       "sha12": "161ca6456be8",
+       "start": 3006,
+       "end": 3123,
+       "chars": 117,
+       "sentence_index": 62,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、 数字经济 、 会计学、财务管理、人力资源管理、物流管理、行政管理。",
+       "start": 3006,
+       "end": 3123,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "英语专业只招收英语 语种 考生，其它专业不限考生 外语 语种 。",
+      "truncated": false,
+      "n_chars": 32,
+      "major_named": false,
+      "sentence_index": 55,
+      "span": [
+       2608,
+       2641
+      ],
+      "locator": {
+       "file": "西南民族大学.txt",
+       "sha12": "161ca6456be8",
+       "start": 2608,
+       "end": 2641,
+       "chars": 33,
+       "sentence_index": 55,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 英语专业只招收英语 语种 考生，其它专业不限考生 外语 语种 。",
+       "start": 2608,
+       "end": 2641,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 78,
+   "school": "成都大学",
+   "school_key": "成都大学[公办]",
+   "major": "工商管理",
+   "direction": "",
+   "display_name": "工商管理(成都大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.105631,
+   "ref_center_used": 7866.999999999999,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；加权参考位次约 7,867.0，考生位次 7,036，margin≈10.6%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十六条 英语、商务英语专业只招收英语语种的考生，其他专业不限外语语种，考生进校后原则上以英语为第一外语安排教学。",
+      "truncated": false,
+      "n_chars": 58,
+      "major_named": false,
+      "sentence_index": 65,
+      "span": [
+       3423,
+       3482
+      ],
+      "locator": {
+       "file": "成都大学.txt",
+       "sha12": "5da848f9f78a",
+       "start": 3423,
+       "end": 3482,
+       "chars": 59,
+       "sentence_index": 65,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十六条 英语、商务英语专业只招收英语语种的考生，其他专业不限外语语种，考生进校后原则上以英语为第一外语安排教学。",
+       "start": 3423,
+       "end": 3482,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 79,
+   "school": "大连外国语大学",
+   "school_key": "大连外国语大学[公办]",
+   "major": "英语",
+   "direction": "",
+   "display_name": "英语(大连外国语大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.128183,
+   "ref_center_used": 8070.5,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 8,070.5（R5 相对加权参考位次上调 +2.6%），考生位次 7,036，margin≈12.8%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "2. 英语、商务英语、翻译三个专业只招收英语语种考生。",
+      "truncated": false,
+      "n_chars": 27,
+      "major_named": true,
+      "sentence_index": 12,
+      "span": [
+       442,
+       470
+      ],
+      "locator": {
+       "file": "大连外国语大学.txt",
+       "sha12": "09aca6da465f",
+       "start": 442,
+       "end": 470,
+       "chars": 28,
+       "sentence_index": 12,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 英语、商务英语、翻译三个专业只招收英语语种考生。",
+       "start": 442,
+       "end": 470,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 80,
+   "school": "山东农业大学",
+   "school_key": "山东农业大学(泰安市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(山东农业大学(泰安市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.125148,
+   "ref_center_used": 8042.5,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；保守参考位次约 8,042.5（R5 相对加权参考位次上调 +2.1%），考生位次 7,036，margin≈12.5%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 81,
+   "school": "燕山大学",
+   "school_key": "燕山大学(秦皇岛市)[公办]",
+   "major": "汉语国际教育",
+   "direction": "",
+   "display_name": "汉语国际教育(燕山大学(秦皇岛市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.108831,
+   "ref_center_used": 7895.249999999999,
+   "reason": "2024 投档最低分 587，对应位次区间 [6,357, 6,560]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 589，对应位次区间 [8,373, 8,653]（本单元）；加权参考位次约 7,895.2，考生位次 7,036，margin≈10.9%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+      "truncated": false,
+      "n_chars": 126,
+      "major_named": false,
+      "sentence_index": 57,
+      "span": [
+       2469,
+       2596
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 2469,
+       "end": 2596,
+       "chars": 127,
+       "sentence_index": 57,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。",
+       "start": 2469,
+       "end": 2596,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+      "truncated": false,
+      "n_chars": 46,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       1743,
+       1790
+      ],
+      "locator": {
+       "file": "燕山大学.txt",
+       "sha12": "0330f77c476b",
+       "start": 1743,
+       "end": 1790,
+       "chars": 47,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。",
+       "start": 1743,
+       "end": 1790,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 82,
+   "school": "大连外国语大学",
+   "school_key": "大连外国语大学[公办]",
+   "major": "葡萄牙语",
+   "direction": "",
+   "display_name": "葡萄牙语(大连外国语大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.214644,
+   "ref_center_used": 8959.0,
+   "reason": "2024 投档最低分 575，对应位次区间 [8,852, 9,066]（本单元）；2025 投档最低分 580，对应位次区间 [11,024, 11,284]（本单元）；2026 投档最低分 601，对应位次区间 [5,473, 5,690]（本单元）；保守参考位次约 8,959.0（R5 相对加权参考位次上调 +13.0%），考生位次 7,036，margin≈21.5%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "2. 英语、商务英语、翻译三个专业只招收英语语种考生。",
+      "truncated": false,
+      "n_chars": 27,
+      "major_named": false,
+      "sentence_index": 12,
+      "span": [
+       442,
+       470
+      ],
+      "locator": {
+       "file": "大连外国语大学.txt",
+       "sha12": "09aca6da465f",
+       "start": 442,
+       "end": 470,
+       "chars": 28,
+       "sentence_index": 12,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 英语、商务英语、翻译三个专业只招收英语语种考生。",
+       "start": 442,
+       "end": 470,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 83,
+   "school": "河南师范大学",
+   "school_key": "河南师范大学(新乡市)[公办]",
+   "major": "汉语言文学",
+   "direction": "",
+   "display_name": "汉语言文学(河南师范大学(新乡市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.113122,
+   "ref_center_used": 7933.449999999999,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 589，对应位次区间 [8,373, 8,653]（本单元）；加权参考位次约 7,933.4，考生位次 7,036，margin≈11.3%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 1,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "2. 轻度色觉异常（俗称色弱）考生不能录取的专业：化学、生物科学、考古学。",
+      "truncated": false,
+      "n_chars": 37,
+      "major_named": false,
+      "sentence_index": 30,
+      "span": [
+       1810,
+       1848
+      ],
+      "locator": {
+       "file": "河南师范大学.txt",
+       "sha12": "96ca9efaeab1",
+       "start": 1810,
+       "end": 1848,
+       "chars": 38,
+       "sentence_index": 30,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 2. 轻度色觉异常（俗称色弱）考生不能录取的专业：化学、生物科学、考古学。",
+       "start": 1810,
+       "end": 1848,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 84,
+   "school": "四川外国语大学",
+   "school_key": "四川外国语大学(重庆市)[公办]",
+   "major": "汉语国际教育",
+   "direction": "",
+   "display_name": "汉语国际教育(四川外国语大学(重庆市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.128183,
+   "ref_center_used": 8070.5,
+   "reason": "2024 投档最低分 599，对应位次区间 [4,301, 4,451]（本单元）；2025 投档最低分 591，对应位次区间 [7,951, 8,190]（本单元）；2026 投档最低分 586，对应位次区间 [9,224, 9,490]（本单元）；保守参考位次约 8,070.5（R5 相对加权参考位次上调 +1.2%），考生位次 7,036，margin≈12.8%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 85,
+   "school": "天津中医药大学",
+   "school_key": "天津中医药大学[公办]",
+   "major": "传播学",
+   "direction": "",
+   "display_name": "传播学(天津中医药大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.118986,
+   "ref_center_used": 7986.249999999999,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 592，对应位次区间 [7,697, 7,950]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；加权参考位次约 7,986.2，考生位次 7,036，margin≈11.9%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 86,
+   "school": "辽宁科技大学",
+   "school_key": "辽宁科技大学(鞍山市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(辽宁科技大学(鞍山市)[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.119999,
+   "ref_center_used": 7995.45,
+   "reason": "2024 投档最低分 576，对应位次区间 [8,596, 8,851]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 591，对应位次区间 [7,820, 8,093]（本单元）；加权参考位次约 7,995.4，考生位次 7,036，margin≈12.0%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（ 1 ） 轻度色觉异常（俗称色弱） 不能录取的专业： 应用化学、储能科学与工程、化学工程与工艺、环境工程、生物工程。",
+      "truncated": false,
+      "n_chars": 59,
+      "major_named": false,
+      "sentence_index": 47,
+      "span": [
+       4972,
+       5032
+      ],
+      "locator": {
+       "file": "辽宁科技大学.txt",
+       "sha12": "af6aa3a4d690",
+       "start": 4972,
+       "end": 5032,
+       "chars": 60,
+       "sentence_index": 47,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 1 ） 轻度色觉异常（俗称色弱） 不能录取的专业： 应用化学、储能科学与工程、化学工程与工艺、环境工程、生物工程。",
+       "start": 4972,
+       "end": 5032,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（ 3 ） 不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不能录取的专业：除同轻度色觉异常、色觉异常 II 度两类可不予录取专业外， 还包括 金融科技、国际经济与贸易、工商管理、市场营销、会计学、财务管理 、 计算机科学与技术 。",
+      "truncated": false,
+      "n_chars": 136,
+      "major_named": false,
+      "sentence_index": 49,
+      "span": [
+       5140,
+       5277
+      ],
+      "locator": {
+       "file": "辽宁科技大学.txt",
+       "sha12": "af6aa3a4d690",
+       "start": 5140,
+       "end": 5277,
+       "chars": 137,
+       "sentence_index": 49,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 3 ） 不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不能录取的专业：除同轻度色觉异常、色觉异常 II 度两类可不予录取专业外， 还包括 金融科技、国际经济与贸易、工商管理、市场营销、会计学、财务管理 、 计算机科学与技术 。",
+       "start": 5140,
+       "end": 5277,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 87,
+   "school": "石河子大学",
+   "school_key": "石河子大学[公办]",
+   "major": "社会工作",
+   "direction": "",
+   "display_name": "社会工作(石河子大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.148442,
+   "ref_center_used": 8262.5,
+   "reason": "2024 投档最低分 578，对应位次区间 [8,145, 8,380]（本单元）；2025 投档最低分 590，对应位次区间 [8,191, 8,451]（本单元）；2026 投档最低分 592，对应位次区间 [7,573, 7,819]（本单元）；保守参考位次约 8,262.5（R5 相对加权参考位次上调 +3.3%），考生位次 7,036，margin≈14.8%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "hard",
+    "n_hard": 2,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲…（原文共 161 字）",
+      "truncated": true,
+      "n_chars": 161,
+      "major_named": false,
+      "sentence_index": 46,
+      "span": [
+       2481,
+       2642
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2481,
+       "end": 2642,
+       "chars": 161,
+       "sentence_index": 46,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": "对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲)者以上专业不能录取，请有关考生谨慎报考。",
+       "start": 2481,
+       "end": 2642,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "第二十一条 英语专业只招收英语语种的考生。",
+      "truncated": false,
+      "n_chars": 21,
+      "major_named": false,
+      "sentence_index": 37,
+      "span": [
+       2017,
+       2039
+      ],
+      "locator": {
+       "file": "石河子大学.txt",
+       "sha12": "04eee983fa3b",
+       "start": 2017,
+       "end": 2039,
+       "chars": 22,
+       "sentence_index": 37,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 第二十一条 英语专业只招收英语语种的考生。",
+       "start": 2017,
+       "end": 2039,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 88,
+   "school": "苏州科技大学",
+   "school_key": "苏州科技大学[公办]",
+   "major": "历史学",
+   "direction": "师范",
+   "display_name": "历史学(师范)(苏州科技大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.120214,
+   "ref_center_used": 7997.4,
+   "reason": "2024 投档最低分 586，对应位次区间 [6,561, 6,738]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 588，对应位次区间 [8,654, 8,926]（本单元）；加权参考位次约 7,997.4，考生位次 7,036，margin≈12.0%，属“保”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 3,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "其中： （ 1 ） 轻度色觉异常（俗称色弱）不能录取的专业：生物工程、应用心理学、材料化学。",
+      "truncated": false,
+      "n_chars": 46,
+      "major_named": false,
+      "sentence_index": 20,
+      "span": [
+       1215,
+       1262
+      ],
+      "locator": {
+       "file": "苏州科技大学.txt",
+       "sha12": "3a1b2bdb00db",
+       "start": 1215,
+       "end": 1262,
+       "chars": 47,
+       "sentence_index": 20,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 其中： （ 1 ） 轻度色觉异常（俗称色弱）不能录取的专业：生物工程、应用心理学、材料化学。",
+       "start": 1215,
+       "end": 1262,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（ 3 ） 不能准确识别红、黄、绿、 蓝 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：同轻度色觉异常、色觉异常 Ⅱ度两类列出专业。",
+      "truncated": false,
+      "n_chars": 80,
+      "major_named": false,
+      "sentence_index": 22,
+      "span": [
+       1330,
+       1411
+      ],
+      "locator": {
+       "file": "苏州科技大学.txt",
+       "sha12": "3a1b2bdb00db",
+       "start": 1330,
+       "end": 1411,
+       "chars": 81,
+       "sentence_index": 22,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 3 ） 不能准确识别红、黄、绿、 蓝 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：同轻度色觉异常、色觉异常 Ⅱ度两类列出专业。",
+       "start": 1330,
+       "end": 1411,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "3. 高考外语语种要求： 英语专业只招收英语语种考生， 其他专业不限制考生应试语种，进校后 主要 以英语安排公共外语教学，请非英语语种考生根据自身情况，慎重报考。",
+      "truncated": false,
+      "n_chars": 81,
+      "major_named": false,
+      "sentence_index": 24,
+      "span": [
+       1466,
+       1548
+      ],
+      "locator": {
+       "file": "苏州科技大学.txt",
+       "sha12": "3a1b2bdb00db",
+       "start": 1466,
+       "end": 1548,
+       "chars": 82,
+       "sentence_index": 24,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " 3. 高考外语语种要求： 英语专业只招收英语语种考生， 其他专业不限制考生应试语种，进校后 主要 以英语安排公共外语教学，请非英语语种考生根据自身情况，慎重报考。",
+       "start": 1466,
+       "end": 1548,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 89,
+   "school": "中国石油大学(北京)克拉玛依校区",
+   "school_key": "中国石油大学(北京)克拉玛依校区[公办]",
+   "major": "俄语",
+   "direction": "",
+   "display_name": "俄语(中国石油大学(北京)克拉玛依校区[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.125148,
+   "ref_center_used": 8042.5,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 8,042.5（R5 相对加权参考位次上调 +0.6%），考生位次 7,036，margin≈12.5%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "uncovered",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 90,
+   "school": "西南石油大学",
+   "school_key": "西南石油大学[公办]",
+   "major": "市场营销",
+   "direction": "",
+   "display_name": "市场营销(西南石油大学[公办])",
+   "risk_layer": "bao",
+   "confidence": "high",
+   "margin_used": 0.125148,
+   "ref_center_used": 8042.5,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 593，对应位次区间 [7,454, 7,696]（本单元）；2026 投档最低分 590，对应位次区间 [8,094, 8,372]（本单元）；保守参考位次约 8,042.5（R5 相对加权参考位次上调 +0.6%），考生位次 7,036，margin≈12.5%，属“保”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 91,
+   "school": "河北大学",
+   "school_key": "河北大学(保定市)[公办]",
+   "major": "历史学类",
+   "direction": "",
+   "display_name": "历史学类(河北大学(保定市)[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.270427,
+   "ref_center_used": 9644.0,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 585，对应位次区间 [9,574, 9,855]（本单元）；2026 投档最低分 585，对应位次区间 [9,491, 9,797]（本单元）；保守参考位次约 9,644.0（R5 相对加权参考位次上调 +3.2%），考生位次 7,036，margin≈27.0%，属“绝对保底”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.20%），层 bao→absolute_bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "hard",
+    "n_hard": 4,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": [
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+      "truncated": false,
+      "n_chars": 135,
+      "major_named": false,
+      "sentence_index": 26,
+      "span": [
+       1535,
+       1671
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1535,
+       "end": 1671,
+       "chars": 136,
+       "sentence_index": 26,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。",
+       "start": 1535,
+       "end": 1671,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+      "truncated": false,
+      "n_chars": 64,
+      "major_named": false,
+      "sentence_index": 27,
+      "span": [
+       1671,
+       1736
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1671,
+       "end": 1736,
+       "chars": 65,
+       "sentence_index": 27,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。",
+       "start": 1671,
+       "end": 1736,
+       "truncated": false
+      }
+     },
+     {
+      "category": "vision",
+      "category_cn": "视力 / 色觉",
+      "text": "（四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、…（原文共 176 字）",
+      "truncated": true,
+      "n_chars": 176,
+      "major_named": false,
+      "sentence_index": 28,
+      "span": [
+       1736,
+       1913
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 1736,
+       "end": 1913,
+       "chars": 177,
+       "sentence_index": 28,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、会计学、人力资源管理、财务管理、劳动与社会保障、图书馆学、档案学等专业。",
+       "start": 1736,
+       "end": 1913,
+       "truncated": false
+      }
+     },
+     {
+      "category": "lang",
+      "category_cn": "语种",
+      "text": "（ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+      "truncated": false,
+      "n_chars": 32,
+      "major_named": false,
+      "sentence_index": 39,
+      "span": [
+       2499,
+       2532
+      ],
+      "locator": {
+       "file": "河北大学.txt",
+       "sha12": "70ff0d7735e9",
+       "start": 2499,
+       "end": 2532,
+       "chars": 33,
+       "sentence_index": 39,
+       "ok": true,
+       "reasons": []
+      },
+      "context": {
+       "text": " （ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；",
+       "start": 2499,
+       "end": 2532,
+       "truncated": false
+      }
+     }
+    ]
+   }
+  },
+  {
+   "slot": 92,
+   "school": "济南大学",
+   "school_key": "济南大学[公办]",
+   "major": "公共管理类",
+   "direction": "",
+   "display_name": "公共管理类(济南大学[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.270427,
+   "ref_center_used": 9644.0,
+   "reason": "2024 投档最低分 579，对应位次区间 [7,941, 8,144]（本单元）；2025 投档最低分 585，对应位次区间 [9,574, 9,855]（本单元）；2026 投档最低分 585，对应位次区间 [9,491, 9,797]（本单元）；保守参考位次约 9,644.0（R5 相对加权参考位次上调 +3.2%），考生位次 7,036，margin≈27.0%，属“绝对保底”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+3.20%），层 bao→absolute_bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 2,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 93,
+   "school": "云南民族大学",
+   "school_key": "云南民族大学(昆明市)[公办]",
+   "major": "法学",
+   "direction": "",
+   "display_name": "法学(云南民族大学(昆明市)[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.254385,
+   "ref_center_used": 9436.5,
+   "reason": "2024 投档最低分 577，对应位次区间 [8,381, 8,595]（本单元）；2025 投档最低分 586，对应位次区间 [9,300, 9,573]（本单元）；2026 投档最低分 585，对应位次区间 [9,491, 9,797]（本单元）；保守参考位次约 9,436.5（R5 相对加权参考位次上调 +0.9%），考生位次 7,036，margin≈25.4%，属“绝对保底”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+0.92%），层 bao→absolute_bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 2,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 94,
+   "school": "广东金融学院",
+   "school_key": "广东金融学院[公办]",
+   "major": "金融学",
+   "direction": "",
+   "display_name": "金融学(广东金融学院[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.254385,
+   "ref_center_used": 9436.5,
+   "reason": "2024 投档最低分 580，对应位次区间 [7,709, 7,940]（本单元）；2025 投档最低分 586，对应位次区间 [9,300, 9,573]（本单元）；2026 投档最低分 584，对应位次区间 [9,798, 10,105]（本单元）；保守参考位次约 9,436.5（R5 相对加权参考位次上调 +0.7%），考生位次 7,036，margin≈25.4%，属“绝对保底”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R5: ref_cons=max(ref_v1,p60) 参考位次上调（+0.69%），层 bao→absolute_bao",
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 0,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 95,
+   "school": "河北经贸大学",
+   "school_key": "河北经贸大学(地方专项计划)[公办]",
+   "major": "财务管理",
+   "direction": "",
+   "display_name": "财务管理(河北经贸大学(地方专项计划)[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.272238,
+   "ref_center_used": 9668.0,
+   "reason": "2024 投档最低分 572，对应位次区间 [9,550, 9,786]（本单元）；2025 投档最低分 585，对应位次区间 [9,574, 9,855]（本单元）；2026 投档最低分 587，对应位次区间 [8,927, 9,223]（本单元）；保守参考位次约 9,668.0（R5 相对加权参考位次上调 +3.0%），考生位次 7,036，margin≈27.2%，属“绝对保底”层。",
+   "major_pref": null,
+   "risk_notes": [],
+   "b1_notes": [],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 1,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  },
+  {
+   "slot": 96,
+   "school": "哈尔滨师范大学",
+   "school_key": "哈尔滨师范大学[公办]",
+   "major": "思想政治教育",
+   "direction": "",
+   "display_name": "思想政治教育(哈尔滨师范大学[公办])",
+   "risk_layer": "absolute_bao",
+   "confidence": "high",
+   "margin_used": 0.251442,
+   "ref_center_used": 9399.4,
+   "reason": "2024 投档最低分 581，对应位次区间 [7,519, 7,708]（本单元）；2025 投档最低分 587，对应位次区间 [9,034, 9,299]（本单元）；2026 投档最低分 583，对应位次区间 [10,106, 10,401]（本单元）；加权参考位次约 9,399.4，考生位次 7,036，margin≈25.1%，属“绝对保底”层。风险提示：历史位次波动大（超过该科全体候选波动中位数）",
+   "major_pref": null,
+   "risk_notes": [
+    "历史位次波动大（超过该科全体候选波动中位数）"
+   ],
+   "b1_notes": [
+    "B1-R4: 趋势下行标记（OLS 斜率 > 2%×均值/年，分数线逐年降低）"
+   ],
+   "charter": {
+    "status": "no_hard",
+    "n_hard": 0,
+    "n_soft": 0,
+    "n_stated": 1,
+    "via_alias": false,
+    "items": []
+   }
+  }
+ ],
+ "charter": {
+  "available": true,
+  "counts": {
+   "n_rows": 96,
+   "n_hard_rows": 51,
+   "n_no_hard_rows": 43,
+   "n_uncovered_rows": 2,
+   "n_rules": 59,
+   "n_soft_rules": 44,
+   "n_stated_rules": 55,
+   "uncovered_slots": [
+    6,
+    89
+   ],
+   "n_major_named_rows": 12,
+   "n_alias_rows": 0,
+   "uncovered_alias_declared": [
+    "中国石油大学(北京)克拉玛依校区"
+   ]
+  },
+  "layer_order": [
+   "chong",
+   "wen",
+   "bao",
+   "absolute_bao"
+  ],
+  "layer_cn": {
+   "chong": "冲",
+   "wen": "稳",
+   "bao": "保",
+   "absolute_bao": "绝对保底"
+  },
+  "section_title": "## 四、章程原文限制（退档风险）",
+  "section_md": "## 四、章程原文限制（退档风险）\n\n> 本节逐字引用**你填的这几所学校**招生章程里的**硬性限制条款**（不予录取 / 只招 / 仅限 / 限报 / 退档 一类），来源 = 招生章程正文抽取表（3,700 条可回溯规则）。只取**普通类本科**面（不含艺术 / 体育 / 专科 / 专项计划）；条文**逐字引用，未改写、未推断**，适用范围以章程原文为准 —— 原文没点名你的专业，不等于与你无关，填表前请对照当年招生章程核对。\n\n- 本表 **96** 条志愿：**51** 条的学校章程有硬性限制原文（共 **59** 条不重复条款，逐条列在下面）、**43** 条的学校章程已核对但未抽到硬性限制条款、**2** 条的学校章程**未覆盖**（列在末段）。\n- 另计 **44** 条「建议级」与 **55** 条「只陈述数值」条款**未列入本节**：它们不构成退档依据（「建议身高」≠「不予录取」），禁与上面的硬性限制混算。\n- 其中 **12** 条的原文**逐字点名了你的专业**（下面标「原文点名本条专业」）—— 这类条款与你直接相关，务必先读原文再决定是否保留。\n\n- **第 1 条** · 大连大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「语种限制：日语专业只招英语、日语语种的考生，英语专业只招英语语种考生。」（章程第 11 句）\n- **第 1 条** · 大连大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「轻度色觉异常（俗称色弱）及色觉异常Ⅱ度（俗称色盲）不能录取到临床医学、医学检验技术、口腔医学、化学、化学工程与工艺、生物工程、制药工程、园艺、中药学、护理学、助产学专业。」（章程第 37 句）\n- **第 3 条** · 湖南工业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「2. 色弱 、 色盲 不予录取的专业 ： 印刷工程 。」（章程第 68 句）\n- **第 5、36、81 条** · 燕山大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（十三）根据我校专业设置及培养要求，英语、日语、俄语、德语、法语和翻译专业只招英语语种考生。」（章程第 39 句）\n- **第 5、36、81 条** · 燕山大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「4.符合指导意见中第二部分第三条，不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业有：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学类、管理科学与工程类、工商管理类、公共管理类 等专业。」（章程第 57 句）\n- **第 7 条** · 华东交通大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行 ， 具体要求如下： 1.环境工程、高分子材料与工程专业…（原文共 190 字）」（章程第 38 句）\n- **第 11、45、57 条** · 延边大学 ·【语种】· **原文点名本条专业**：「第五章 招生说明 第九条 专业培养对外语的要求 1.只招英语考生的专业：英语、日语（零起点） 2.只招日语考生的专业：日语、英语（零起点） 3.招英语或日语考生的专业：俄语 4.经济学（中外合作办学）专业宜英语语种考生报考。」（章程第 88 句）\n- **第 11、45、57 条** · 延边大学 ·【视力 / 色觉】· **原文点名本条专业**：「3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、工商管理 、会计学 、农 林 经济管理专业。」（章程第 107 句）\n- **第 12、24 条** · 杭州电子科技大学 ·【语种】· **原文点名本条专业**：「英语专业只招收外语语种为英语的考生。」（章程第 48 句）\n- **第 17、61 条** · 西安外国语大学 ·【语种】· **原文点名本条专业**：「外语要求： “德语+法学”“俄语+法学” “ 日语 +法学 ” 和 “阿拉伯语+石油工程” （联合学士学位培养项目）专业只招收英语语种考生，其他专业均不限语种。」（章程第 47 句）\n- **第 18、76、91 条** · 河北大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（二）符合意见中第二部分轻度色觉异常（俗称色弱）不能录取的专业有：化学、 化学生物学、材料化学、 环境工程、药学类、生物科学类、应用心理学、学前教育、智能医学工程、临床医学、医学影像技术、 康复治疗学、 口腔医学、护理学、预防医学、卫生检验与检疫、中医学、中药学等专业。」（章程第 26 句）\n- **第 18、76、91 条** · 河北大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（三）符合意见中第二部分色觉异常 II度（俗称色盲）不能录取的专业，除同轻度色觉异常外，还包括绘画、 动画、 应用物理学等专业。」（章程第 27 句）\n- **第 18、76、91 条** · 河北大学 ·【视力 / 色觉】· **原文点名本条专业**：「（四）符合意见中第二部分不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、经济统计学、国际经济与贸易、金融学、 数字经济、 财政学、信息管理与信息系统、质量管理工程、…（原文共 176 字）」（章程第 28 句）\n- **第 18、76、91 条** · 河北大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（ 五 ）高考外语语种要求：英语专业只招收外语语种为英语的考生；」（章程第 39 句）\n- **第 25 条** · 河北中医药大学 ·【视力 / 色觉】· **原文点名本条专业**：「2. 考生患有《指导意见》第二条列出的色盲、色弱者， 学校 中医学类、中西医结合类、医学技术类、中药学类、药学类、护理学类、生物工程类专业 、 应用心理学、健康服务与管理 、智能医学工程 等专业不予录取。」（章程第 27 句）\n- **第 26 条** · 青海大学 ·【单科】· 原文未点名本条专业（是否适用于你，请按原文核对）：「2.藏医学、藏药学专业只招收民族语言（藏语）考生， 藏语文单科成绩满分 150分的情况下需达到80分及以上，满分100分的情况下需达到55分及以上；」（章程第 33 句）\n- **第 26 条** · 青海大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「患有下列疾病者，学校有关专业可不予录取： 1.轻度色觉异常（俗称色弱）可不予录取的专业：化学工程与工艺、临床医学、口腔医学、护理学、预防医学、中医学、针灸推拿学、康复治疗学、药学、中药学、生物技术、地质工程、资源勘查工程、动物医学、动物科学、生态学、食品科学与工程、农学、园艺、植…（原文共 170 字）」（章程第 42 句）\n- **第 26 条** · 青海大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「2.色觉异常Ⅱ度（俗称色盲）可不予录取的专业：除同轻度色觉异常外，还包括冶金工程专业。」（章程第 43 句）\n- **第 28 条** · 汕头大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「其中，患有色弱、色盲疾病者不予录取；」（章程第 114 句）\n- **第 31、55 条** · 新疆大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（三）对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的智慧农业、制药工程专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》 第二 部分 第 1 条 和第 2 条 执行，即轻度色觉异常（俗称色弱）、色觉异常 Ⅱ 度 ( 俗称色盲 ) 者以上专业不…（原文共 145 字）」（章程第 55 句）\n- **第 31、55 条** · 新疆大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「智慧交通、交通工程专业，参照《普通高等学校招生体检工作指导意见》 第二 部分第 2 条执行，即色觉异常Ⅱ度 ( 俗称色盲 ) 者以上专业不能录取。」（章程第 56 句）\n- **第 34 条** · 中南民族大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第二十条 外国语言文学类各专业只招收本语种和英语语种考生，其他专业不限考生应试外语语种，但新生进校后均须以英语为第一外语安排教学（非英语语种的考生慎重填报）。」（章程第 46 句）\n- **第 34 条** · 中南民族大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「对《意见》中第二条所列情况，在 202 6 年招生专业（类）中，轻度色觉异常（色弱）不予录取化学类、材料类、药学类 （ 含药学 + 民族学双学士学位） 、应用心理学、智能医学工程；」（章程第 50 句）\n- **第 34 条** · 中南民族大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「不能准确识别红、黄、绿、 兰 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取除同轻度色觉异常、色觉异常 Ⅱ 度两类列出的不能录取专业（类）外，还包括行政管理、土地资源管理、工商管理类、信息管理与信息系统和数字经济。」（章程第 52 句）\n- **第 35 条** · 河南财经政法大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第二十六条 外语类各专业只招收英语语种考生，其他专业外语语种不限，考生进校后原则上均以英语为第一外语安排教学。」（章程第 74 句）\n- **第 41 条** · 天津工业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（二）符合意见中第二部分的考生，学校有关专业可不予录取 1. 轻度色觉异常（俗称色弱）不能录取的专业：轻化工程、高分子材料与工程、化学工程与工艺、应用化学、制药工程、药学、环境工程、化学生物学、生物医学工程、智能医学工程。」（章程第 33 句）\n- **第 42 条** · 云南财经大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「6. 外语语种要求：商务英语、泰语专业只招收英语语种考生，报考以上专业的考生，需参加当地招考办组织的英语口语测试，且成绩合格；」（章程第 38 句）\n- **第 43、83 条** · 河南师范大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「2. 轻度色觉异常（俗称色弱）考生不能录取的专业：化学、生物科学、考古学。」（章程第 30 句）\n- **第 44、77 条** · 西南民族大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「英语专业只招收英语 语种 考生，其它专业不限考生 外语 语种 。」（章程第 55 句）\n- **第 44、77 条** · 西南民族大学 ·【视力 / 色觉】· **原文点名本条专业**：「不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常 II度两类列出专业外，还包括经济学、 数字经济 、 会计学、财务管理、人力资源管理、物流管理、行政管理。」（章程第 62 句）\n- **第 47 条** · 辽宁师范大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（二）语种要求 1. 外国语学院英语（师范）、英语（中外合作办学）、翻译、法语专业只招收英语考生。」（章程第 14 句）\n- **第 50 条** · 安徽工业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「具体要求如下： （1）轻度色觉异常（俗称色弱）不能录取的专业：以颜色波长作为严格技术标准的化学工程与工艺、应用化学、化学生物学、光电信息科学与工程、环境工程专业。」（章程第 29 句）\n- **第 50 条** · 安徽工业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（3）不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括经济学、大数据管理与应用、市场营销、会计学专业。」（章程第 31 句）\n- **第 52 条** · 长沙理工大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「特别提示： 1.轻度色觉异常（俗称色弱）可不予录取的专业：应用化学、化学生物学、化学工程与工艺、生物工程、食品科学与工程、食品营养与健康、制药工程等专业；」（章程第 54 句）\n- **第 52 条** · 长沙理工大学 ·【视力 / 色觉】· **原文点名本条专业**：「3.不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者可不予录取的专业：除同轻度色觉异常、色觉异常Ⅱ度两类列出专业外，还包括国际经济与贸易、金融学、会计学、财务管理、数字经济、工商管理、工程管理。」（章程第 56 句）\n- **第 53、75、87 条** · 石河子大学 ·【语种】· **原文点名本条专业**：「第二十一条 英语专业只招收英语语种的考生。」（章程第 37 句）\n- **第 53、75、87 条** · 石河子大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「对于学校部分未在《普通高等学校招生体检工作指导意见》规定专业目录内的材料科学与工程、葡萄与葡萄酒工程、智慧农业、医学检验技术、植物生产类等专业，考生体检健康状况要求参照《普通高等学校招生体检工作指导意见》第二条第1款和第2款执行，即轻度色觉异常（俗称色弱）、色觉异常Ⅱ度(俗称色盲…（原文共 161 字）」（章程第 46 句）\n- **第 54 条** · 昆明理工大学 ·【性别】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第二十 五 条 按照航空公司的要求，飞行技术专业只招男生，学校其他专业招生男女生比例不限。」（章程第 68 句）\n- **第 58 条** · 湖北师范大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第十二条 外语类各专业（英语、 日 语、商 务英语）只招收 本专业语种和英语语种考生。」（章程第 19 句）\n- **第 64、67 条** · 吉林财经大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第 六 章 录取说明 第 十一 条 专业培养对外语语种的要求 学校英语、日语专业只招收外语语种为英语的考生，日语专业学生入学后按零起点培养。」（章程第 14 句）\n- **第 65 条** · 上海对外经贸大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（ 三 ） 在普通本科平行志愿批次中，对完全服从专业调剂（含中外合作专业）且 语种、 体检不受限的进档考生，学校承诺不退档。」（章程第 28 句）\n- **第 68 条** · 浙江财经大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「八、预留计划数及使用原则 无预留计划 九、专业教学培养使用的外语语种 外国语言文学类专业只招收英语语种考生，其他专业不限制考生应试外语语种。」（章程第 6 句）\n- **第 69 条** · 四川农业大学 ·【视力 / 色觉】· **原文点名本条专业**：「不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取的专业，除同色觉异常Ⅱ度（俗称色盲）列出专业外，还包括：农村区域发展，土地资源管理，经济学，农林经济管理，财务管理，会计学，工商管理。」（章程第 32 句）\n- **第 69 条** · 四川农业大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「英语、翻译专业仅限英语语种考生报考，中外合作办学、“中外高水平大学学生交流计划—学分互认联合培养项目”非英语语种考生谨慎报考，其余专业不限制外语语种。」（章程第 44 句）\n- **第 70 条** · 南京工程学院 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（三）英语专业只招收英语语种考生，中外合作办学专业适宜英语语种考生报考。」（章程第 18 句）\n- **第 71 条** · 河南农业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「有以下情况者，学校有关专业不予录取： 1.轻度色觉异常（俗称色弱）不能录取的专业：动物医学（神农创新班）、植物保护（神农创新班）、生物技术（神农创新班）、 应用化学、应用化学（绿色碳储）、化学生物学、制药工程、药物制剂、生物科学、生物技术、生物工程、动物医学、动物科学、水产养殖学…（原文共 207 字）」（章程第 28 句）\n- **第 71 条** · 河南农业大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业，除同轻度色觉异常、色觉异常II度两类列出专业外，还包括 经济学 、数字经济、农林经济管理、财务管理、管理科学、土地资源管理专业。」（章程第 30 句）\n- **第 71 条** · 河南农业大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第二十条 学校外语类专业除日语专业外其他专业只招收外语语种为英语的考生。」（章程第 60 句）\n- **第 73 条** · 江西师范大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「体检标准严格按照教育部、原卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》和人力资源和社会保障部、教育部、原卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》等相关要求执行，其中不能录取的专业具体要求如下： 1．轻度色觉异常(俗…（原文共 266 字）」（章程第 38 句）\n- **第 73 条** · 江西师范大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「3．不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：除同轻度色觉异常、色觉异常II度两类列出专业外，还包括经济学类（经济学）、管理科学与工程类（工程管理、大数据管理与应用）、工商管理类（文化产业管理、工商管理、会计学）、公共管理…（原文共 158 字）」（章程第 40 句）\n- **第 74 条** · 山西大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「结合我校专业培养要求，招生专业（类）对考生体检条件提出如下要求： 1.轻度色觉异常（俗称色弱）不能录取的专业：应用心理学、考古学、考古学（文物全科）；」（章程第 35 句）\n- **第 74 条** · 山西大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「3.不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的考生不能录取的专业：除上述第1、2条（色弱、色盲）不能录取专业外，还包括计算机科学与技术、计算机科学与技术（先进计算）。」（章程第 37 句）\n- **第 78 条** · 成都大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「第二十六条 英语、商务英语专业只招收英语语种的考生，其他专业不限外语语种，考生进校后原则上以英语为第一外语安排教学。」（章程第 65 句）\n- **第 79、82 条** · 大连外国语大学 ·【语种】· **原文点名本条专业**：「2. 英语、商务英语、翻译三个专业只招收英语语种考生。」（章程第 12 句）\n- **第 86 条** · 辽宁科技大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（ 1 ） 轻度色觉异常（俗称色弱） 不能录取的专业： 应用化学、储能科学与工程、化学工程与工艺、环境工程、生物工程。」（章程第 47 句）\n- **第 86 条** · 辽宁科技大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（ 3 ） 不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形的考生不能录取的专业：除同轻度色觉异常、色觉异常 II 度两类可不予录取专业外， 还包括 金融科技、国际经济与贸易、工商管理、市场营销、会计学、财务管理 、 计算机科学与技术 。」（章程第 49 句）\n- **第 88 条** · 苏州科技大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「其中： （ 1 ） 轻度色觉异常（俗称色弱）不能录取的专业：生物工程、应用心理学、材料化学。」（章程第 20 句）\n- **第 88 条** · 苏州科技大学 ·【视力 / 色觉】· 原文未点名本条专业（是否适用于你，请按原文核对）：「（ 3 ） 不能准确识别红、黄、绿、 蓝 、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不能录取的专业：同轻度色觉异常、色觉异常 Ⅱ度两类列出专业。」（章程第 22 句）\n- **第 88 条** · 苏州科技大学 ·【语种】· 原文未点名本条专业（是否适用于你，请按原文核对）：「3. 高考外语语种要求： 英语专业只招收英语语种考生， 其他专业不限制考生应试语种，进校后 主要 以英语安排公共外语教学，请非英语语种考生根据自身情况，慎重报考。」（章程第 24 句）\n\n- **章程未覆盖**（本版规则表里没有这些学校）：中国石油大学(北京)克拉玛依校区（第 6、89 条） —— 学校名按全名 + **已登记别名表**匹配（校区 / 城市后缀不作归属推断）；其中 中国石油大学(北京)克拉玛依校区 已在别名表中**显式登记为「不映射」**（理由见规则表同目录 `school-alias-v1-20261025.json`：校区不可由校名推断）；请自行核对该校当年招生章程与体检 / 单科 / 语种要求，本表**不对它作章程层面的风险判断**。\n",
+  "missing_index_line": "- **本章程规则表未接入**（本轮未取到规则表文件）：本节无从判定，**不代表没有限制** —— 填表前请逐校核对当年招生章程的体检 / 单科 / 语种 / 性别要求。",
+  "n_rules_total": 3700,
+  "locate": {
+   "n_items": 88,
+   "n_ok": 88,
+   "n_context": 88,
+   "n_files": 36,
+   "n_truncated": 0,
+   "reasons": {}
+  }
+ },
+ "prefs": {},
+ "prefs_text": "",
+ "accuracy": {
+  "available": true,
+  "reason": null,
+  "detail": null,
+  "semantics": "群体口径：以下是「100 名分位构造的模拟考生」在历史年份上的回测结果，说明这套分层整体能不能兜住，**不是你的录取概率**；真实录取还取决于当年计划、报考人数与你的排位变化。",
+  "sample": {
+   "n_students_per_cell": 100,
+   "student_construction": "quantile_students（按一分一档分位构造）",
+   "subjects": [
+    "physics",
+    "history"
+   ],
+   "validation_years": [
+    2024,
+    2025,
+    2026
+   ]
+  },
+  "caliber": {
+   "rules": "c2c5",
+   "thresholds": {
+    "chong_lo": -0.05,
+    "chong_hi": 0.0,
+    "wen_hi": 0.1,
+    "bao_hi": 0.25
+   },
+   "quotas": {
+    "chong": 26,
+    "wen": 40,
+    "bao": 24,
+    "absolute_bao": 6
+   },
+   "chong_edge_keep": 20,
+   "r4_enabled": false,
+   "caliber": "conservative",
+   "candidate_year_rule": "validation_year - 1",
+   "note": "R4 关闭 + 候选年取验证年前一年 = 回测公平口径（训练窗无验证年信息），与生产运行结构不同，属设计必然，不是口径漂移。"
+  },
+  "versions": {
+   "backtest_version": "v1-backtest-0.1.0",
+   "algo_version": "v1-algo-0.1.0",
+   "snapshot_version": "v1-snapshot-20260824-003"
+  },
+  "source": {
+   "file": "reports/system-accuracy-v1-20261031.json",
+   "sha12": "4aaddf809399",
+   "generator": "scripts/webui/accuracy_probe.py",
+   "generated_at": "2026-10-31T19:05+0800"
+  },
+  "stale": false,
+  "stale_reasons": [],
+  "stale_banner": "",
+  "layer_cn": {
+   "chong": "冲",
+   "wen": "稳",
+   "bao": "保",
+   "absolute_bao": "绝对保底"
+  },
+  "cells": [
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2024,
+    "candidate_year": 2023,
+    "n_students": 100,
+    "n_hit": 87,
+    "n_miss": 13,
+    "m1_hit_rate": 0.87,
+    "m2_slippage_rate": 0.13,
+    "admitted_layer_share": {
+     "chong": 0.75,
+     "wen": 0.12,
+     "bao": 0.0,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   },
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2025,
+    "candidate_year": 2024,
+    "n_students": 100,
+    "n_hit": 90,
+    "n_miss": 10,
+    "m1_hit_rate": 0.9,
+    "m2_slippage_rate": 0.1,
+    "admitted_layer_share": {
+     "chong": 0.81,
+     "wen": 0.09,
+     "bao": 0.0,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   },
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2026,
+    "candidate_year": 2025,
+    "n_students": 100,
+    "n_hit": 95,
+    "n_miss": 5,
+    "m1_hit_rate": 0.95,
+    "m2_slippage_rate": 0.05,
+    "admitted_layer_share": {
+     "chong": 0.89,
+     "wen": 0.06,
+     "bao": 0.0,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2024,
+    "candidate_year": 2023,
+    "n_students": 100,
+    "n_hit": 50,
+    "n_miss": 50,
+    "m1_hit_rate": 0.5,
+    "m2_slippage_rate": 0.5,
+    "admitted_layer_share": {
+     "chong": 0.41,
+     "wen": 0.08,
+     "bao": 0.01,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2025,
+    "candidate_year": 2024,
+    "n_students": 100,
+    "n_hit": 62,
+    "n_miss": 38,
+    "m1_hit_rate": 0.62,
+    "m2_slippage_rate": 0.38,
+    "admitted_layer_share": {
+     "chong": 0.58,
+     "wen": 0.03,
+     "bao": 0.01,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2026,
+    "candidate_year": 2025,
+    "n_students": 100,
+    "n_hit": 67,
+    "n_miss": 33,
+    "m1_hit_rate": 0.67,
+    "m2_slippage_rate": 0.33,
+    "admitted_layer_share": {
+     "chong": 0.61,
+     "wen": 0.04,
+     "bao": 0.02,
+     "absolute_bao": 0.0
+    },
+    "rules": "c2c5",
+    "caliber": "conservative"
+   }
+  ]
+ },
+ "accuracy_metrics": {
+  "available": true,
+  "reason": null,
+  "rows": [
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2024,
+    "n_students": 100,
+    "n_miss": 47,
+    "n_hit": 53,
+    "slippage_pct": "47%",
+    "chong_count": 53,
+    "chong_pct": "53%",
+    "bao_rel_num": 35,
+    "bao_rel_den": 35,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 42,
+    "coverage_den": 100,
+    "coverage_pct": "42%"
+   },
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2025,
+    "n_students": 100,
+    "n_miss": 39,
+    "n_hit": 61,
+    "slippage_pct": "39%",
+    "chong_count": 61,
+    "chong_pct": "61%",
+    "bao_rel_num": 41,
+    "bao_rel_den": 41,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 51,
+    "coverage_den": 100,
+    "coverage_pct": "51%"
+   },
+   {
+    "subject": "physics",
+    "subject_cn": "物理",
+    "validation_year": 2026,
+    "n_students": 100,
+    "n_miss": 33,
+    "n_hit": 67,
+    "slippage_pct": "33%",
+    "chong_count": 67,
+    "chong_pct": "67%",
+    "bao_rel_num": 46,
+    "bao_rel_den": 46,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 57,
+    "coverage_den": 100,
+    "coverage_pct": "57%"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2024,
+    "n_students": 100,
+    "n_miss": 73,
+    "n_hit": 27,
+    "slippage_pct": "73%",
+    "chong_count": 27,
+    "chong_pct": "27%",
+    "bao_rel_num": 21,
+    "bao_rel_den": 21,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 26,
+    "coverage_den": 100,
+    "coverage_pct": "26%"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2025,
+    "n_students": 100,
+    "n_miss": 74,
+    "n_hit": 26,
+    "slippage_pct": "74%",
+    "chong_count": 25,
+    "chong_pct": "25%",
+    "bao_rel_num": 21,
+    "bao_rel_den": 21,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 25,
+    "coverage_den": 100,
+    "coverage_pct": "25%"
+   },
+   {
+    "subject": "history",
+    "subject_cn": "历史",
+    "validation_year": 2026,
+    "n_students": 100,
+    "n_miss": 73,
+    "n_hit": 27,
+    "slippage_pct": "73%",
+    "chong_count": 27,
+    "chong_pct": "27%",
+    "bao_rel_num": 21,
+    "bao_rel_den": 21,
+    "bao_rel_pct": "100%",
+    "bao_rel_state": "ok",
+    "coverage_num": 26,
+    "coverage_den": 100,
+    "coverage_pct": "26%"
+   }
+  ],
+  "n_units": 6,
+  "source": {
+   "file": "reports/accuracy-metrics-v2-20261117.json",
+   "bytes": 69550,
+   "sha12": "7739cfd9c131",
+   "generated_at": "2026-11-17T22:11+0800"
+  },
+  "columns": [
+   "科类",
+   "验证年",
+   "模拟考生",
+   "滑档率",
+   "冲层录取比例",
+   "保底可靠性",
+   "保底行覆盖率"
+  ],
+  "boundary": "本节是往年数据的群体回测：每一年都按当年位次构造一批模拟考生，只用当年之前的数据出方案，再拿当年真实投档结果验收。它不是你的录取结果，也不预测明年的分数与位次。",
+  "denominator_note": "三个数的分母不是同一批人：滑档率与冲层录取比例的分母是该单元全部考生；保底可靠性的分母只有「计划里真有绝对保底行」的那部分考生，所以要连着最后一列「保底行覆盖率」一起读。",
+  "problems": []
+ },
+ "bao": {
+  "code": "ok",
+  "relation": "inside",
+  "reason": null,
+  "p_rank": 7036,
+  "pool_ref_max": 64577.5,
+  "layers": [
+   {
+    "layer": "bao",
+    "layer_cn": "保底",
+    "floor_margin": 0.1,
+    "bound_rank": 58119,
+    "relation": "inside",
+    "n_rows": 24
+   },
+   {
+    "layer": "absolute_bao",
+    "layer_cn": "绝对保底",
+    "floor_margin": 0.25,
+    "bound_rank": 48433,
+    "relation": "inside",
+    "n_rows": 6
+   }
+  ],
+  "n_bao_rows": 24,
+  "n_absolute_rows": 6,
+  "statement": "保底可配给界自检：你的位次 7,036 在保底可配给上界 58,119 之内。这只说明保底行**不是结构性无解**，不保证方案里一定有保底行（还取决于池内是否有满足该层的候选）；本方案实际保底行 24 条。",
+  "title": "保底可配给界自检"
+ }
+}
