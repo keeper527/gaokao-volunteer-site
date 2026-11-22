@@ -1,7 +1,7 @@
 {
  "ok": true,
  "site": "gaokao-hebei-static-site",
- "generated_at": "2026-11-19T22:23:35+08:00",
+ "generated_at": "2026-11-22T12:12:41+08:00",
  "note": "静态正式版：只读站点，页面不在浏览器侧算方案；每个案例的方案件与 outputs/plans 逐行同源。自定义分数按 10 分一档预生成（取最近档），精确到 1 分请用本机/在线服务版。",
  "default": "C1",
  "cases": [
@@ -18,6 +18,7 @@
    "plan_file": "plan-C1-physics-score600.json",
    "plan": "data/plan-C1.json",
    "list": "data/list-C1.md",
+   "why_absent": "data/why-absent-C1.json.gz",
    "slot_count": 96
   },
   {
@@ -33,6 +34,7 @@
    "plan_file": "plan-C2-physics-score650.json",
    "plan": "data/plan-C2.json",
    "list": "data/list-C2.md",
+   "why_absent": "data/why-absent-C2.json.gz",
    "slot_count": 96
   },
   {
@@ -48,6 +50,7 @@
    "plan_file": "plan-C3-physics-score443.json",
    "plan": "data/plan-C3.json",
    "list": "data/list-C3.md",
+   "why_absent": "data/why-absent-C3.json.gz",
    "slot_count": 26
   },
   {
@@ -63,6 +66,7 @@
    "plan_file": "plan-C4-history-score550.json",
    "plan": "data/plan-C4.json",
    "list": "data/list-C4.md",
+   "why_absent": "data/why-absent-C4.json.gz",
    "slot_count": 96
   },
   {
@@ -78,6 +82,7 @@
    "plan_file": "plan-C5-history-score485.json",
    "plan": "data/plan-C5.json",
    "list": "data/list-C5.md",
+   "why_absent": "data/why-absent-C5.json.gz",
    "slot_count": 60
   },
   {
@@ -93,6 +98,7 @@
    "plan_file": "plan-C6-history-score520.json",
    "plan": "data/plan-C6.json",
    "list": "data/list-C6.md",
+   "why_absent": "data/why-absent-C6.json.gz",
    "slot_count": 96
   },
   {
@@ -108,6 +114,7 @@
    "plan_file": "plan-C7-physics-rank150000.json",
    "plan": "data/plan-C7.json",
    "list": "data/list-C7.md",
+   "why_absent": "data/why-absent-C7.json.gz",
    "slot_count": 96
   },
   {
@@ -134,6 +141,7 @@
    "plan_file": "plan-C8-physics-score600-v2.json",
    "plan": "data/plan-C8.json",
    "list": "data/list-C8.md",
+   "why_absent": "data/why-absent-C8.json.gz",
    "slot_count": 96
   },
   {
@@ -161,6 +169,7 @@
    "plan_file": "plan-C9-physics-score600-major-pref.json",
    "plan": "data/plan-C9.json",
    "list": "data/list-C9.md",
+   "why_absent": "data/why-absent-C9.json.gz",
    "slot_count": 96
   }
  ],
@@ -679,574 +688,656 @@
     "lo": 443,
     "hi": 447,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P450": {
     "score": 450,
     "lo": 448,
     "hi": 452,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P455": {
     "score": 455,
     "lo": 453,
     "hi": 457,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P460": {
     "score": 460,
     "lo": 458,
     "hi": 462,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P465": {
     "score": 465,
     "lo": 463,
     "hi": 467,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P470": {
     "score": 470,
     "lo": 468,
     "hi": 472,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P475": {
     "score": 475,
     "lo": 473,
     "hi": 477,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P480": {
     "score": 480,
     "lo": 478,
     "hi": 482,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P485": {
     "score": 485,
     "lo": 483,
     "hi": 487,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P490": {
     "score": 490,
     "lo": 488,
     "hi": 492,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P495": {
     "score": 495,
     "lo": 493,
     "hi": 497,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P500": {
     "score": 500,
     "lo": 498,
     "hi": 502,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P505": {
     "score": 505,
     "lo": 503,
     "hi": 507,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P510": {
     "score": 510,
     "lo": 508,
     "hi": 512,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P515": {
     "score": 515,
     "lo": 513,
     "hi": 517,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P520": {
     "score": 520,
     "lo": 518,
     "hi": 522,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P525": {
     "score": 525,
     "lo": 523,
     "hi": 527,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P530": {
     "score": 530,
     "lo": 528,
     "hi": 532,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P535": {
     "score": 535,
     "lo": 533,
     "hi": 537,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P540": {
     "score": 540,
     "lo": 538,
     "hi": 542,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P545": {
     "score": 545,
     "lo": 543,
     "hi": 547,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P550": {
     "score": 550,
     "lo": 548,
     "hi": 552,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P555": {
     "score": 555,
     "lo": 553,
     "hi": 557,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P560": {
     "score": 560,
     "lo": 558,
     "hi": 562,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P565": {
     "score": 565,
     "lo": 563,
     "hi": 567,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P570": {
     "score": 570,
     "lo": 568,
     "hi": 572,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P575": {
     "score": 575,
     "lo": 573,
     "hi": 577,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P580": {
     "score": 580,
     "lo": 578,
     "hi": 582,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P585": {
     "score": 585,
     "lo": 583,
     "hi": 587,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P590": {
     "score": 590,
     "lo": 588,
     "hi": 592,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P595": {
     "score": 595,
     "lo": 593,
     "hi": 597,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P600": {
     "score": 600,
     "lo": 598,
     "hi": 602,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P605": {
     "score": 605,
     "lo": 603,
     "hi": 607,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P610": {
     "score": 610,
     "lo": 608,
     "hi": 612,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P615": {
     "score": 615,
     "lo": 613,
     "hi": 617,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P620": {
     "score": 620,
     "lo": 618,
     "hi": 622,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P625": {
     "score": 625,
     "lo": 623,
     "hi": 627,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P630": {
     "score": 630,
     "lo": 628,
     "hi": 632,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P635": {
     "score": 635,
     "lo": 633,
     "hi": 637,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P640": {
     "score": 640,
     "lo": 638,
     "hi": 642,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P645": {
     "score": 645,
     "lo": 643,
     "hi": 647,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P650": {
     "score": 650,
     "lo": 648,
     "hi": 652,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P655": {
     "score": 655,
     "lo": 653,
     "hi": 657,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P660": {
     "score": 660,
     "lo": 658,
     "hi": 662,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P665": {
     "score": 665,
     "lo": 663,
     "hi": 667,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P670": {
     "score": 670,
     "lo": 668,
     "hi": 672,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P675": {
     "score": 675,
     "lo": 673,
     "hi": 677,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "P680": {
     "score": 680,
     "lo": 678,
     "hi": 682,
     "subject": "physics",
-    "subject_cn": "物理"
+    "subject_cn": "物理",
+    "why_absent": true
    },
    "H485": {
     "score": 485,
     "lo": 483,
     "hi": 487,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H490": {
     "score": 490,
     "lo": 488,
     "hi": 492,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H495": {
     "score": 495,
     "lo": 493,
     "hi": 497,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H500": {
     "score": 500,
     "lo": 498,
     "hi": 502,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H505": {
     "score": 505,
     "lo": 503,
     "hi": 507,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H510": {
     "score": 510,
     "lo": 508,
     "hi": 512,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H515": {
     "score": 515,
     "lo": 513,
     "hi": 517,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H520": {
     "score": 520,
     "lo": 518,
     "hi": 522,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H525": {
     "score": 525,
     "lo": 523,
     "hi": 527,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H530": {
     "score": 530,
     "lo": 528,
     "hi": 532,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H535": {
     "score": 535,
     "lo": 533,
     "hi": 537,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H540": {
     "score": 540,
     "lo": 538,
     "hi": 542,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H545": {
     "score": 545,
     "lo": 543,
     "hi": 547,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H550": {
     "score": 550,
     "lo": 548,
     "hi": 552,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H555": {
     "score": 555,
     "lo": 553,
     "hi": 557,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H560": {
     "score": 560,
     "lo": 558,
     "hi": 562,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H565": {
     "score": 565,
     "lo": 563,
     "hi": 567,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H570": {
     "score": 570,
     "lo": 568,
     "hi": 572,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H575": {
     "score": 575,
     "lo": 573,
     "hi": 577,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H580": {
     "score": 580,
     "lo": 578,
     "hi": 582,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H585": {
     "score": 585,
     "lo": 583,
     "hi": 587,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H590": {
     "score": 590,
     "lo": 588,
     "hi": 592,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H595": {
     "score": 595,
     "lo": 593,
     "hi": 597,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H600": {
     "score": 600,
     "lo": 598,
     "hi": 602,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H605": {
     "score": 605,
     "lo": 603,
     "hi": 607,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H610": {
     "score": 610,
     "lo": 608,
     "hi": 612,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H615": {
     "score": 615,
     "lo": 613,
     "hi": 617,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H620": {
     "score": 620,
     "lo": 618,
     "hi": 622,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H625": {
     "score": 625,
     "lo": 623,
     "hi": 627,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H630": {
     "score": 630,
     "lo": 628,
     "hi": 632,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H635": {
     "score": 635,
     "lo": 633,
     "hi": 637,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H640": {
     "score": 640,
     "lo": 638,
     "hi": 642,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H645": {
     "score": 645,
     "lo": 643,
     "hi": 647,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    },
    "H650": {
     "score": 650,
     "lo": 648,
     "hi": 652,
     "subject": "history",
-    "subject_cn": "历史"
+    "subject_cn": "历史",
+    "why_absent": true
    }
   },
   "items": [
@@ -1257,6 +1348,7 @@
     "score": 445,
     "lo": 443,
     "hi": 447,
+    "why_absent": "data/why-absent-P445.json.gz",
     "plan": "data/plan-P445.json",
     "list": "data/list-P445.md",
     "slot_count": 66
@@ -1268,6 +1360,7 @@
     "score": 450,
     "lo": 448,
     "hi": 452,
+    "why_absent": "data/why-absent-P450.json.gz",
     "plan": "data/plan-P450.json",
     "list": "data/list-P450.md",
     "slot_count": 66
@@ -1279,6 +1372,7 @@
     "score": 455,
     "lo": 453,
     "hi": 457,
+    "why_absent": "data/why-absent-P455.json.gz",
     "plan": "data/plan-P455.json",
     "list": "data/list-P455.md",
     "slot_count": 66
@@ -1290,6 +1384,7 @@
     "score": 460,
     "lo": 458,
     "hi": 462,
+    "why_absent": "data/why-absent-P460.json.gz",
     "plan": "data/plan-P460.json",
     "list": "data/list-P460.md",
     "slot_count": 66
@@ -1301,6 +1396,7 @@
     "score": 465,
     "lo": 463,
     "hi": 467,
+    "why_absent": "data/why-absent-P465.json.gz",
     "plan": "data/plan-P465.json",
     "list": "data/list-P465.md",
     "slot_count": 90
@@ -1312,6 +1408,7 @@
     "score": 470,
     "lo": 468,
     "hi": 472,
+    "why_absent": "data/why-absent-P470.json.gz",
     "plan": "data/plan-P470.json",
     "list": "data/list-P470.md",
     "slot_count": 90
@@ -1323,6 +1420,7 @@
     "score": 475,
     "lo": 473,
     "hi": 477,
+    "why_absent": "data/why-absent-P475.json.gz",
     "plan": "data/plan-P475.json",
     "list": "data/list-P475.md",
     "slot_count": 90
@@ -1334,6 +1432,7 @@
     "score": 480,
     "lo": 478,
     "hi": 482,
+    "why_absent": "data/why-absent-P480.json.gz",
     "plan": "data/plan-P480.json",
     "list": "data/list-P480.md",
     "slot_count": 90
@@ -1345,6 +1444,7 @@
     "score": 485,
     "lo": 483,
     "hi": 487,
+    "why_absent": "data/why-absent-P485.json.gz",
     "plan": "data/plan-P485.json",
     "list": "data/list-P485.md",
     "slot_count": 90
@@ -1356,6 +1456,7 @@
     "score": 490,
     "lo": 488,
     "hi": 492,
+    "why_absent": "data/why-absent-P490.json.gz",
     "plan": "data/plan-P490.json",
     "list": "data/list-P490.md",
     "slot_count": 92
@@ -1367,6 +1468,7 @@
     "score": 495,
     "lo": 493,
     "hi": 497,
+    "why_absent": "data/why-absent-P495.json.gz",
     "plan": "data/plan-P495.json",
     "list": "data/list-P495.md",
     "slot_count": 96
@@ -1378,6 +1480,7 @@
     "score": 500,
     "lo": 498,
     "hi": 502,
+    "why_absent": "data/why-absent-P500.json.gz",
     "plan": "data/plan-P500.json",
     "list": "data/list-P500.md",
     "slot_count": 96
@@ -1389,6 +1492,7 @@
     "score": 505,
     "lo": 503,
     "hi": 507,
+    "why_absent": "data/why-absent-P505.json.gz",
     "plan": "data/plan-P505.json",
     "list": "data/list-P505.md",
     "slot_count": 96
@@ -1400,6 +1504,7 @@
     "score": 510,
     "lo": 508,
     "hi": 512,
+    "why_absent": "data/why-absent-P510.json.gz",
     "plan": "data/plan-P510.json",
     "list": "data/list-P510.md",
     "slot_count": 96
@@ -1411,6 +1516,7 @@
     "score": 515,
     "lo": 513,
     "hi": 517,
+    "why_absent": "data/why-absent-P515.json.gz",
     "plan": "data/plan-P515.json",
     "list": "data/list-P515.md",
     "slot_count": 96
@@ -1422,6 +1528,7 @@
     "score": 520,
     "lo": 518,
     "hi": 522,
+    "why_absent": "data/why-absent-P520.json.gz",
     "plan": "data/plan-P520.json",
     "list": "data/list-P520.md",
     "slot_count": 96
@@ -1433,6 +1540,7 @@
     "score": 525,
     "lo": 523,
     "hi": 527,
+    "why_absent": "data/why-absent-P525.json.gz",
     "plan": "data/plan-P525.json",
     "list": "data/list-P525.md",
     "slot_count": 96
@@ -1444,6 +1552,7 @@
     "score": 530,
     "lo": 528,
     "hi": 532,
+    "why_absent": "data/why-absent-P530.json.gz",
     "plan": "data/plan-P530.json",
     "list": "data/list-P530.md",
     "slot_count": 96
@@ -1455,6 +1564,7 @@
     "score": 535,
     "lo": 533,
     "hi": 537,
+    "why_absent": "data/why-absent-P535.json.gz",
     "plan": "data/plan-P535.json",
     "list": "data/list-P535.md",
     "slot_count": 96
@@ -1466,6 +1576,7 @@
     "score": 540,
     "lo": 538,
     "hi": 542,
+    "why_absent": "data/why-absent-P540.json.gz",
     "plan": "data/plan-P540.json",
     "list": "data/list-P540.md",
     "slot_count": 96
@@ -1477,6 +1588,7 @@
     "score": 545,
     "lo": 543,
     "hi": 547,
+    "why_absent": "data/why-absent-P545.json.gz",
     "plan": "data/plan-P545.json",
     "list": "data/list-P545.md",
     "slot_count": 96
@@ -1488,6 +1600,7 @@
     "score": 550,
     "lo": 548,
     "hi": 552,
+    "why_absent": "data/why-absent-P550.json.gz",
     "plan": "data/plan-P550.json",
     "list": "data/list-P550.md",
     "slot_count": 96
@@ -1499,6 +1612,7 @@
     "score": 555,
     "lo": 553,
     "hi": 557,
+    "why_absent": "data/why-absent-P555.json.gz",
     "plan": "data/plan-P555.json",
     "list": "data/list-P555.md",
     "slot_count": 96
@@ -1510,6 +1624,7 @@
     "score": 560,
     "lo": 558,
     "hi": 562,
+    "why_absent": "data/why-absent-P560.json.gz",
     "plan": "data/plan-P560.json",
     "list": "data/list-P560.md",
     "slot_count": 96
@@ -1521,6 +1636,7 @@
     "score": 565,
     "lo": 563,
     "hi": 567,
+    "why_absent": "data/why-absent-P565.json.gz",
     "plan": "data/plan-P565.json",
     "list": "data/list-P565.md",
     "slot_count": 96
@@ -1532,6 +1648,7 @@
     "score": 570,
     "lo": 568,
     "hi": 572,
+    "why_absent": "data/why-absent-P570.json.gz",
     "plan": "data/plan-P570.json",
     "list": "data/list-P570.md",
     "slot_count": 96
@@ -1543,6 +1660,7 @@
     "score": 575,
     "lo": 573,
     "hi": 577,
+    "why_absent": "data/why-absent-P575.json.gz",
     "plan": "data/plan-P575.json",
     "list": "data/list-P575.md",
     "slot_count": 96
@@ -1554,6 +1672,7 @@
     "score": 580,
     "lo": 578,
     "hi": 582,
+    "why_absent": "data/why-absent-P580.json.gz",
     "plan": "data/plan-P580.json",
     "list": "data/list-P580.md",
     "slot_count": 96
@@ -1565,6 +1684,7 @@
     "score": 585,
     "lo": 583,
     "hi": 587,
+    "why_absent": "data/why-absent-P585.json.gz",
     "plan": "data/plan-P585.json",
     "list": "data/list-P585.md",
     "slot_count": 96
@@ -1576,6 +1696,7 @@
     "score": 590,
     "lo": 588,
     "hi": 592,
+    "why_absent": "data/why-absent-P590.json.gz",
     "plan": "data/plan-P590.json",
     "list": "data/list-P590.md",
     "slot_count": 96
@@ -1587,6 +1708,7 @@
     "score": 595,
     "lo": 593,
     "hi": 597,
+    "why_absent": "data/why-absent-P595.json.gz",
     "plan": "data/plan-P595.json",
     "list": "data/list-P595.md",
     "slot_count": 96
@@ -1598,6 +1720,7 @@
     "score": 600,
     "lo": 598,
     "hi": 602,
+    "why_absent": "data/why-absent-P600.json.gz",
     "plan": "data/plan-P600.json",
     "list": "data/list-P600.md",
     "slot_count": 96
@@ -1609,6 +1732,7 @@
     "score": 605,
     "lo": 603,
     "hi": 607,
+    "why_absent": "data/why-absent-P605.json.gz",
     "plan": "data/plan-P605.json",
     "list": "data/list-P605.md",
     "slot_count": 96
@@ -1620,6 +1744,7 @@
     "score": 610,
     "lo": 608,
     "hi": 612,
+    "why_absent": "data/why-absent-P610.json.gz",
     "plan": "data/plan-P610.json",
     "list": "data/list-P610.md",
     "slot_count": 96
@@ -1631,6 +1756,7 @@
     "score": 615,
     "lo": 613,
     "hi": 617,
+    "why_absent": "data/why-absent-P615.json.gz",
     "plan": "data/plan-P615.json",
     "list": "data/list-P615.md",
     "slot_count": 96
@@ -1642,6 +1768,7 @@
     "score": 620,
     "lo": 618,
     "hi": 622,
+    "why_absent": "data/why-absent-P620.json.gz",
     "plan": "data/plan-P620.json",
     "list": "data/list-P620.md",
     "slot_count": 96
@@ -1653,6 +1780,7 @@
     "score": 625,
     "lo": 623,
     "hi": 627,
+    "why_absent": "data/why-absent-P625.json.gz",
     "plan": "data/plan-P625.json",
     "list": "data/list-P625.md",
     "slot_count": 96
@@ -1664,6 +1792,7 @@
     "score": 630,
     "lo": 628,
     "hi": 632,
+    "why_absent": "data/why-absent-P630.json.gz",
     "plan": "data/plan-P630.json",
     "list": "data/list-P630.md",
     "slot_count": 96
@@ -1675,6 +1804,7 @@
     "score": 635,
     "lo": 633,
     "hi": 637,
+    "why_absent": "data/why-absent-P635.json.gz",
     "plan": "data/plan-P635.json",
     "list": "data/list-P635.md",
     "slot_count": 96
@@ -1686,6 +1816,7 @@
     "score": 640,
     "lo": 638,
     "hi": 642,
+    "why_absent": "data/why-absent-P640.json.gz",
     "plan": "data/plan-P640.json",
     "list": "data/list-P640.md",
     "slot_count": 96
@@ -1697,6 +1828,7 @@
     "score": 645,
     "lo": 643,
     "hi": 647,
+    "why_absent": "data/why-absent-P645.json.gz",
     "plan": "data/plan-P645.json",
     "list": "data/list-P645.md",
     "slot_count": 96
@@ -1708,6 +1840,7 @@
     "score": 650,
     "lo": 648,
     "hi": 652,
+    "why_absent": "data/why-absent-P650.json.gz",
     "plan": "data/plan-P650.json",
     "list": "data/list-P650.md",
     "slot_count": 96
@@ -1719,6 +1852,7 @@
     "score": 655,
     "lo": 653,
     "hi": 657,
+    "why_absent": "data/why-absent-P655.json.gz",
     "plan": "data/plan-P655.json",
     "list": "data/list-P655.md",
     "slot_count": 96
@@ -1730,6 +1864,7 @@
     "score": 660,
     "lo": 658,
     "hi": 662,
+    "why_absent": "data/why-absent-P660.json.gz",
     "plan": "data/plan-P660.json",
     "list": "data/list-P660.md",
     "slot_count": 96
@@ -1741,6 +1876,7 @@
     "score": 665,
     "lo": 663,
     "hi": 667,
+    "why_absent": "data/why-absent-P665.json.gz",
     "plan": "data/plan-P665.json",
     "list": "data/list-P665.md",
     "slot_count": 96
@@ -1752,6 +1888,7 @@
     "score": 670,
     "lo": 668,
     "hi": 672,
+    "why_absent": "data/why-absent-P670.json.gz",
     "plan": "data/plan-P670.json",
     "list": "data/list-P670.md",
     "slot_count": 96
@@ -1763,6 +1900,7 @@
     "score": 675,
     "lo": 673,
     "hi": 677,
+    "why_absent": "data/why-absent-P675.json.gz",
     "plan": "data/plan-P675.json",
     "list": "data/list-P675.md",
     "slot_count": 96
@@ -1774,6 +1912,7 @@
     "score": 680,
     "lo": 678,
     "hi": 682,
+    "why_absent": "data/why-absent-P680.json.gz",
     "plan": "data/plan-P680.json",
     "list": "data/list-P680.md",
     "slot_count": 96
@@ -1785,6 +1924,7 @@
     "score": 485,
     "lo": 483,
     "hi": 487,
+    "why_absent": "data/why-absent-H485.json.gz",
     "plan": "data/plan-H485.json",
     "list": "data/list-H485.md",
     "slot_count": 60
@@ -1796,6 +1936,7 @@
     "score": 490,
     "lo": 488,
     "hi": 492,
+    "why_absent": "data/why-absent-H490.json.gz",
     "plan": "data/plan-H490.json",
     "list": "data/list-H490.md",
     "slot_count": 66
@@ -1807,6 +1948,7 @@
     "score": 495,
     "lo": 493,
     "hi": 497,
+    "why_absent": "data/why-absent-H495.json.gz",
     "plan": "data/plan-H495.json",
     "list": "data/list-H495.md",
     "slot_count": 90
@@ -1818,6 +1960,7 @@
     "score": 500,
     "lo": 498,
     "hi": 502,
+    "why_absent": "data/why-absent-H500.json.gz",
     "plan": "data/plan-H500.json",
     "list": "data/list-H500.md",
     "slot_count": 90
@@ -1829,6 +1972,7 @@
     "score": 505,
     "lo": 503,
     "hi": 507,
+    "why_absent": "data/why-absent-H505.json.gz",
     "plan": "data/plan-H505.json",
     "list": "data/list-H505.md",
     "slot_count": 90
@@ -1840,6 +1984,7 @@
     "score": 510,
     "lo": 508,
     "hi": 512,
+    "why_absent": "data/why-absent-H510.json.gz",
     "plan": "data/plan-H510.json",
     "list": "data/list-H510.md",
     "slot_count": 96
@@ -1851,6 +1996,7 @@
     "score": 515,
     "lo": 513,
     "hi": 517,
+    "why_absent": "data/why-absent-H515.json.gz",
     "plan": "data/plan-H515.json",
     "list": "data/list-H515.md",
     "slot_count": 96
@@ -1862,6 +2008,7 @@
     "score": 520,
     "lo": 518,
     "hi": 522,
+    "why_absent": "data/why-absent-H520.json.gz",
     "plan": "data/plan-H520.json",
     "list": "data/list-H520.md",
     "slot_count": 96
@@ -1873,6 +2020,7 @@
     "score": 525,
     "lo": 523,
     "hi": 527,
+    "why_absent": "data/why-absent-H525.json.gz",
     "plan": "data/plan-H525.json",
     "list": "data/list-H525.md",
     "slot_count": 96
@@ -1884,6 +2032,7 @@
     "score": 530,
     "lo": 528,
     "hi": 532,
+    "why_absent": "data/why-absent-H530.json.gz",
     "plan": "data/plan-H530.json",
     "list": "data/list-H530.md",
     "slot_count": 96
@@ -1895,6 +2044,7 @@
     "score": 535,
     "lo": 533,
     "hi": 537,
+    "why_absent": "data/why-absent-H535.json.gz",
     "plan": "data/plan-H535.json",
     "list": "data/list-H535.md",
     "slot_count": 96
@@ -1906,6 +2056,7 @@
     "score": 540,
     "lo": 538,
     "hi": 542,
+    "why_absent": "data/why-absent-H540.json.gz",
     "plan": "data/plan-H540.json",
     "list": "data/list-H540.md",
     "slot_count": 96
@@ -1917,6 +2068,7 @@
     "score": 545,
     "lo": 543,
     "hi": 547,
+    "why_absent": "data/why-absent-H545.json.gz",
     "plan": "data/plan-H545.json",
     "list": "data/list-H545.md",
     "slot_count": 96
@@ -1928,6 +2080,7 @@
     "score": 550,
     "lo": 548,
     "hi": 552,
+    "why_absent": "data/why-absent-H550.json.gz",
     "plan": "data/plan-H550.json",
     "list": "data/list-H550.md",
     "slot_count": 96
@@ -1939,6 +2092,7 @@
     "score": 555,
     "lo": 553,
     "hi": 557,
+    "why_absent": "data/why-absent-H555.json.gz",
     "plan": "data/plan-H555.json",
     "list": "data/list-H555.md",
     "slot_count": 96
@@ -1950,6 +2104,7 @@
     "score": 560,
     "lo": 558,
     "hi": 562,
+    "why_absent": "data/why-absent-H560.json.gz",
     "plan": "data/plan-H560.json",
     "list": "data/list-H560.md",
     "slot_count": 96
@@ -1961,6 +2116,7 @@
     "score": 565,
     "lo": 563,
     "hi": 567,
+    "why_absent": "data/why-absent-H565.json.gz",
     "plan": "data/plan-H565.json",
     "list": "data/list-H565.md",
     "slot_count": 96
@@ -1972,6 +2128,7 @@
     "score": 570,
     "lo": 568,
     "hi": 572,
+    "why_absent": "data/why-absent-H570.json.gz",
     "plan": "data/plan-H570.json",
     "list": "data/list-H570.md",
     "slot_count": 96
@@ -1983,6 +2140,7 @@
     "score": 575,
     "lo": 573,
     "hi": 577,
+    "why_absent": "data/why-absent-H575.json.gz",
     "plan": "data/plan-H575.json",
     "list": "data/list-H575.md",
     "slot_count": 96
@@ -1994,6 +2152,7 @@
     "score": 580,
     "lo": 578,
     "hi": 582,
+    "why_absent": "data/why-absent-H580.json.gz",
     "plan": "data/plan-H580.json",
     "list": "data/list-H580.md",
     "slot_count": 96
@@ -2005,6 +2164,7 @@
     "score": 585,
     "lo": 583,
     "hi": 587,
+    "why_absent": "data/why-absent-H585.json.gz",
     "plan": "data/plan-H585.json",
     "list": "data/list-H585.md",
     "slot_count": 96
@@ -2016,6 +2176,7 @@
     "score": 590,
     "lo": 588,
     "hi": 592,
+    "why_absent": "data/why-absent-H590.json.gz",
     "plan": "data/plan-H590.json",
     "list": "data/list-H590.md",
     "slot_count": 96
@@ -2027,6 +2188,7 @@
     "score": 595,
     "lo": 593,
     "hi": 597,
+    "why_absent": "data/why-absent-H595.json.gz",
     "plan": "data/plan-H595.json",
     "list": "data/list-H595.md",
     "slot_count": 96
@@ -2038,6 +2200,7 @@
     "score": 600,
     "lo": 598,
     "hi": 602,
+    "why_absent": "data/why-absent-H600.json.gz",
     "plan": "data/plan-H600.json",
     "list": "data/list-H600.md",
     "slot_count": 96
@@ -2049,6 +2212,7 @@
     "score": 605,
     "lo": 603,
     "hi": 607,
+    "why_absent": "data/why-absent-H605.json.gz",
     "plan": "data/plan-H605.json",
     "list": "data/list-H605.md",
     "slot_count": 96
@@ -2060,6 +2224,7 @@
     "score": 610,
     "lo": 608,
     "hi": 612,
+    "why_absent": "data/why-absent-H610.json.gz",
     "plan": "data/plan-H610.json",
     "list": "data/list-H610.md",
     "slot_count": 96
@@ -2071,6 +2236,7 @@
     "score": 615,
     "lo": 613,
     "hi": 617,
+    "why_absent": "data/why-absent-H615.json.gz",
     "plan": "data/plan-H615.json",
     "list": "data/list-H615.md",
     "slot_count": 96
@@ -2082,6 +2248,7 @@
     "score": 620,
     "lo": 618,
     "hi": 622,
+    "why_absent": "data/why-absent-H620.json.gz",
     "plan": "data/plan-H620.json",
     "list": "data/list-H620.md",
     "slot_count": 96
@@ -2093,6 +2260,7 @@
     "score": 625,
     "lo": 623,
     "hi": 627,
+    "why_absent": "data/why-absent-H625.json.gz",
     "plan": "data/plan-H625.json",
     "list": "data/list-H625.md",
     "slot_count": 96
@@ -2104,6 +2272,7 @@
     "score": 630,
     "lo": 628,
     "hi": 632,
+    "why_absent": "data/why-absent-H630.json.gz",
     "plan": "data/plan-H630.json",
     "list": "data/list-H630.md",
     "slot_count": 96
@@ -2115,6 +2284,7 @@
     "score": 635,
     "lo": 633,
     "hi": 637,
+    "why_absent": "data/why-absent-H635.json.gz",
     "plan": "data/plan-H635.json",
     "list": "data/list-H635.md",
     "slot_count": 96
@@ -2126,6 +2296,7 @@
     "score": 640,
     "lo": 638,
     "hi": 642,
+    "why_absent": "data/why-absent-H640.json.gz",
     "plan": "data/plan-H640.json",
     "list": "data/list-H640.md",
     "slot_count": 96
@@ -2137,6 +2308,7 @@
     "score": 645,
     "lo": 643,
     "hi": 647,
+    "why_absent": "data/why-absent-H645.json.gz",
     "plan": "data/plan-H645.json",
     "list": "data/list-H645.md",
     "slot_count": 96
@@ -2148,12 +2320,13 @@
     "score": 650,
     "lo": 648,
     "hi": 652,
+    "why_absent": "data/why-absent-H650.json.gz",
     "plan": "data/plan-H650.json",
     "list": "data/list-H650.md",
     "slot_count": 96
    }
   ],
   "source": "data/cache/score-bands",
-  "generated_at": "2026-11-17T22:25:46+08:00"
+  "generated_at": "2026-11-21T21:16:25+08:00"
  }
 }

@@ -37,6 +37,8 @@
     /* 分数档也走同一个入口（`?case=P600`）：闭集 = `__BANDS__.bands` 的键，别的一律回落 */
     if (bandOf(q)) { CASE = q; return; }
   })();
+  /* 解析后的**当前案例**（`?case=` 覆盖已生效）：页面脚本只读这一处，禁自己再解析一遍 URL */
+  window.__CASE_ACTIVE__ = CASE;
   /* 说明页链接：站点为全量案例时由 package 端替换成 <a>，子集站点留空（禁留占位字面量） */
   var EXTRA_LINK = " · <a href='guide.html'>使用说明（家长版）</a>";
   var orig = window.fetch ? window.fetch.bind(window) : null;
@@ -127,6 +129,100 @@
   }
   function getJson(path) { return getText(path).then(function (t) { return JSON.parse(t); }); }
 
+  /* 「查这一条」的静态索引（C665 / W179）：导出期用同一个 `_explain` 算好、gzip 落盘，
+     这里只在读者点按钮时取**本案**那一件 —— 句子与 CLI / 服务版逐字同源（前端不拼措辞）。
+     按魔数 0x1f 0x8b 判「是不是 gzip 字节」：托管侧若已经按 gzip 传输过（`Content-Encoding`），
+     `arrayBuffer()` 拿到的是**已解压**的原文 ⇒ 直接解析，不再解一次（解两次必然抛）。 */
+  var WA_P = {};
+  function whyAbsentIndex(caseId) {
+    if (!Object.prototype.hasOwnProperty.call(WA_P, caseId)) {
+      WA_P[caseId] = orig("data/why-absent-" + caseId + ".json.gz").then(function (r) {
+        if (!r.ok) throw new Error("本案的归因索引缺失（" + caseId + "）");
+        return r.arrayBuffer();
+      }).then(function (buf) {
+        var arr = new Uint8Array(buf);
+        if (arr.length > 1 && arr[0] === 0x1f && arr[1] === 0x8b) {
+          if (typeof DecompressionStream !== "function") {
+            throw new Error("浏览器不支持解压（DecompressionStream），请用较新的 Chrome / Edge / Safari");
+          }
+          var stream = new Blob([arr]).stream().pipeThrough(new DecompressionStream("gzip"));
+          return new Response(stream).text().then(function (t) { return JSON.parse(t); });
+        }
+        return JSON.parse(new TextDecoder("utf-8").decode(arr));
+      });
+    }
+    return WA_P[caseId];
+  }
+  function normName(s) {
+    s = String(s || "");
+    if (typeof s.normalize === "function") { s = s.normalize("NFKC"); }
+    return s.replace(/\s+/g, "");
+  }
+  /* C671 / C673：**这一页能不能查是逐页事实** —— 案例条目声明了 `why_absent`、或档位条目
+     （`__BANDS__.bands[id].why_absent`）为真，这一页才算能查；两处都没声明 ⇒ `false` ⇒ 不显那一栏。
+     此前 `spec.static_index` 是**恒真模板**（`data/why-absent-{case}.json.gz`）⇒ 82 个档位页
+     都显出一个「点了必 502（索引缺失）」的框：**一个点不动的框比没有框更糟**（这是 C671 修的缺陷）。
+     C673 = 把 82 个档位页的索引真的导出来（逐档一件，与档位方案件同代），于是它们也能查。 */
+  function waReady() {
+    for (var i = 0; i < CASES.length; i++) {
+      if (CASES[i].id === CASE) return !!CASES[i].why_absent;
+    }
+    var b = bandOf(CASE);
+    return !!(b && b.why_absent);
+  }
+  function whyAbsentAnswer(req) {
+    var school = String((req && req.school) || "");
+    var major = String((req && req.major) || "");
+    return whyAbsentIndex(CASE).then(function (idx) {
+      var schools = idx.schools || {};
+      var have = Object.prototype.hasOwnProperty.call(schools, normName(school));
+      var wa = { ok: idx.ok !== false, problems: idx.problems || [], schema: idx.source_schema,
+                 subject_group: idx.subject_group, score: idx.score };
+      if (!have) {
+        var sug = [], want = normName(school);
+        var keys = Object.keys(schools);
+        for (var i = 0; i < keys.length && sug.length < 5; i++) {
+          if (want && (keys[i].indexOf(want) >= 0 || want.indexOf(keys[i]) >= 0)) {
+            sug.push(schools[keys[i]].name || keys[i]);
+          }
+        }
+        var lines = [String(idx.note_out_of_pool || "本案的候选池里没有这所学校。")
+          .replace("{school}", school)];
+        if (sug.length) { lines.push("名字相近的有：" + sug.join("、")); }
+        return jsonRes({ ok: true, why_absent: wa, render: lines });
+      }
+      var row = schools[normName(school)];
+      var out = (row.rollup || []).slice();
+      var units = row.units || [];
+      var q = normName(major);
+      if (q) {
+        var hit = [];
+        for (var j = 0; j < units.length; j++) {
+          if (normName(units[j][0]).indexOf(q) >= 0) { hit.push(units[j][3]); }
+        }
+        if (hit.length) {
+          out = out.concat(hit);
+        } else {
+          var majors = [], seen = {};
+          for (var k = 0; k < units.length && majors.length < 8; k++) {
+            if (!Object.prototype.hasOwnProperty.call(seen, units[k][0])) {
+              seen[units[k][0]] = 1; majors.push(units[k][0]);
+            }
+          }
+          out.push((row.name || school) + "：本案池里有这所学校 " + row.n +
+                   " 条，但没有「" + major + "」这个专业" +
+                   (majors.length ? "（池里有：" + majors.join("、") + "）" : ""));
+        }
+      } else {
+        for (var m = 0; m < units.length; m++) { out.push(units[m][3]); }
+      }
+      return jsonRes({ ok: true, why_absent: wa, render: out });
+    }).catch(function (e) {
+      return jsonRes({ ok: false, error: { code: "static_why_absent_failed",
+                                           message: e.message } }, 502);
+    });
+  }
+
   var metaP = null;
   window.fetch = function (url, opts) {
     var path = String(url || "").split("?")[0];
@@ -158,8 +254,18 @@
     }
     if (path === "/api/health") {
       /* C657：静态版没有服务端 ⇒ 自己回答「没有后端」。两种情况都错：让它漏到 orig 会
-         逃出子路径前缀（S15 现场），而回一个 `gaokao-webui` 会让页面显出一个点不动的框。 */
-      return Promise.resolve(jsonRes({ ok: false, service: "static-mode", reason: "no_backend" }, 200));
+         逃出子路径前缀（S15 现场），而回一个 `gaokao-webui` 会让页面显出一个点不动的框。
+         C671：**「这一页能不能查」逐页回答**（`waReady()`：案例条目声明了索引才算）——
+         档位页拿到的 `why_absent_ready` 是 `false` ⇒ 页面不显那一栏。 */
+      return Promise.resolve(jsonRes({ ok: false, service: "static-mode", reason: "no_backend",
+                                       why_absent_ready: waReady() }, 200));
+    }
+    if (path === "/api/why-absent") {
+      /* C665：静态版的「查这一条」= 查**本案**导出的索引（导出期用同一个 `_explain` 算好）。
+         响应体与服务版同形（`ok` / `why_absent` / `render`）⇒ 页面只认一种形状。 */
+      var waReq = {};
+      try { waReq = JSON.parse((opts && opts.body) || "{}"); } catch (e) { waReq = {}; }
+      return whyAbsentAnswer(waReq);
     }
     return orig ? orig(url, opts) : Promise.reject(new Error("无 fetch"));
   };
@@ -292,6 +398,28 @@
     if (form) {
       Array.prototype.forEach.call(form.querySelectorAll("input,select,textarea"),
         function (el) { el.disabled = true; });
+      /* C676（2026-11-21 15:00）：**这个表单在静态版里每一项都不参与计算。**
+         boot 只 disable 了 `index.html` 里直写的控件，而偏好面板是 `app.js` 拿到
+         `/api/meta` **之后**才动态渲染的 ⇒ 真浏览器实测 29 个控件里 **22 个仍可点**
+         （`pref--exclude_high_tuition_proxy` / `pref--region_blacklist` / `submit-btn` …）。
+         读者勾「排除高学费」再点「生成方案」，页面回一句「已生成。」而表**一字未变**
+         （实测 `<section id="result">` 148,622 → 148,622 字节）——
+         「看着生效、其实被丢掉」比「没有这个控件」更糟：家长会照着他明明排除了的学校填志愿。
+         做法 = 整块**藏掉** + 一句话说清静态版怎么给方案（换分数走「分数入口」、
+         偏好不参与、要按偏好算用服务版）。`display` 由 UA 的 `[hidden]` 负责
+         （`.card` 不设 `display`，实测渲染高度 0）。 */
+      var card = form.closest ? form.closest(".form-card") : null;
+      if (card && card.parentNode) {
+        var note = document.createElement("section");
+        note.className = "card static-note";
+        note.id = "static-note";
+        note.innerHTML = "<b>静态正式版</b>：方案按<b>分数档</b>预生成，这一页已经是该档的完整方案，" +
+          "不用再点「生成方案」。换分数用上面的「查自己的分数」；" +
+          "<b>偏好设置不参与计算</b>（专业优先 / 排除 / 只保留这些都要按你的条件重算）—— " +
+          "那一路请用在线服务版。";
+        card.parentNode.insertBefore(note, card);
+        card.hidden = true;
+      }
     }
     var sub = document.getElementById("subject");
     if (sub) sub.value = cur ? cur.subject : band.subject;
